@@ -113,11 +113,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Dr. Soneya Binta Hossain"
+  avatar           : "/assets/images/soneya.jpg"
+  bio              : "Assistant Professor, Department of Computer Science, The University of Texas at Dallas."
+  location         : "Dallas, TX, USA"
+  email            : "sbhossain@utdallas.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
