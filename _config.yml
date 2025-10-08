@@ -33,7 +33,7 @@ author:
   avatar: "/assets/images/soneya.jpg"
   bio: "Assistant Professor, Department of Computer Science, The University of Texas at Dallas. My research combines program analysis and artificial intelligence to automate and enhance various software engineering tasks—such as testing, debugging, and program repair—with the goal of making software more reliable and development more cost-efficient."
   location: "Dallas, TX, USA"
-  email: "soneya.hossain@utdallas.edu"
+  email: "sbhossain@utdallas.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
