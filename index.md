@@ -4,6 +4,33 @@ author_profile: true
 ---
 
 
+
+
+
+<div style="background:#fff4e6; border:2px solid #ff6600; border-radius:12px; padding:18px 24px;">
+  <div style="display:flex; gap:16px; align-items:stretch; flex-wrap:wrap;">
+    <!-- Card 1 -->
+    <div style="flex:1 1 280px; min-width:260px; background:#fff; border-radius:10px; padding:16px; border:1px solid #ffd5b3;">
+      <div style="font-size:1.1em; color:#ff6600; font-weight:700; margin-bottom:8px;">🚀 Join Our Team</div>
+      <div>I’m recruiting <strong>PhD students</strong> in <strong>AI for Software Engineering</strong> (requirements, testing, debugging, repair). Strong background in <strong>program analysis</strong>, <strong>AI</strong>, or <strong>PL</strong> is valuable.</div>
+    </div>
+
+    <!-- Card 2 -->
+    <div style="flex:1 1 280px; min-width:260px; background:#fff; border-radius:10px; padding:16px; border:1px solid #ffd5b3;">
+      <div style="font-size:1.1em; color:#ff6600; font-weight:700; margin-bottom:8px;">💡 UTD Undergrads</div>
+      <div>Join my <strong>RIDE</strong> team. Email me or <a href="mailto:Joshua.Summers@UTDallas.edu" style="color:#ff6600;">Joshua.Summers@UTDallas.edu</a>.</div>
+    </div>
+
+    <!-- Card 3 -->
+    <div style="flex:1 1 280px; min-width:260px; background:#fff; border-radius:10px; padding:16px; border:1px solid #ffd5b3;">
+      <div style="font-size:1.1em; color:#ff6600; font-weight:700; margin-bottom:8px;">🌍 Remote Internships</div>
+      <div>International students: remote research internships are available—reach out!</div>
+    </div>
+  </div>
+</div>
+
+
+
 <div style="background-color:#fff4e6; border-radius:12px; padding:18px 24px; border:2px solid #ff6600; line-height:1.6; font-weight:500; font-size:1.05em; color:#333;">
   <p>
     <span style="font-size:1.3em; color:#ff6600;">🚀 <strong>Join Our Team!</strong></span><br><br>
