@@ -1,8 +1,7 @@
 ---
-layout: page
-title: About
+layout: single
+author_profile: true
 ---
-
 
 
 <div style="background-color:#fff4e6; border-radius:12px; padding:18px 24px; border:2px solid #ff6600; line-height:1.6; font-weight:bold; font-size:1.1em; color:#333;"> <p> <span style="font-size:1.3em; color:#ff6600;">🚀 <strong>Join Us!</strong></span><br><br>
