@@ -4,8 +4,8 @@
 # ================================
 
 main:
-  - title: "Home"
-    url: /
+  - title: "Dr. Hossain"
+    url: https://soneyahossain.github.io/
   - title: "Projects"
     url: /projects/
   - title: "Publications"
@@ -14,7 +14,5 @@ main:
     url: /news/
   - title: "Teaching"
     url: /teaching/
-  - title: "Join"
-    url: /join/
   - title: "Contact"
     url: /contact/
