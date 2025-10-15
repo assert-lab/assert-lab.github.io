@@ -13,7 +13,7 @@ author_profile: true
     If this sounds like you, take a look at some of my recent papers and email me with ideas you would be excited to explore at UTD.
     <br><br>
 
-    💡 <strong>UTD Undergraduates:</strong> UTD offers the <strong>RIDE (Research, Inquiry, Design Experience)</strong> program — a great way to get hands-on research experience.  
+    💡 <strong>UTD Undergrads:</strong> UTD offers the <strong>RIDE (Research, Inquiry, Design Experience)</strong> program — a great way to get hands-on research experience.  
     If you are interested in joining my RIDE team, email me or <a href="mailto:Joshua.Summers@UTDallas.edu" style="color:#ff6600;">Joshua.Summers@UTDallas.edu</a>.
     <br><br>
 
