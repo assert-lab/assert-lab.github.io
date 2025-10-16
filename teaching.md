@@ -2,8 +2,7 @@
 layout: single
 permalink: /teaching/
 classes: wide
-title: ""
-hide_title: true
+title: Teaching
 author_profile: true
 ---
 
