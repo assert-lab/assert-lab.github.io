@@ -8,9 +8,18 @@ author_profile: true
   <p>
     <span style="font-size:1.3em; color:#ff6600;">🚀 <strong>Join Our Team!</strong></span><br><br>
 
-    I am always looking for <strong>motivated PhD students</strong> interested in <strong>AI for Software Engineering</strong> — with a focus on <em>requirements, testing, debugging, and repair</em>.  
-    A solid background in <strong>program analysis</strong>, <strong>artificial intelligence</strong>, or <strong>programming languages</strong> will be especially valuable.  
-    If this sounds like you, take a look at some of my recent papers and email me with ideas you would be excited to explore at UTD.
+
+  I am always excited to work with <strong>curious and motivated PhD students</strong> who want to explore 
+  <strong>AI for Software Engineering</strong>—especially in areas such as 
+  <strong>requirements</strong>, <strong>testing</strong>, <strong>debugging</strong>, and 
+  <strong>repair</strong> for both classical and quantum software. 
+  Students with a background in <strong>program analysis</strong>, <strong>AI/ML</strong>, 
+  <strong>programming languages</strong>, or <strong>quantum computing</strong> 
+  will find many opportunities to do impactful research. 
+  Please take a look at some of my recent papers, and if the ideas resonate with you, 
+  send me an email. I would love to hear what you are excited to explore at UTD.
+
+
     <br><br>
 
     💡 <strong>UTD Undergrads:</strong> UTD offers the <strong>RIDE (Research, Inquiry, Design Experience)</strong> program — a great way to get hands-on research experience.  
