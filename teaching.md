@@ -5,7 +5,6 @@ classes: wide
 author_profile: true
 ---
 
-## Current Courses
 
 ### CS/CE/SE 3354 — Software Engineering (Fall 2025)
 - **Section:** 007  
