@@ -23,7 +23,7 @@ author_profile: true
   }
   .pi-card {
     grid-column: span 6; /* default: 2-up */
-    background: #fff;
+    background: #2E6F40;
     border: 2px solid #ff6600;
     border-radius: 14px;
     padding: 18px 18px 14px;
@@ -37,7 +37,7 @@ author_profile: true
   }
   .pi-card .pill {
     display: inline-block;
-    background: #2E6F40;
+    background: #fff;
     border: 1px solid #ff6600;
     color: #333;
     padding: 2px 8px;
