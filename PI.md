@@ -67,22 +67,23 @@ author_profile: true
 
   <!-- ABOUT / HERO -->
   <section class="pi-card span-12">
-    <h3>About <span class="pill">UT Dallas • Software Engineering</span></h3>
-    <p>
-      I am an <strong>Assistant Professor of Computer Science</strong> in the Erik Jonsson School of Engineering and Computer Science at the <strong>University of Texas at Dallas</strong> (since <strong>Aug 1, 2025</strong>).
-      UTD is ranked <a href="https://csrankings.org/#/index?soft&us"><span class="pi-accent">#5 in Software Engineering</span></a> in CSRankings.
-    </p>
-    <p>
-      I earned my Ph.D. in Computer Science from the <strong>University of Virginia</strong> (Summer 2025), advised by
-      <a href="https://matthewbdwyer.github.io/">Dr. Matthew Dwyer</a>.
-      My research combines <strong>program analysis</strong> and <strong>AI/LLMs</strong> to automate and enhance software engineering tasks (testing, debugging, program repair), aiming for
-      <em>cost-efficient, scalable, and effective</em> software quality.
-      I have collaborated with <strong>Lockheed Martin</strong> and multiple teams at <strong>AWS</strong> (CodeGuru, CodeCatalyst, AWS AI Labs), with publications in <strong>ICSE, FSE, NeurIPS</strong>.
-    </p>
+    <h3><span class="pill">UT Dallas • Software Engineering</span></h3>
+<p>
+  I earned my <strong>Ph.D. in Computer Science</strong> from the <strong>University of Virginia</strong> in Summer 2025, where I was advised by
+  <a href="https://matthewbdwyer.github.io/">Dr. Matthew Dwyer</a>.
+  Broadly, my research area is <strong>AI for Software Engineering</strong>, with a focus on <em>requirements, testing, debugging, and repair</em> for both classical and quantum software.
+  My long-term vision is to advance the development of high-quality, reliable software through <em>cost-effective automation</em> powered by <strong>AI/ML, large language models (LLMs),</strong> and <strong>agentic AI</strong>.
+</p>
+
+<p>
+  During my Ph.D., I collaborated with <strong>Lockheed Martin</strong> and multiple teams at <strong>AWS</strong> (CodeGuru, CodeCatalyst, and AWS AI Labs),
+  and my work has been published in premier venues including <strong>ICSE, FSE, and NeurIPS</strong>.
+</p>
+
   </section>
 
   <!-- EDUCATION -->
-  <section class="pi-card span-8">
+  <section class="pi-card span-12">
     <h3>Education</h3>
     <ul>
       <li><strong>Ph.D., Computer Science</strong>, University of Virginia<br>
@@ -98,19 +99,10 @@ author_profile: true
     </ul>
   </section>
 
-  <!-- QUICK CONTACT / LINKS -->
-  <section class="pi-card span-4">
-    <h3>Contact & Links</h3>
-    <ul>
-      <li>Email: <a href="mailto:soneya.hossain@utdallas.edu">soneya.hossain@utdallas.edu</a></li>
-      <li>Lab GitHub: <a href="https://github.com/assert-lab">assert-lab</a></li>
-      <li>Google Scholar: <a href="https://scholar.google.com/">Profile</a></li>
-      <li>Personal Site: <a href="https://soneyahossain.github.io/">soneyahossain.github.io</a></li>
-    </ul>
-  </section>
+ 
 
   <!-- RESEARCH AWARDS -->
-  <section class="pi-card span-6">
+  <section class="pi-card span-12">
     <h3>Research Awards</h3>
     <ul>
       <li><strong>Copenhaver Charitable Trust Bicentennial Fellow</strong>, UVA (2024–2025), $12,000.</li>
