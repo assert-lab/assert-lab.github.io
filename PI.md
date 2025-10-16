@@ -124,8 +124,8 @@ author_profile: true
   </section>
 
   <!-- SERVICE AWARD -->
-  <section class="pi-card span-6">
-    <h3>Service Award</h3>
+  <section class="pi-card span-12">
+    <h3><span class="pill">Service Award</span></h3>
     <ul>
       <li><strong>Outstanding Service Award</strong>, CS @ UVA (2022)
         <a href="https://uvaeng.prod.acquia-sites.com/2021-2022-cs-department-end-year-awards">link</a>
@@ -138,8 +138,8 @@ author_profile: true
   </section>
 
   <!-- TRAVEL GRANTS -->
-  <section class="pi-card span-6">
-    <h3>Travel Grants</h3>
+   <section class="pi-card span-12">
+    <h3><span class="pill">Travel Grants</span></h3>
     <ul>
       <li>ACM SIGSOFT travel grant — FSE’25, Trondheim, Norway.</li>
       <li>CRA travel grants — Grad Cohort (2023 San Francisco, 2020 New Orleans).</li>
@@ -149,8 +149,8 @@ author_profile: true
   </section>
 
   <!-- UNDERGRAD ACADEMIC AWARDS -->
-  <section class="pi-card span-6">
-    <h3>Undergraduate Academic Awards</h3>
+  <section class="pi-card span-12">
+    <h3><span class="pill">Undergraduate Academic Awards</span></h3>
     <ul>
       <li><strong>Top Ten Database Project</strong>, CSE @ BUET (2014)</li>
       <li><strong>Dean’s List (Level-2)</strong>, CSE @ BUET (2013–2014)</li>
@@ -158,32 +158,10 @@ author_profile: true
     </ul>
   </section>
 
-  <!-- SERVICE -->
-  <section class="pi-card span-6">
-    <h3>Service</h3>
-    <ul>
-      <li><strong>Program Committee</strong>: ACM TOSEM; IEEE ICST 2024.</li>
-      <li><strong>Student Volunteer</strong>: SWE WE24 (Chicago, 2024); ESEC/FSE 2023 (San Francisco).</li>
-      <li><strong>Leadership Chair</strong>: CSGSG, UVA (Jan’20–Dec’22).</li>
-      <li><strong>Social Chair</strong>: ABS, UVA (Fall’21–Summer’22).</li>
-    </ul>
-  </section>
-
-  <!-- TEACHING & MENTORING -->
-  <section class="pi-card span-6">
-    <h3>Teaching & Mentoring</h3>
-    <ul>
-      <li><strong>Graduate TA</strong>: CS 4620 (Undergrad Compilers), CS 6620 (Grad Compilers), UVA.</li>
-      <li><strong>Mentor (UVA)</strong> — research & grad-school prep; mentees include:
-        Raygan Taylor (DU), Javan Mendoza (UMBC), Nicki Choquette (UVA), Kasra Lekan (UVA), Ashley Hart (UCF), Srikar Chittari (UVA), Eric Weng (UVA).
-      </li>
-      <li><strong>BWCSE Mentor</strong> — mentoring BUET 3rd/4th years on research and applications.</li>
-    </ul>
-  </section>
 
   <!-- NEWS (SCROLLABLE) -->
   <section class="pi-card span-12 pi-scroll">
-    <h3>News</h3>
+    <h3><span class="pill">News</span></h3>
     <ul>
       <li><strong>Aug 1, 2025</strong>: Joined CS@UTD as a Tenure-track Assistant Professor.</li>
       <li><strong>Jul 25, 2025</strong>: Relocated to Dallas, TX from beautiful Virginia.</li>
