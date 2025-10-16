@@ -37,7 +37,7 @@ author_profile: true
   }
   .pi-card .pill {
     display: inline-block;
-    background: #fff4e6;
+    background: #2E6F40;
     border: 1px solid #ff6600;
     color: #333;
     padding: 2px 8px;
