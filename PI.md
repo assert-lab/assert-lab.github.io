@@ -23,8 +23,8 @@ author_profile: true
   }
   .pi-card {
     grid-column: span 6; /* default: 2-up */
-    background: #2E6F40;
-    border: 2px solid #ff6600;
+    background: #fff;
+    border: 2px solid #2E6F40;
     border-radius: 14px;
     padding: 18px 18px 14px;
     font-size: .8rem;
