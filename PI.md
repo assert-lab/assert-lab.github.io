@@ -86,7 +86,7 @@ author_profile: true
 
   <!-- EDUCATION -->
   <section class="pi-card span-12">
-    <h3>Education</h3>
+    <h3><span class="pill">Education</h3>
     <ul>
       <li><strong>Ph.D., Computer Science</strong>, University of Virginia<br>
         Advisor: Matthew Dwyer • Committee: Sebastian Elbaum, Yangfeng Ji, Matthew Bolton, Antonio Filieri<br>
@@ -105,7 +105,7 @@ author_profile: true
 
   <!-- RESEARCH AWARDS -->
   <section class="pi-card span-12">
-    <h3>Research Awards</h3>
+    <h3><span class="pill">Research Awards</h3>
     <ul>
       <li><strong>Copenhaver Charitable Trust Bicentennial Fellow</strong>, UVA (2024–2025), $12,000.</li>
       <li><strong>Finalist</strong>, UVA Research Computing Exhibition 2024 (Rivanna HPC).</li>
