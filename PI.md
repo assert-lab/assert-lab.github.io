@@ -30,7 +30,7 @@ author_profile: true
   }
   .pi-card h3 {
     margin: 0 0 10px 0;
-    font-size: 1.15rem;
+    font-size: .8rem;
     line-height: 1.3;
   }
   .pi-card .pill {
@@ -40,7 +40,7 @@ author_profile: true
     color: #333;
     padding: 2px 8px;
     border-radius: 999px;
-    font-size: 0.83rem;
+    font-size: 0.8rem;
     margin-left: 8px;
     vertical-align: middle;
   }
