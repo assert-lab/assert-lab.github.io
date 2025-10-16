@@ -3,6 +3,7 @@ layout: single
 title:
 permalink: /teaching/
 classes: wide
+author_profile: true
 ---
 
 ## Current Courses
