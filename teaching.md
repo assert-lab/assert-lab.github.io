@@ -6,7 +6,7 @@ title: Teaching
 author_profile: true
 ---
 
-
+---
 ### CS/CE/SE 3354 — Software Engineering (Fall 2025)
 - **Section:** 007  
 - **Catalog:** [UTD Undergraduate Catalog – CS 3354](https://catalog.utdallas.edu/2024/undergraduate/courses/cs3354)  
