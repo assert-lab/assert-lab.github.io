@@ -65,6 +65,13 @@ author_profile: true
   .pi-card li { margin: 6px 0; }
 </style>
 
+<div style="background:#fff4e6; border:2px solid #ff6600; border-radius:10px; padding:10px 15px; margin-bottom:20px; font-size:0.95em;">
+  <strong>Archived Page:</strong> A look into my Ph.D. years and journey before becoming a professor.
+  For current updates, see the
+  <a href="/news/" style="color:#ff6600; font-weight:600;">Lab News</a> and
+  <a href="/publications/" style="color:#ff6600; font-weight:600;">Publications</a> pages.
+</div>
+
 <div class="pi-grid">
 
   <!-- ABOUT / HERO -->
