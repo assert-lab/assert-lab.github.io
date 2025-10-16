@@ -12,6 +12,7 @@ author_profile: true
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 18px;
+    font-size: .8rem;
     align-items: start;
   }
   @media (max-width: 1024px) {
@@ -26,6 +27,7 @@ author_profile: true
     border: 2px solid #ff6600;
     border-radius: 14px;
     padding: 18px 18px 14px;
+    font-size: .8rem;
     box-shadow: 0 6px 18px rgba(0,0,0,0.06);
   }
   .pi-card h3 {
