@@ -13,6 +13,6 @@ main:
   - title: "News"
     url: https://assert-lab.github.io/
   - title: "Teaching"
-    url: https://assert-lab.github.io/
+    url: /teaching/
   - title: "Contact"
     url: /contact/
