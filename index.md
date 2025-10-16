@@ -4,9 +4,9 @@ author_profile: true
 ---
 
 
-<div style="background-color:#fff4e6; border-radius:12px; padding:18px 24px; border:2px solid #ff6600; line-height:1.6; font-weight:500; font-size:1.05em; color:#333;">
+<div style="background-color:#fff4e6; border-radius:12px; padding:18px 24px; border:2px solid #ff6600; line-height:1.6; font-weight:500; font-size:.8em; color:#333;">
   <p>
-    <span style="font-size:1.3em; color:#ff6600;">🚀 <strong>Join Our Team!</strong></span><br><br>
+    <span style="font-size:.8em; color:#ff6600;">🚀 <strong>Join Our Team!</strong></span><br><br>
 
 
   I am always excited to work with <strong>curious and motivated PhD students</strong> who want to explore 
