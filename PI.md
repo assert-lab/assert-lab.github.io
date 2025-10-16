@@ -1,6 +1,9 @@
 ---
-layout: page
-title: About
+layout: single
+permalink: /PI/
+classes: wide
+title: ""
+author_profile: true
 ---
 
 I am an Assistant Professor of Computer Science in the Erik Jonsson School of Engineering and Computer Science at the University of Texas at Dallas, where I began on August 1, 2025. UTD is ranked <a href="https://csrankings.org/#/index?soft&us" style="color:#ff6600; font-weight:bold; text-decoration:none;">#5 in Software Engineering</a> in CSRankings.
