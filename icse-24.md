@@ -1,6 +1,9 @@
 ---
-layout: page
-title: Gallery
+layout: single
+title: "ICSE'24"
+permalink: /icse-24/
+classes: wide
+author_profile: true
 ---
 
 <figure style="text-align: center;">
