@@ -1,8 +1,10 @@
 ---
-layout: page
-title: Gallery
+layout: single
+permalink: /ICSE-23/
+classes: wide
+title: gallery
+author_profile: true
 ---
-
 <figure style="text-align: center;">
   <img src="../assets/photo/ICSE-23-0.jpg" alt="ICSE" style="max-width: 80%;" />
   <figcaption style="font-style: italic;">ICSE 2023 in Melbourne, Australia</figcaption>
