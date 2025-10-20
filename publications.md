@@ -13,7 +13,7 @@ author_profile: true
     padding: 12px 18px;
     border-radius: 10px;
     margin-bottom: 24px;
-    font-size: 0.95em;
+    font-size: 0.8em;
     line-height: 1.6;
   }
   .pub-section h3 {
