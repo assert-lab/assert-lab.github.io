@@ -1,6 +1,9 @@
 ---
-layout: page
-title: Gallery
+layout: single
+title: "UVA Final Exercise 2024"
+permalink: /graduation/
+classes: wide
+author_profile: true
 ---
 
 <img src="../assets/photo/graduation-1.jpg"
