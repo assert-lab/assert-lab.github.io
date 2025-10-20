@@ -1,6 +1,9 @@
 ---
-layout: page
-title: Gallery
+layout: single
+title: "FSE 2023 Gallery"
+permalink: /FSE-23/
+classes: wide
+author_profile: true
 ---
 
 <figure style="text-align: center;">
