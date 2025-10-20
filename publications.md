@@ -54,6 +54,7 @@ author_profile: true
     <span>The ACM International Conference on the Foundations of Software Engineering (<strong>FSE 2025</strong>)</span><br>
     <div class="pub-links">
       <a href="https://dl.acm.org/doi/abs/10.1145/3729354">[Paper]</a>
+       <a href="https://www.amazon.science/publications/a-deep-dive-into-large-language-models-for-automated-bug-localization-and-repair">[Amazon Science Blog]</a>
     </div>
   </div>
 
@@ -85,14 +86,15 @@ author_profile: true
     </div>
   </div>
 
-  <div class="pub-entry">
-    <strong>Training LLMs to Better Self-Debug and Explain Code</strong><br>
-    Nan Jiang, Xiaopeng Li, Shiqi Wang, Qiang Zhou, <em>Soneya Binta Hossain</em>, Baishakhi Ray, Varun Kumar, Xiaofei Ma<br>
-    <span>The 38th Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>)</span> [Acceptance Rate: 25%]<br>
-    <div class="pub-links">
-      <a href="https://arxiv.org/pdf/2405.18649">[Paper]</a>
-    </div>
+<div class="pub-entry">
+  <strong>Training LLMs to Better Self-Debug and Explain Code</strong><br>
+  Nan Jiang, Xiaopeng Li, Shiqi Wang, Qiang Zhou, <em>Soneya Binta Hossain</em>, Baishakhi Ray, Varun Kumar, Xiaofei Ma<br>
+  <span>The 38th Conference on Neural Information Processing Systems (<strong>NeurIPS 2024</strong>)</span> [Acceptance Rate: 25%]<br>
+  <div class="pub-links">
+    <a href="https://dl.acm.org/doi/10.5555/3737916.3739036">[Paper]</a>
+    <a href="https://www.amazon.science/blog/training-code-generation-models-to-debug-their-own-outputs">[Amazon Science Blog]</a>
   </div>
+</div>
 
   <div class="pub-entry">
     <strong>Measuring and Mitigating Gaps in Structural Testing</strong><br>
