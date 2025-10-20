@@ -1,6 +1,9 @@
 ---
-layout: page
-title: Gallery
+layout: single
+title: "My PhD Proposal!"
+permalink: /proposal/
+classes: wide
+author_profile: true
 ---
 
 <img src="../assets/photo/proposal_1.jpg"
