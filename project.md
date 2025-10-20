@@ -34,11 +34,6 @@ classes: wide
   }
 </style>
 
-<p style="font-size:0.98em; line-height:1.6;">
-  My research lies at the intersection of <strong>program analysis</strong> and <strong>artificial intelligence</strong>, 
-  focusing on advancing software quality, reliability, and automation through data-driven and learning-based approaches.
-  Below are my key research areas that guide the ongoing and future directions of my lab.
-</p>
 
 <div class="research-grid">
 
