@@ -159,9 +159,9 @@ author_profile: true
   <section class="pi-card span-12">
     <h3><span class="pill">Undergraduate Academic Awards</span></h3>
     <ul>
-      <li><strong>Top Ten Database Project</strong>, CSE @ BUET (2014)</li>
-      <li><strong>Dean’s List (Level-2)</strong>, CSE @ BUET (2013–2014)</li>
-      <li><strong>University Merit Scholarship</strong>, CSE @ BUET (2013–2014)</li>
+      <li><strong>Top Ten Database Project</strong>, CSE, BUET (2014)</li>
+      <li><strong>Dean’s List (Level-2)</strong>, CSE, BUET (2013–2014)</li>
+      <li><strong>University Merit Scholarship</strong>, CSE, BUET (2013–2014)</li>
     </ul>
   </section>
 
