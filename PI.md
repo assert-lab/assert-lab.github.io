@@ -170,39 +170,44 @@ author_profile: true
   <section class="pi-card span-12 pi-scroll">
     <h3><span class="pill">News</span></h3>
     <ul>
-      <li><strong>Aug 1, 2025</strong>: Joined CS@UTD as a Tenure-track Assistant Professor.</li>
-      <li><strong>Jul 25, 2025</strong>: Relocated to Dallas, TX from beautiful Virginia.</li>
-      <li><strong>Jun 25, 2025</strong>: Attended FSE’25 (Trondheim); presented <a href="https://dl.acm.org/doi/abs/10.1145/3729354">Doc2OracLL</a>.</li>
-      <li><strong>Apr 25, 2025</strong>: Attended ICSE’25 (Ottawa); presented <a href="https://ieeexplore.ieee.org/document/11029748">TOGLL</a>.</li>
-      <li><strong>Apr 25, 2025</strong>: Successfully defended PhD (Dr. Soneya Binta Hossain!).</li>
-      <li><strong>Apr 2025</strong>: Paper accepted at FSE’25: <a href="https://dl.acm.org/doi/abs/10.1145/3729354">Doc2Oracle</a>.</li>
-      <li><strong>Nov 2024</strong>: Paper accepted at ICSE’25: <a href="https://ieeexplore.ieee.org/document/11029748">TOGLL</a>.</li>
-      <li><strong>Sep 2024</strong>: Travel grant to SWE24 (Oct 23–26, Chicago).</li>
-      <li><strong>Sep 2024</strong>: Received UVA’s prestigious Endowed Fellowship ($12,000).</li>
-      <li><strong>May 2024</strong>: Earned MCS (UVA) with CGPA 4.0/4.0. [gallery]</li>
-      <li><strong>May 2024</strong>: Defended PhD proposal — *Assessing and Improving Critical Properties of Test Oracles…* [gallery]</li>
-      <li><strong>Apr 2024</strong>: ICSE’24 (Lisbon) Doctoral Symposium [gallery]</li>
-      <li><strong>Apr 2024</strong>: Finalist — UVA Research Computing Exhibition 2024.</li>
-      <li><strong>Apr 2024</strong>: FSE’24: <a href="https://dl.acm.org/doi/abs/10.1145/3660773">LLMs for Bug Localization & Repair</a>.</li>
-      <li><strong>Dec 2023</strong>: ICSE’24 Doctoral Symposium paper accepted.</li>
-      <li><strong>Dec 2023</strong>: Presented FSE’23 paper [gallery]</li>
-      <li><strong>Oct 2023</strong>: Student Choice Research Award (UVA CS Symposium 2023).</li>
-      <li><strong>Jul 2023</strong>: FSE’23 research paper accepted.</li>
-      <li><strong>Jun 2023</strong>: Summer internship at AWS CodeCatalyst (Santa Clara).</li>
-      <li><strong>May 2023</strong>: ICSE’23 (Melbourne) presentation [gallery]</li>
-      <li><strong>May 2023</strong>: John A. Stankovic Outstanding Graduate Research Award [gallery]</li>
-      <li><strong>Apr 2023</strong>: CRA Grad Cohort (San Francisco) [gallery]</li>
-      <li><strong>Feb 2023</strong>: ICSE’23 Artifact Evaluation Track — <a href="https://github.com/soneyahossain/hcc-gap-recommender">HCC recommender</a>.</li>
-      <li><strong>Dec 2022</strong>: ICSE’23 tech track — <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10172745">HCC paper</a>.</li>
-      <li><strong>May 2022</strong>: AWS CodeGuru internship (Seattle).</li>
-      <li><strong>May 2022</strong>: Outstanding Graduate Service Award (UVA) [gallery]</li>
-      <li><strong>Apr 2022</strong>: ICSE’22 (Pittsburgh).</li>
-      <li><strong>Dec 2021</strong>: Outstanding Research Poster (UVA CS Symposium).</li>
-      <li><strong>Dec 2021</strong>: Organized CS Dept Research Symposium (news, tweet).</li>
-      <li><strong>Sep 2021</strong>: Passed Ph.D. Qualifying Exam.</li>
-      <li><strong>Apr 2021</strong>: CRA-W Grad Cohort 2021 (virtual).</li>
-      <li><strong>Feb 2021</strong>: TA for Graduate Compilers (CS 6620), Prof. Dwyer.</li>
-      <li><strong>Aug 2019</strong>: Started Ph.D. in CS @ UVA.</li>
+     
+### News
+- **August 1, 2025**: Joined CS@UTD as a Tenure-track Assistant Professor.  
+- **July 25, 2025**: Relocated to Dallas, TX from beautiful Virginia.  
+- **June 25, 2025**: Attended FSE 2025 in Trondheim, Norway, and presented my paper [Doc2OracLL](https://dl.acm.org/doi/abs/10.1145/3729354).  
+- **April 25, 2025**: Attended ICSE 2025 in Ottawa, Canada, and presented my paper [TOGLL](https://ieeexplore.ieee.org/document/11029748).  
+- **April 25, 2025**: I successfully defended my PhD and officially became Dr. Soneya Binta Hossain!  
+- **April 2025**: My paper [Doc2Oracle: Investigating the Impact of Javadoc Comments on Test Oracle Generation](https://dl.acm.org/doi/abs/10.1145/3729354) is accepted at FSE'25 Research Track.
+- **Nov 2024**: My paper [TOGLL: Correct and Strong Test Oracle Generation with LLMs](https://ieeexplore.ieee.org/document/11029748) is accepted at ICSE'25 Research Track.
+- **Sep 2024**: Received travel grant to attend the SWE24 — the world's largest conference for women in engineering and technology—from October 23–26 in Chicago, IL.
+- **Sep 2024**: Received UVA's most prestigious Endowed Fellowship! This fellowship is awarded to outstanding doctoral students with an award of $12,000.
+- **May 2024**: Received Master of Computer Science (MCS) from UVA with a CGPA of 4.0/4.0! [\[gallery\]](graduation.md)
+- **May 2024**:  Defended my PhD dissertation proposal, titled *Assessing and Improving Critical Properties of Test Oracles for
+Effective Software Bug Detection* [\[gallery\]](proposal.md)
+- **April 2024**: Attended ICSE'24 in beautiful Lisbon, Portugal, and presented my paper at the doctoral symposium [\[gallery\]](icse-24.md)
+- **April 2024**: Honored to be selected as one of the five finalists at UVA Research Computing Exhibition 2024!
+- **April 2024**: My paper [A Deep Dive into Large Language Models for Automated Bug Localization and Repair](https://dl.acm.org/doi/abs/10.1145/3660773) is accepted at FSE'24 Research Track.
+- **December 2023**: My paper [Ensuring Critical Properties of Test Oracles for Effective Bug Detection](https://dl.acm.org/doi/10.1145/3639478.3639791) is accepted at the ICSE'24 Doctoral Symposium.
+- **December 2023**: Presented our paper [Neural-Based Test Oracle Generation: A Large-Scale Evaluation
+and Lessons Learned](https://dl.acm.org/doi/pdf/10.1145/3611643.3616265) at FSE'23 (Dec 3-9) in San Francisco, CA [\[gallery\]](FSE-23.md)
+- **October 2023**: Honored to receive [Student Choice Research Award](https://engineering.virginia.edu/department/computer-science/blogs/2023-cs-research-symposium-highlights) at CS Department Research Symposium 2023.
+- **July 2023**: Our paper [Neural-Based Test Oracle Generation: A Large-scale Evaluation and Lessons Learned](https://dl.acm.org/doi/abs/10.1145/3611643.3616265) is accepted at the FSE'23 research track.
+- **June 2023**: Started summer internship at AWS CodeCatalyst team in Santa Clara, CA.
+- **May 2023**: Presented our [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10172745) at ICSE'23 in Melbourne, Australia [\[gallery\]](ICSE-23.md)
+- **May 2023**: Received the [John A. Stankovic Outstanding Graduate Research Award](https://engineering.virginia.edu/department/computer-science/blogs/cs-department-end-year-award-recipients-2022-2023) [\[gallery\]](award-23.md)
+- **April 2023**: Attended CRA Grad Cohort in San Francisco, CA [\[gallery\]](CRA-SFO.md)
+- **February 2023**: Our research [artifact](https://github.com/soneyahossain/hcc-gap-recommender) is accepted at the [ICSE Artifact Evaluation Track](https://conf.researchr.org/details/icse-2023/icse-2023-artifact-evaluation/5/Artifact-Measuring-and-Mitigating-Gaps-in-Structural-Testing).
+- **December 2022**: Our paper on [Measuring and Mitigating Gaps in Structural Testing](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10172745) is accepted at the ICSE'23 technical track.
+- **May 2022**: Started summer internship at AWS Code Guru team in Seattle, WA.
+- **May 2022**: Received [Outstanding Graduate Service Award](https://uvaeng.prod.acquia-sites.com/2021-2022-cs-department-end-year-awards) [\[gallery\]](service-award.md)
+- **April 2022**: Attended ICSE'22 in Pittsburgh.
+- **December 2021**: Received [Outstanding Research Poster Award](https://uvaeng.prod.acquia-sites.com/2021-2022-cs-department-end-year-awards) at CS Research Symposium.
+- **December 2021**: Organized [CS Department Research Symposium](https://uvaeng.prod.acquia-sites.com/events/2021-fall-cs-research-symposium), [News](https://engineering.virginia.edu/labs-groups/link-lab/blogs/computer-science-graduate-student-group-research-symposium), [Tweet](https://twitter.com/CS_UVA/status/1471529342912155650?s=20&t=YbVecueDVPOLsdDaw0sBfQ).
+- **September 2021**: Passed the Ph.D. Qualifying Exam with flying colors!
+- **April 2021**: Attended the CRA-W Grad Cohort Workshop 2021 (virtual due to COVID-19).
+- **February 2021**: Started working as a TA for graduate compilers (CS 6620) by Prof. Matt Dwyer.
+- **August 2019**: Started Ph.D. in CS at the University of Virginia.
+
     </ul>
   </section>
 
