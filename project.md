@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Focus Research Areas"
-permalink: /research/
+permalink: /project/
 classes: wide
 ---
 
