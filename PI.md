@@ -65,7 +65,7 @@ author_profile: true
   .pi-card li { margin: 6px 0; }
 </style>
 
-<div style="background:#fff4e6; border:2px solid #ff6600; border-radius:10px; padding:10px 15px; margin-bottom:20px; font-size:0.95em;">
+<div style="background:#fff4e6; border:2px solid #ff6600; border-radius:10px; padding:10px 15px; margin-bottom:20px; font-size:0.8rem;">
   <strong>Archived Page:</strong> A look into my Ph.D. years and journey before becoming a professor.
   For current updates, see the
   <a href="/news/" style="color:#ff6600; font-weight:600;">Lab News</a> and
@@ -80,7 +80,7 @@ author_profile: true
 <p>
   I earned my <strong>Ph.D. in Computer Science</strong> from the <strong>University of Virginia</strong> in Summer 2025, where I was advised by
   <a href="https://matthewbdwyer.github.io/">Dr. Matthew Dwyer</a>.
-  Broadly, my research area is <strong>AI for Software Engineering</strong>, with a focus on <em>requirements, testing, debugging, and repair</em> for both classical and quantum software.
+  Broadly, my research area is <strong>AI for Software Engineering</strong>, with a focus on <em>requirements, testing, debugging, and repair</em> for software systems.
   My long-term vision is to advance the development of high-quality, reliable software through <em>cost-effective automation</em> powered by <strong>AI/ML, large language models (LLMs),</strong> and <strong>agentic AI</strong>.
 </p>
 
