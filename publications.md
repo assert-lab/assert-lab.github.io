@@ -101,7 +101,7 @@ author_profile: true
     <em>Soneya Binta Hossain</em>, Matthew Dwyer, Sebastian Elbaum, Anh Nguyen-Tuong<br>
     <span>The 45th International Conference on Software Engineering (<strong>ICSE 2023</strong>)</span> [Acceptance Rate: 26%]<br>
     <div class="pub-links">
-      <a href="https://ieeexplore.ieee.org/document/10172745">[Paper]</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10172745">[Paper]</a>
       <a href="https://github.com/soneyahossain/hcc-gap-recommender/tree/main">[Artifact]</a>
     </div>
   </div>
