@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Focus Research Areas"
+title: "Publications"
 permalink: /publications/
 classes: wide
 author_profile: true
