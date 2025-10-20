@@ -1,6 +1,9 @@
 ---
-layout: page
-title: Gallery
+layout: single
+title: "CRA Grad Cohort 2023 Gallery"
+permalink: /CRA-SFO/
+classes: wide
+author_profile: true
 ---
 
 <figure style="text-align: center;">
