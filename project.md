@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: single
 title: "Focus Research Areas"
 permalink: /project/
 classes: wide
+author_profile: true
 ---
 
 <style>
