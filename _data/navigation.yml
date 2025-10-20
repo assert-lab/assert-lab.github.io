@@ -9,7 +9,7 @@ main:
   - title: "Projects"
     url: /project/
   - title: "Publications"
-    url: https://assert-lab.github.io/
+    url: /publications/
   - title: "News"
     url: https://assert-lab.github.io/
   - title: "Teaching"
