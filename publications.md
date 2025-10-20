@@ -25,6 +25,7 @@ author_profile: true
   .pub-entry {
     margin-bottom: 18px;
     padding-left: 10px;
+    font-size: 0.8em;
     border-left: 2px solid #ff6600;
   }
   .pub-entry strong {
@@ -119,7 +120,7 @@ author_profile: true
 
 ---
 
-<p style="text-align:center; font-size:0.95em; color:#666;">
+<p style="text-align:center; font-size:0.8em; color:#666;">
   🔍 For the complete list of publications, please visit my 
   <a href="https://scholar.google.com/citations?user=xDDfwB8AAAAJ&hl=en" style="color:#ff6600; font-weight:600;">Google Scholar</a> profile.
 </p>
