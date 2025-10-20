@@ -101,10 +101,8 @@ author_profile: true
     <em>Soneya Binta Hossain</em>, Matthew Dwyer, Sebastian Elbaum, Anh Nguyen-Tuong<br>
     <span>The 45th International Conference on Software Engineering (<strong>ICSE 2023</strong>)</span> [Acceptance Rate: 26%]<br>
     <div class="pub-links">
-      <a href="https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/131/Measuring-and-Mitigating-Gaps-in-Structural-Testing">[Paper]</a>
+      <a href="https://ieeexplore.ieee.org/document/10172745">[Paper]</a>
       <a href="https://github.com/soneyahossain/hcc-gap-recommender/tree/main">[Artifact]</a>
-      <a href="/assets/presentations/ICSE-2023-talk.pdf">[Talk]</a>
-      <a href="/assets/presentations/ICSE2023_poster_soneya.pdf">[Poster]</a>
     </div>
   </div>
 
@@ -114,7 +112,6 @@ author_profile: true
     <span>The 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (<strong>ESEC/FSE 2023</strong>)</span> [Acceptance Rate: 21%]<br>
     <div class="pub-links">
       <a href="https://dl.acm.org/doi/abs/10.1145/3611643.3616265">[Paper]</a>
-      <a href="/assets/presentations/FSE-2023-talk.pdf">[Talk]</a>
       <a href="https://doi.org/10.6084/m9.figshare.21973091.v4">[Artifact]</a>
     </div>
   </div>
