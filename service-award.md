@@ -1,6 +1,9 @@
 ---
-layout: page
-title: Gallery
+layout: single
+title: "CS Department Award Ceremony 2022!"
+permalink: /service-award/
+classes: wide
+author_profile: true
 ---
 
 <figure style="text-align: center;">
