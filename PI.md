@@ -115,18 +115,18 @@ author_profile: true
     <h3><span class="pill">Research Awards</span></h3>
     <ul>
       <li><strong>Copenhaver Charitable Trust Bicentennial Fellow</strong>, UVA (2024–2025), $12,000.</li>
-      <li><strong>Finalist</strong>, UVA Research Computing Exhibition 2024 (Rivanna HPC).</li>
-      <li><strong>John A. Stankovic Outstanding Graduate Research Award</strong> (2022–2023), CS @ UVA
+      <li><strong>Finalist</strong>, UVA Research Computing Exhibition 2024 (Rivanna HPC), UVA.</li>
+      <li><strong>John A. Stankovic Outstanding Graduate Research Award</strong> (2022–2023), CS, UVA
         <a href="https://engineering.virginia.edu/department/computer-science/blogs/cs-department-end-year-award-recipients-2022-2023">link</a>
       </li>
-      <li><strong>Student Choice Best Research Award</strong>, 2023 CS Research Symposium
+      <li><strong>Student Choice Best Research Award</strong>, 2023 CS Research Symposium, UVA
         <a href="https://engineering.virginia.edu/department/computer-science/blogs/2023-cs-research-symposium-highlights">link</a>
       </li>
-      <li><strong>Best Research Poster</strong>, 2021 CS Research Symposium
+      <li><strong>Best Research Poster</strong>, 2021 CS Research Symposium, UVA
         <a href="https://uvaeng.prod.acquia-sites.com/events/2021-fall-cs-research-symposium">link</a>
       </li>
-      <li><strong>PhD Fellowship</strong>, CS @ UVA (2019)</li>
-      <li><strong>Outstanding Undergraduate Thesis</strong>, CSE @ BUET (2016)</li>
+      <li><strong>PhD Fellowship</strong>, CS, UVA (2019)</li>
+      <li><strong>Outstanding Undergraduate Thesis</strong>, CSE, BUET (2016)</li>
     </ul>
   </section>
 
@@ -134,11 +134,11 @@ author_profile: true
   <section class="pi-card span-12">
     <h3><span class="pill">Service Award</span></h3>
     <ul>
-      <li><strong>Outstanding Service Award</strong>, CS @ UVA (2022)
+      <li><strong>Outstanding Graduate Service Award</strong>, CS @ UVA (2022)
         <a href="https://uvaeng.prod.acquia-sites.com/2021-2022-cs-department-end-year-awards">link</a>
         <br>
         <span>
-          <em>Leadership Chair</em>, CSGSG for two years; organized leadership/social events; bridged students and department; organized the CS Research Symposium in 2020 & 2021.
+          <em>Leadership Chair</em>, the Computer Science Graduate Student Group (CSGSG) for two years; organized leadership/social events; bridged students and department; organized the CS Research Symposium in 2020 & 2021.
         </span>
       </li>
     </ul>
@@ -150,8 +150,8 @@ author_profile: true
     <ul>
       <li>ACM SIGSOFT travel grant — FSE’25, Trondheim, Norway.</li>
       <li>CRA travel grants — Grad Cohort (2023 San Francisco, 2020 New Orleans).</li>
-      <li>SWE24 — Chicago, IL (Oct 23–26, 2024).</li>
-      <li>Grace Hopper (GHCI) — Bangalore, India (2015).</li>
+      <li>The Society of Women Engineers (SWE)'24 — Chicago, IL (Oct 23–26, 2024).</li>
+      <li>Grace Hopper Celebration (GHCI) — Bangalore, India (2015).</li> 
     </ul>
   </section>
 
