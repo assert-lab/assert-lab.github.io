@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "AS²ERT Lab"
+title                    : #"AS²ERT Lab"
 title_separator          : "-"
-subtitle                 : "AI for Safe Software EngineeRing and Testing"
+subtitle                 : #"AI for Safe Software EngineeRing and Testing"
 name                     : "AS²ERT Lab"
 description              : "AS²ERT Lab Website."
 url                      : "https://assert-lab.github.io/"
