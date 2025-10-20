@@ -1,6 +1,9 @@
 ---
-layout: page
-title: Gallery
+layout: single
+title: "CS Award (2022-2023) 2023 Gallery"
+permalink: /award-23/
+classes: wide
+author_profile: true
 ---
 
 <figure style="text-align: center;">
