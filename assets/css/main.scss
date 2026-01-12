@@ -1,0 +1,291 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}";
+@import "minimal-mistakes";
+
+/* ===============================
+   Variables
+   =============================== */
+
+:root {
+  --utd-green: #154734;
+  --utd-orange: #E87500;
+  --text: #212529;
+}
+
+/* ===============================
+   Base typography
+   =============================== */
+
+html {
+  font-size: 15px !important; /* 1rem = 15px */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, "Noto Sans",
+               sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+               "Segoe UI Symbol", "Noto Color Emoji" !important;
+
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.55 !important;
+  color: var(--text) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit !important;
+  color: var(--text) !important;
+}
+
+h1 { font-size: 1.9rem !important; }
+h2 { font-size: 1.5rem !important; }
+h3 { font-size: 1.25rem !important; }
+h4 { font-size: 1.1rem !important; }
+
+.page__content p,
+.page__content li {
+  margin-bottom: 0.65em;
+}
+
+/* ===============================
+   Masthead + nav (clean)
+   =============================== */
+
+/* Green header background everywhere */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+#site-nav.greedy-nav {
+  background-color: var(--utd-green) !important;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Kill any pseudo separator bars from skin */
+.masthead::before,
+.masthead::after,
+.masthead__inner-wrap::before,
+.masthead__inner-wrap::after,
+.masthead__menu::before,
+.masthead__menu::after,
+#site-nav.greedy-nav::before,
+#site-nav.greedy-nav::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Site logo sizing */
+.site-logo img {
+  max-height: 36px;
+}
+
+/* Site title stays white (all states, including visited) */
+#site-nav .site-title,
+#site-nav .site-title:link,
+#site-nav .site-title:visited,
+#site-nav .site-title:hover,
+#site-nav .site-title:focus,
+#site-nav .site-title:active {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* Menu link text in UTD orange (all states) */
+#site-nav .visible-links > li > a,
+#site-nav .visible-links > li > a:link,
+#site-nav .visible-links > li > a:visited,
+#site-nav .visible-links > li > a:hover,
+#site-nav .visible-links > li > a:focus,
+#site-nav .visible-links > li > a:active {
+  color: var(--utd-orange) !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-bottom: 2px solid transparent;
+}
+
+/* Hover highlight + orange underline */
+#site-nav .visible-links > li > a:hover,
+#site-nav .visible-links > li > a:focus {
+  background: rgba(255,255,255,0.12) !important;
+  border-bottom-color: var(--utd-orange) !important;
+}
+
+/* Active underline */
+#site-nav .visible-links .active > a,
+#site-nav .masthead__menu-item.is-active > a {
+  border-bottom-color: var(--utd-orange) !important;
+}
+
+/* Mobile hamburger */
+#site-nav .greedy-nav__toggle { color: #ffffff !important; }
+#site-nav .greedy-nav__toggle .navicon,
+#site-nav .greedy-nav__toggle .navicon::before,
+#site-nav .greedy-nav__toggle .navicon::after {
+  background: #ffffff !important;
+}
+
+/* Mobile dropdown */
+#site-nav .hidden-links {
+  background-color: var(--utd-green) !important;
+  border: 1px solid rgba(255,255,255,0.18) !important;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+}
+
+#site-nav .hidden-links a,
+#site-nav .hidden-links a:link,
+#site-nav .hidden-links a:visited,
+#site-nav .hidden-links a:hover,
+#site-nav .hidden-links a:focus,
+#site-nav .hidden-links a:active {
+  color: var(--utd-orange) !important;
+  border: 0 !important;
+}
+
+#site-nav .hidden-links a:hover,
+#site-nav .hidden-links a:focus {
+  background: rgba(255,255,255,0.12) !important;
+}
+
+/* ===============================
+   Nav icons via CSS (pseudo)
+   Keep this only if nav titles do NOT contain <i class="...">
+   =============================== */
+
+#site-nav .visible-links > li > a::before {
+  opacity: 0.9;
+  font-size: 0.9em;
+  margin-right: 6px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--utd-orange);
+}
+
+/* Home */
+#site-nav .visible-links li:nth-child(1) > a::before { content: "\f015"; } /* home */
+/* Dr. Soneya Hossain */
+#site-nav .visible-links li:nth-child(2) > a::before { content: "\f007"; } /* user */
+/* Projects */
+#site-nav .visible-links li:nth-child(3) > a::before { content: "\f542"; } /* project-diagram */
+/* Publications */
+#site-nav .visible-links li:nth-child(4) > a::before { content: "\f02d"; } /* book */
+/* News */
+#site-nav .visible-links li:nth-child(5) > a::before { content: "\f1ea"; } /* newspaper */
+/* Teaching */
+#site-nav .visible-links li:nth-child(6) > a::before { content: "\f51c"; } /* chalkboard-teacher */
+/* Contact */
+#site-nav .visible-links li:nth-child(7) > a::before { content: "\f0e0"; } /* envelope */
+
+/* ===============================
+   Author avatar
+   =============================== */
+
+.author__avatar img {
+  max-width: 160px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+  .author__avatar img { max-width: 140px; }
+}
+
+@media (max-width: 600px) {
+  .author__avatar img { max-width: 120px; }
+}
+
+/* ===============================
+   Footer (disabled)
+   =============================== */
+
+.page__footer {
+  display: none !important;
+}
+
+/* ===============================
+   Projects styling
+   =============================== */
+
+.projects .rc-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--utd-green);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.projects .research-card {
+  border-left: 5px solid var(--utd-orange);
+  padding-left: 26px;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   Publications styling
+   =============================== */
+
+.publications {
+  --utd-orange: #E87500;
+}
+
+.publications .pub-header {
+  background: rgba(232, 117, 0, 0.10);
+  border-left: 5px solid var(--utd-orange);
+  padding: 14px 18px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.publications .pub-section h3 {
+  color: var(--utd-orange);
+  border-bottom: 2px solid var(--utd-orange);
+  padding-bottom: 4px;
+  margin-top: 32px;
+}
+
+.publications .pub-entry {
+  margin-bottom: 20px;
+  padding-left: 14px;
+  border-left: 2px solid rgba(232,117,0,0.7);
+  line-height: 1.6;
+  position: relative;
+}
+
+.publications .pub-icon {
+  color: var(--utd-orange);
+  margin-right: 8px;
+}
+
+.page__content .publications .pub-links a:not(.btn) {
+  color: var(--utd-orange) !important;
+  font-weight: 600;
+  text-decoration: none;
+  background: rgba(232,117,0,0.12);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.page__content .publications .pub-links a:not(.btn):hover {
+  color: var(--utd-orange) !important;
+  text-decoration: underline;
+}
+
+.page__content .publications a:not(.btn) {
+  color: var(--utd-orange) !important;
+}
+
+.publications .pub-footer {
+  text-align: center;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}

@@ -1,0 +1,27 @@
+# ================================
+#  AS²ERT Lab Navigation
+#  (AI for Safe Software EngineeRing and Testing)
+# ================================
+
+main:
+  - title: '<i class="fas fa-home"></i> Home'
+    url: /
+
+  - title: '<i class="fas fa-user-graduate"></i> Dr. Soneya Hossain'
+    url: /PI/
+
+  - title: '<i class="fas fa-flask"></i> Projects'
+    url: /project/
+   
+
+  - title: '<i class="fas fa-file-alt"></i> Publications'
+    url: /publications/
+
+  - title: '<i class="fas fa-newspaper"></i> News'
+    url: /news/
+
+  - title: '<i class="fas fa-chalkboard-teacher"></i> Teaching'
+    url: /teaching/
+
+  - title: '<i class="fas fa-envelope"></i> Contact'
+    url: /contact/
