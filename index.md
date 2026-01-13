@@ -129,7 +129,6 @@ classes: wide
 }
 
 </style>
-/*testing */
 
 <section class="home-hero">
   <h1 style="color:#154734;">Howdy!</h1>
@@ -197,7 +196,7 @@ classes: wide
     🚨 We are hiring PhD students!
   </div>
 <p>
-  The AS²ERT Lab is recruiting students who are genuinely interested in advancing the field of Software Engineering.
+  The AS²ERT Lab is recruiting graduate students who are genuinely interested in advancing the field of Software Engineering.
   Prospective students are encouraged to familiarize themselves with our recent publications and to reach out with their thoughts on (1) limitations in existing work and (2) potential directions for addressing 
   those limitations. The lab values a research culture grounded in intellectual ownership, high standards, deep
   technical engagement, and principled disagreement followed by commitment.
