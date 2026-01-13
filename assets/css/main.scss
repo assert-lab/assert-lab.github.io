@@ -178,6 +178,22 @@ h4 { font-size: 1.1rem !important; }
   border-bottom-color: transparent !important;
 }
 
+/* ===============================
+   Keep gray capsule, remove underline
+   =============================== */
+
+/* Remove underline everywhere */
+.masthead__menu-item a,
+.masthead__menu-item a:hover,
+.masthead__menu-item a.is-active {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Keep capsule clean */
+.masthead__menu-item a.is-active {
+  text-decoration: none !important;
+}
 
 
 
