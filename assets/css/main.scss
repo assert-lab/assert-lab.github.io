@@ -149,6 +149,40 @@ h4 { font-size: 1.1rem !important; }
   background: rgba(255,255,255,0.12) !important;
 }
 
+
+
+
+
+/* ===============================
+   Rounded pill-style nav hover
+   =============================== */
+
+/* Base menu item spacing */
+#site-nav .visible-links > li > a {
+  padding: 6px 12px;              /* gives room for pill */
+  border-radius: 999px;           /* pill shape */
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* Hover + focus */
+#site-nav .visible-links > li > a:hover,
+#site-nav .visible-links > li > a:focus {
+  background: rgba(255, 255, 255, 0.18) !important;
+  border-bottom-color: transparent !important; /* remove underline */
+}
+
+/* Active page stays subtle but visible */
+#site-nav .visible-links .active > a,
+#site-nav .masthead__menu-item.is-active > a {
+  background: rgba(255, 255, 255, 0.22) !important;
+  border-bottom-color: transparent !important;
+}
+
+
+
+
+
+
 /* ===============================
    Nav icons via CSS (pseudo)
    Keep this only if nav titles do NOT contain <i class="...">
