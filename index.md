@@ -195,13 +195,16 @@ classes: wide
    <div class="cta-title">
     🚨 We are hiring PhD students!
   </div>
-
-    <p>
-   I enjoy working with students who are highly passionate about advancing the field of Software Engineering. Please read my recent publications and reach out to share your thoughts on (1) limitations you see in existing work and (2) potential ideas for addressing them.
-Curious whether you might be a good fit for the AS²ERT Lab? I encourage you to review the <a href="https://www.amazon.jobs/content/en/our-workplace/leadership-principles" target="_blank" rel="noopener">
+<p>
+  The AS²ERT Lab is recruiting students who are genuinely interested in advancing the field of Software Engineering.
+  Prospective students are encouraged to familiarize themselves with our recent publications and to reach out with their thoughts on (1) limitations in existing work and (2) potential directions for addressing 
+  those limitations. The lab values a research culture grounded in intellectual ownership, high standards, deep
+  technical engagement, and principled disagreement followed by commitment.
+  To learn more, please refer to the 
+  <a href="https://www.amazon.jobs/content/en/our-workplace/leadership-principles" target="_blank" rel="noopener">
     Amazon Leadership Principles
-  </a>. Principles such as ownership, high standards, diving deep, and thoughtful disagreement with commitment resonate strongly with how I approach research and collaboration.
-    </p>
+  </a>.
+</p>
 
     <p style="margin-top:10px; margin-bottom:0;">
       <strong>Remote internships:</strong> We welcome applications from international students interested in remote internship opportunities. Please reach out via email.
@@ -212,15 +215,21 @@ Curious whether you might be a good fit for the AS²ERT Lab? I encourage you to 
 <section class="home-card" style="margin-top:16px;">
   <h2> Undergraduate Research</h2>
 
-  <p>
-   It is my great pleasure to work with motivated undergraduate students and to help prepare the next generation of researchers in Software Engineering. UTD’s <strong>RIDE (Research, Inquiry, Design Experience)</strong> program is an excellent initiative that supports undergraduate research and provides students with early exposure to the research process. Through RIDE, projects are carefully structured to help students identify well-scoped research problems, develop and rigorously evaluate technical solutions, and communicate their findings at a level appropriate for publication.
-  </p>
+ <p>
+  The AS²ERT Lab is committed to mentoring motivated undergraduate students and to preparing the next generation of researchers in Software Engineering.
+  UTD’s <strong>RIDE (Research, Inquiry, Design Experience)</strong> program provides a strong framework for introducing undergraduates to research in a structured and supportive manner.
+  Through RIDE, projects are carefully scoped to help students formulate meaningful research questions, develop and rigorously evaluate technical solutions, and communicate their results at a standard appropriate for scholarly dissemination.
+</p>
 
-  <ul class="home-list">
-    <li><strong>Project 1:</strong> Resilient LLMs for reasoning about buggy code.</li>
-    <li><strong>Project 2:</strong> Quantum software testing benchmarks and bug taxonomies.</li>
-    <li><strong>Project 3:</strong> High-quality automated documentation generation to support testing.</li>
-  </ul>
+
+<ul class="home-list">
+  <li><strong>Project 1 (RIDE 033):</strong> Resilient LLM-based test generation for buggy code.</li>
+  <li><strong>Project 2 (RIDE 045):</strong> Benchmarks and bug taxonomies for quantum software testing.</li>
+  <li><strong>Project 3 (RIDE 041):</strong> Automated, test-aware software documentation.</li>
+  <li><strong>Project 4 (RIDE 041):</strong> High-quality datasets for rigorous testing research.</li>
+  <li><strong>Project 5 (RIDE 041):</strong> Intent-aware automated testing.</li>
+</ul>
+
 
   <p class="note">
     UTD undergraduates: please email your resume and transcript (unofficial is fine), along with a
