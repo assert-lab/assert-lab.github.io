@@ -55,6 +55,7 @@ classes: wide
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 1.35rem;
+  color: #154734; /* UTD Green */
 }
 
 .home-card p {
