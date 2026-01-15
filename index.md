@@ -134,8 +134,8 @@ classes: wide
   <h1 style="color:#154734;">Howdy!</h1>
 
   <p class="titleline">
-    Welcome to the <strong>AS²ERT Lab</strong> (<strong>A</strong>I for <strong>S</strong>afe <strong>S</strong>oftware <strong>E</strong>ngineering and <strong>T</strong>esting) at the University of Texas at Dallas (UTD). Because software runs much of the world and must be worthy of users’ trust, our broader goal is to develop automated techniques that help build safe and reliable software systems. Our group primarily focuses on automated testing, debugging, and repair, with particular attention to requirements-aware test automation. We are especially interested in how modern AI methods, including large language models and agentic AI, can be used responsibly to improve software quality in ways that are both effective and practical.
-  </p>
+    Welcome to the <strong>AS²ERT Lab</strong> (<strong>A</strong>I for <strong>S</strong>afe <strong>S</strong>oftware <strong>E</strong>ngineering and <strong>T</strong>esting) at the University of Texas at Dallas (UTD). Our broader research goal is to develop methods that help build reliable and safe software systems. Much of our work focuses on automated program analysis, testing, debugging, and repair. In particular, we study how modern AI techniques, including LLMs and agentic systems, can be used responsibly to improve software safety and quality at scale.
+</p>
 
   <p class="titleline" style="margin-top:10px;">
     AS²ERT lab is founded and led by <strong>Dr. Soneya Binta Hossain</strong>, Assistant Professor of Computer Science at UTD. She earned her Ph.D. and M.S in Computer Science from the University of Virginia, where her research explored AI-driven approaches to automated software testing. She earned her B.Sc. in Computer Science and Engineering from the Bangladesh University of Engineering and Technology (BUET). 
