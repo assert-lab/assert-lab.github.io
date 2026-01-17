@@ -19,7 +19,7 @@
    =============================== */
 
 html {
-  font-size: 16px !important; /* increased from 15px */
+  font-size: 16px !important; /* was 15px */
 }
 
 body {
@@ -29,7 +29,7 @@ body {
                "Segoe UI Symbol", "Noto Color Emoji" !important;
 
   font-size: 1rem !important;
-  font-weight: 450 !important; /* increased weight */
+  font-weight: 450 !important;
   line-height: 1.6 !important;
   color: var(--text) !important;
 }
@@ -37,7 +37,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: inherit !important;
   color: var(--text) !important;
-  font-weight: 600 !important; /* heavier headings */
+  font-weight: 600 !important;
 }
 
 h1 { font-size: 1.9rem !important; }
@@ -64,7 +64,7 @@ h4 { font-size: 1.1rem !important; }
   box-shadow: none !important;
 }
 
-/* Kill any pseudo separator bars from skin */
+/* Kill separator bars */
 .masthead::before,
 .masthead::after,
 .masthead__inner-wrap::before,
@@ -77,12 +77,12 @@ h4 { font-size: 1.1rem !important; }
   display: none !important;
 }
 
-/* Site logo sizing */
+/* Logo */
 .site-logo img {
   max-height: 36px;
 }
 
-/* Site title stays white */
+/* Site title */
 #site-nav .site-title,
 #site-nav .site-title:link,
 #site-nav .site-title:visited,
@@ -93,7 +93,7 @@ h4 { font-size: 1.1rem !important; }
   text-decoration: none !important;
 }
 
-/* Menu link text */
+/* Menu links (larger) */
 #site-nav .visible-links > li > a,
 #site-nav .visible-links > li > a:link,
 #site-nav .visible-links > li > a:visited,
@@ -102,18 +102,19 @@ h4 { font-size: 1.1rem !important; }
 #site-nav .visible-links > li > a:active {
   color: var(--utd-orange) !important;
   font-weight: 600;
+  font-size: 1.05rem;          /* ↑ menu size */
   text-decoration: none !important;
   border-bottom: 2px solid transparent;
 }
 
-/* Hover highlight */
+/* Hover */
 #site-nav .visible-links > li > a:hover,
 #site-nav .visible-links > li > a:focus {
   background: rgba(255,255,255,0.12) !important;
   border-bottom-color: var(--utd-orange) !important;
 }
 
-/* Active underline */
+/* Active */
 #site-nav .visible-links .active > a,
 #site-nav .masthead__menu-item.is-active > a {
   border-bottom-color: var(--utd-orange) !important;
@@ -139,19 +140,36 @@ h4 { font-size: 1.1rem !important; }
 }
 
 /* ===============================
-   Rounded pill-style nav hover
+   Rounded pill nav
    =============================== */
 
 #site-nav .visible-links > li > a {
-  padding: 6px 12px;
+  padding: 8px 14px;           /* ↑ larger click area */
   border-radius: 999px;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 #site-nav .visible-links > li > a:hover,
 #site-nav .visible-links > li > a:focus {
-  background: rgba(255, 255, 255, 0.18) !important;
+  background: rgba(255,255,255,0.18) !important;
   border-bottom-color: transparent !important;
+}
+
+#site-nav .visible-links .active > a,
+#site-nav .masthead__menu-item.is-active > a {
+  background: rgba(255,255,255,0.22) !important;
+  border-bottom-color: transparent !important;
+}
+
+/* ===============================
+   Remove underline
+   =============================== */
+
+.masthead__menu-item a,
+.masthead__menu-item a:hover,
+.masthead__menu-item a.is-active {
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 /* ===============================
@@ -167,17 +185,120 @@ h4 { font-size: 1.1rem !important; }
   color: var(--utd-orange);
 }
 
-/* Home */
 #site-nav .visible-links li:nth-child(1) > a::before { content: "\f015"; }
-/* Dr. */
 #site-nav .visible-links li:nth-child(2) > a::before { content: "\f007"; }
-/* Projects */
 #site-nav .visible-links li:nth-child(3) > a::before { content: "\f542"; }
-/* Publications */
 #site-nav .visible-links li:nth-child(4) > a::before { content: "\f02d"; }
-/* News */
 #site-nav .visible-links li:nth-child(5) > a::before { content: "\f1ea"; }
-/* Teaching */
 #site-nav .visible-links li:nth-child(6) > a::before { content: "\f51c"; }
-/* Contact */
-#site-nav .visible-links li:nth-child(7) > a::before { conten
+#site-nav .visible-links li:nth-child(7) > a::before { content: "\f0e0"; }
+
+/* ===============================
+   Author avatar
+   =============================== */
+
+.author__avatar img {
+  max-width: 160px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+  .author__avatar img { max-width: 140px; }
+}
+
+@media (max-width: 600px) {
+  .author__avatar img { max-width: 120px; }
+}
+
+/* ===============================
+   Footer
+   =============================== */
+
+.page__footer {
+  display: none !important;
+}
+
+/* ===============================
+   Projects
+   =============================== */
+
+.projects .rc-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: var(--utd-green);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.projects .research-card {
+  border-left: 5px solid var(--utd-orange);
+  padding-left: 26px;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   Publications
+   =============================== */
+
+.publications {
+  --utd-orange: #E87500;
+}
+
+.publications .pub-header {
+  background: rgba(232, 117, 0, 0.10);
+  border-left: 5px solid var(--utd-orange);
+  padding: 14px 18px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.publications .pub-section h3 {
+  color: var(--utd-orange);
+  border-bottom: 2px solid var(--utd-orange);
+  padding-bottom: 4px;
+  margin-top: 32px;
+}
+
+.publications .pub-entry {
+  margin-bottom: 20px;
+  padding-left: 14px;
+  border-left: 2px solid rgba(232,117,0,0.7);
+  line-height: 1.6;
+}
+
+.publications .pub-icon {
+  color: var(--utd-orange);
+  margin-right: 8px;
+}
+
+.page__content .publications .pub-links a:not(.btn) {
+  color: var(--utd-orange) !important;
+  font-weight: 600;
+  text-decoration: none;
+  background: rgba(232,117,0,0.12);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.page__content .publications .pub-links a:not(.btn):hover {
+  text-decoration: underline;
+}
+
+.page__content .publications a:not(.btn) {
+  color: var(--utd-orange) !important;
+}
+
+.publications .pub-footer {
+  text-align: center;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
