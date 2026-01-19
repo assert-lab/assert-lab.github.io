@@ -29,7 +29,7 @@ body {
                "Segoe UI Symbol", "Noto Color Emoji" !important;
 
   font-size: 1rem !important;
-  font-weight: 530 !important;
+  font-weight: 500 !important;
   line-height: 1.6 !important;
   color: var(--text) !important;
 }
@@ -301,14 +301,4 @@ h4 { font-size: 1.1rem !important; }
   text-align: center;
   font-size: 0.95rem;
   opacity: 0.85;
-}
-
-/* ===============================
-   Reduce green header height
-   =============================== */
-
-.page__hero,
-.page__hero--overlay {
-  padding: .6rem !important;
-  min-height: unset !important;
 }
