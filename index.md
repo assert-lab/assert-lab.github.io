@@ -132,10 +132,8 @@ classes: wide
 </style>
 
 <section class="home-hero">
-  <h1 style="color:#154734;">Howdy!</h1>
-
   <p class="titleline">
-    Welcome to the <strong>AS²ERT </strong> (<strong>A</strong>I for <strong>S</strong>afe <strong>S</strong>oftware <strong>E</strong>ngineering and <strong>T</strong>esting) Lab at the University of Texas at Dallas (UTD). Our mission is to advance the safety and reliability of software systems through novel automated techniques. We pursue research across program analysis, testing, debugging, bug localization, and repair, leveraging modern AI techniques, including LLMs and agentic systems, to advance automated software engineering.
+    Howdy! Welcome to the <strong>AS²ERT </strong> (<strong>A</strong>I for <strong>S</strong>afe <strong>S</strong>oftware <strong>E</strong>ngineering and <strong>T</strong>esting) Lab at the University of Texas at Dallas (UTD). We develop automated techniques to improve the safety and reliability of software systems. Our research spans program analysis, testing, debugging, bug localization, and repair, with a focus on responsibly integrating modern AI methods, including large language models and agentic systems, into automated software engineering workflows.
 </p>
 
   <p class="titleline" style="margin-top:10px;">
