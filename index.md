@@ -195,19 +195,14 @@ classes: wide
     🚨 We are hiring PhD students!
   </div>
 <p>
-  The AS²ERT Lab is recruiting graduate students who are genuinely interested in advancing the field of Software Engineering.
-  Prospective students are encouraged to familiarize themselves with our recent publications and to reach out with their thoughts on (1) limitations in existing work and (2) potential directions for addressing 
-  those limitations. The lab values a research culture grounded in intellectual ownership, high standards, deep
-  technical engagement, and principled disagreement followed by commitment.
-  To learn more, please refer to the 
-  <a href="https://www.amazon.jobs/content/en/our-workplace/leadership-principles" target="_blank" rel="noopener">
-    Amazon Leadership Principles
-  </a>.
+ The AS²ERT Lab is looking for graduate students who are excited about software engineering research. If you are interested, we encourage you to take a look at our recent work and reach out with your thoughts on what current approaches miss and where the field could go next. Our lab culture values intellectual ownership, high standards, and deep technical engagement, along with open, principled discussion and follow-through. These values are closely aligned with these
+<a href="https://www.amazon.jobs/content/en/our-workplace/leadership-principles" target="_blank" rel="noopener">principles</a>.
 </p>
 
-    <p style="margin-top:10px; margin-bottom:0;">
-      <strong>Remote internships:</strong> We welcome applications from international students interested in remote internship opportunities. Please reach out via email.
-    </p>
+<p style="margin-top:10px; margin-bottom:0;">
+  <strong>Remote internships:</strong> We offer remote internship opportunities, particularly for international students. Please reach out via email if interested.
+</p>
+
   </aside>
 </div>
 
