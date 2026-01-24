@@ -10,10 +10,6 @@ main:
   - title: '<i class="fas fa-user-graduate"></i> Dr. Soneya Hossain'
     url: /PI/
 
-  - title: '<i class="fas fa-flask"></i> Projects'
-    url: /project/
-   
-
   - title: '<i class="fas fa-file-alt"></i> Publications'
     url: /publications/
 
@@ -22,6 +18,3 @@ main:
 
   - title: '<i class="fas fa-chalkboard-teacher"></i> Teaching'
     url: /teaching/
-
-  - title: '<i class="fas fa-envelope"></i> Contact'
-    url: /contact/
