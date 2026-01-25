@@ -36,8 +36,18 @@ classes: wide
   gap: 16px;
 }
 .ride-list {
-  padding-left: 2.5rem; /* increase tab space */
-  font-size: 0.95rem;
+  padding-left: 2.5rem;
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.ride-list li::marker {
+  color: var(--utd-green);
+}
+
+.ride-list strong {
+  color: var(--utd-orange);
+  font-weight: 600;
 }
 @media (min-width: 860px) {
   /* Research (first card) smaller, Prospective PhD (second card) larger */
