@@ -37,6 +37,7 @@ classes: wide
 }
 .ride-list {
   padding-left: 2.5rem; /* increase tab space */
+  font-size: 0.95rem;
 }
 @media (min-width: 860px) {
   /* Research (first card) smaller, Prospective PhD (second card) larger */
