@@ -216,7 +216,7 @@ classes: wide
   The AS²ERT Lab is deeply committed to mentoring motivated undergraduate students and helping them grow into confident, independent researchers in Software Engineering. UTD’s <strong>RIDE (Research, Inquiry, Design Experience)</strong> program provides an excellent foundation for introducing undergraduates to research in a structured and supportive environment. Through RIDE, students work on carefully scoped projects that encourage them to ask meaningful research questions, build and evaluate technical solutions, and communicate their findings at a level suitable for scholarly venues. Please email your resume and transcript (unofficial is fine), along with a brief explanation of which project you are interested in and why.
 </p>
 
-<ul class="home-list ride-list">
+<ul class="ride-list">
   <li><strong>RIDE 033:</strong> Resilient LLMs for buggy code.</li>
   <li><strong>RIDE 045:</strong> Benchmarks and bug taxonomies for quantum software.</li>
   <li><strong>RIDE 041:</strong> Automated documentation generation.</li>
