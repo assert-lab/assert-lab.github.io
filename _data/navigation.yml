@@ -9,12 +9,15 @@ main:
 
   - title: '<i class="fas fa-user-graduate"></i> Dr. Soneya Hossain'
     url: /PI/
-
-  - title: '<i class="fas fa-file-alt"></i> Publications'
-    url: /publications/
+  
+  - title: '<i class="fas fa-user-graduate"></i> Team'
+    url: /team/
 
   - title: '<i class="fas fa-newspaper"></i> News'
     url: /news/
+    
+  - title: '<i class="fas fa-file-alt"></i> Publications'
+    url: /publications/
 
   - title: '<i class="fas fa-chalkboard-teacher"></i> Teaching'
     url: /teaching/
