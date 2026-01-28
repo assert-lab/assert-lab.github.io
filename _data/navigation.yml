@@ -6,9 +6,6 @@
 main:
   - title: '<i class="fas fa-home"></i> Home'
     url: /
-
-  - title: '<i class="fas fa-user-graduate"></i> Dr. Soneya Hossain'
-    url: /PI/
   
   - title: '<i class="fas fa-user-graduate"></i> Team'
     url: /team/
