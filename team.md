@@ -1,7 +1,8 @@
 ---
-title: Team
-permalink: /team/
 layout: single
+title: "Team"
+permalink: /team/
+toc: false
 ---
 
 <style>
