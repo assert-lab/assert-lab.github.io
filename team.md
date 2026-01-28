@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Team"
+title: ""
 permalink: /team/
 toc: false
 ---
