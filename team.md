@@ -32,7 +32,7 @@ toc: false
 
 <div style="display:flex; align-items:center; gap:24px; margin-top:20px;">
 
-<img src="/assets/images/team/soneya.jpg"
+<img src="/assets/images/soneya.jpg"
      alt="Dr. Soneya Binta Hossain"
      style="width:180px; border-radius:12px;">
 
