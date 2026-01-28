@@ -4,6 +4,7 @@ permalink: /team/
 layout: single
 ---
 
+<style>
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -20,7 +21,7 @@ layout: single
   border-radius: 12px;
   margin-bottom: 8px;
 }
-
+</style>
 
 
 
