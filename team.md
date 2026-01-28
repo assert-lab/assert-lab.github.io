@@ -25,15 +25,15 @@ toc: false
 </style>
 
 
-<div style="display:flex; align-items:center; gap:24px; margin-top:20px;">
+<div style="display:flex; flex-direction:column; align-items:center; text-align:center; margin-top:32px;">
 
 <img src="/assets/images/soneya.jpg"
      alt="Dr. Soneya Binta Hossain"
-     style="width:180px; border-radius:12px;">
+     style="width:180px; border-radius:12px; margin-bottom:16px;">
 
-<div style="line-height:1.6;">
+<div style="line-height:1.7; max-width:600px;">
 
-<strong>Dr. Soneya Binta Hossain</strong><br>
+<strong style="font-size:1.15em;">Dr. Soneya Binta Hossain</strong><br>
 Assistant Professor, Computer Science<br>
 University of Texas at Dallas<br><br>
 
@@ -47,50 +47,13 @@ Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering & 
 
 ## PhD Students
 
-<div class="team-grid">
-
-<div class="team-card">
-<img src="/assets/images/team/phd1.jpg" alt="Student Name">
-**Student Name**  
-PhD Student  
-*Research focus line (optional)*
-</div>
-
-<div class="team-card">
-<img src="/assets/images/team/phd2.jpg" alt="Student Name">
-**Student Name**  
-PhD Student  
-</div>
-
-</div>
-
 ---
 
 ## Master’s Students
 
-<div class="team-grid">
-
-<div class="team-card">
-<img src="/assets/images/team/ms1.jpg" alt="Student Name">
-**Student Name**  
-MS Student  
-</div>
-
-<div class="team-card">
-<img src="/assets/images/team/ms2.jpg" alt="Student Name">
-**Student Name**  
-MS Student  
-</div>
-
-</div>
-
 ---
 
 ## Undergraduate Researchers
-
-### RIDE Projects
-
----
 
 ---
 
