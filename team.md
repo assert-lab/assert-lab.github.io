@@ -37,8 +37,7 @@ toc: false
 Assistant Professor, Computer Science<br>
 University of Texas at Dallas<br><br>
 
-Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering & Testing)</strong><br><br>
-
+Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering & Testing)</strong><br><br>  
 <a href="https://assert-lab.github.io/PI/">Portfolio</a>
 
 </div>
