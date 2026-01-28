@@ -1,3 +1,9 @@
+---
+title: Team
+permalink: /team/
+layout: single
+---
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -16,11 +22,9 @@
 }
 
 
----
-title: Team
-permalink: /team/
-layout: single
----
+
+
+
 
 ## Principal Investigator
 
