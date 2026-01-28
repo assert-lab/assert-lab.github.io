@@ -25,30 +25,24 @@ toc: false
 </style>
 
 
-
-
-
-## Principal Investigator
-
 <div style="display:flex; align-items:center; gap:24px; margin-top:20px;">
 
 <img src="/assets/images/soneya.jpg"
      alt="Dr. Soneya Binta Hossain"
      style="width:180px; border-radius:12px;">
 
-<div>
+<div style="line-height:1.6;">
 
-**Dr. Soneya Binta Hossain**  
-Assistant Professor, Computer Science  
-University of Texas at Dallas  
+<strong>Dr. Soneya Binta Hossain</strong><br>
+Assistant Professor, Computer Science<br>
+University of Texas at Dallas<br><br>
 
-PI, **AS²ERT Lab (AI for Safe Software Engineering & Testing)**
+Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering & Testing)</strong><br><br>
 
-[Portfolio](https://assert-lab.github.io/PI/) ·
+<a href="https://assert-lab.github.io/PI/">Portfolio</a>
 
 </div>
 </div>
-
 ---
 
 ## PhD Students
