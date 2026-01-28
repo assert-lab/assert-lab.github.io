@@ -232,5 +232,6 @@ classes: wide
   <li><strong>RIDE 041:</strong> Automated documentation generation.</li>
   <li><strong>RIDE 041:</strong> Java build migration (Ant to Maven).</li>
   <li><strong>RIDE 041:</strong> Intent-aware automated testing.</li>
+  <li><strong>RIDE 041:</strong> AI for mutation testing.</li>
 </ul>
 </section>
