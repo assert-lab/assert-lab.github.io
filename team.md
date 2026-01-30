@@ -49,7 +49,7 @@ Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering & 
 
   <div class="team-card">
     <img src="/assets/images/tasfia.jpeg"
-         alt="Tasfia Tasnim">
+         alt="Tasfia Tasnim"><br>
 
     <strong>Tasfia Tasnim</strong><br>
     PhD Student, Computer Science<br>
