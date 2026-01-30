@@ -45,6 +45,22 @@ Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering & 
 ---
 
 ## PhD Students
+<div class="team-grid">
+
+  <div class="team-card">
+    <img src="/assets/images/tasfia.jpeg"
+         alt="Tasfia Tasnim">
+
+    <strong>Tasfia Tasnim</strong><br>
+    PhD Student, Computer Science<br>
+    University of Texas at Dallas<br><br>
+    <div style="margin-top:8px; font-size:0.9em;">
+      <a href="https://scholar.google.com/citations?user=qn2iKXIAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> ·
+      <a href="https://www.linkedin.com/in/tasfia-tasnim-1a52631aa/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+
+</div>
 
 ---
 
