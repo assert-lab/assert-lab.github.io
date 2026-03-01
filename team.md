@@ -65,11 +65,70 @@ Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering & 
 ---
 
 ## Master’s Students
-
+<div class="team-grid">
+  <div class="team-card">
+    <strong>Nazia Shehnaz Joynab</strong><br>
+    MS Student<br>
+    University of Texas at Dallas
+  </div>
+</div>
 ---
 
 ## Undergraduate Researchers
 
+### Spring 2026
+<div class="semester-columns">
+<ul>
+  <li>Kartik Kujala</li>
+  <li>Gautham Mariappan</li>
+  <li>Atharva Mishra</li>
+  <li>Tanishq Seetala</li>
+  <li>Kaartik Virigineni</li>
+
+  <li>Pranay Chintakunta</li>
+  <li>Davis Mo</li>
+  <li>Lokesh Reddy Penugonda</li>
+  <li>Madhav Suri</li>
+
+  <li>Akshaj Ande</li>
+  <li>Vladislav Kondratyev</li>
+  <li>Huzaifa Ahmad Nizami</li>
+  <li>Tharun Sevvel</li>
+
+  <li>Sahana Kothuru</li>
+  <li>Mahalakshmi Pandian</li>
+  <li>Debangshu Pramanik</li>
+  <li>Saivishaal Sureshkannan</li>
+  <li>Nuzhat Tabassum</li>
+
+  <li>Jaya Vardhini Akurathi</li>
+  <li>Joel Preetam Reddy Gurivireddy</li>
+  <li>Ali Jafri</li>
+  <li>Naksh Jajoo</li>
+  <li>Lidege Xi</li>
+  <li>Vihan Yerubandi</li>
+
+  <li>Kamsiyochukwu Ozorji</li>
+  <li>Krishang Reddy Mandala</li>
+  <li>Arnav Kumar</li>
+</ul>
+</div>
+
+### Fall 2025
+<ul>
+  <li>Aadit Aggarwal</li>
+  <li>Jaya Vardhini Akurathi</li>
+  <li>Preetham Red Guduri</li>
+  <li>Krishang Reddy Mandala</li>
+  <li>Debangshu Pramanik</li>
+  <li>Ayush Regmi</li>
+  <li>Arnav Roy</li>
+  <li>Rishi Simhadri</li>
+  <li>Ahyaan Syed</li>
+  <li>Saivishaal Sureshkannan</li>
+  <li>Shyam Venkatesan</li>
+  <li>Atharva Mishra</li>
+</ul>
 ---
 
 ## Alumni
