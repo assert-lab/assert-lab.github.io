@@ -10,6 +10,12 @@ author_profile: true
 ### 2026
 ---
 
+**April 2026**:  Dr. Hossain joined the Program Committee (PC) of the ASE 2026 tools and Datasets track!
+
+**April 2026**:  Dr. Hossain joined the Program Committee (PC) of the 2027
+edition of FSE, the ACM International Conference on the Foundations of
+Software Engineering!
+
 **Feb 2026**: Noshin Ulfat (incoming PhD student at the AS²ERT Lab) received UTD’s prestigious **Presidential Fellowship**, totaling $37,000.
 
 **Feb 2026**:  Dr. Hossain joined the Program Committee of FSE'26 Ideas, Visions and Reflections (IVR) track!
@@ -27,7 +33,7 @@ author_profile: true
 ### 2025
 ---
 
-**Dec 2025**: Dr. Hossain received a **URAP** (Undergraduate Research Apprenticeship Program) Summer 2026 award, supporting an undergraduate researcher with a $4,500 stipend for 300+ hours of research.  
+**Dec 2025**: Dr. Hossain received two **URAP** (Undergraduate Research Apprenticeship Program) Summer 2026 award, supporting two undergraduate researcher with summer stipend to conduct research in Software Engineering and Quantum Computing!
 
 **Dec 2025**: Dr. Hossain received the **Grace Hopper Spirit Award** from the Department of Computer Science at UT Dallas, recognizing her service and contributions to the department.
 
