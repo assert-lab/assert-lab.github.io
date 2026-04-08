@@ -160,10 +160,15 @@ classes: wide
     <h2><i class="fas fa-microscope"></i> Research Interests</h2>
 
     <ul class="home-list icon-list">
+    <li>
+  <i class="fas fa-clipboard-check"></i>
+  <strong>Trustworthy AI for Software Engineering</strong>
+  <a href="https://arxiv.org/pdf/2604.03447" class="paper-badge">arXiv’ 26</a>
+</li>
 
       <li>
         <i class="fas fa-vial"></i>
-        <strong>Automated testing and test oracles</strong>
+        <strong>Automated testing</strong>
         <a href="https://ieeexplore.ieee.org/abstract/document/10172745" class="paper-badge">ICSE’23</a>
         <a href="https://dl.acm.org/doi/abs/10.1145/3611643.3616265" class="paper-badge">FSE’ 23</a>
         <a href="https://dl.acm.org/doi/10.1145/3639478.3639791" class="paper-badge">ICSE-DS’ 24</a>
@@ -172,26 +177,15 @@ classes: wide
       </li>
 
       <li>
-        <i class="fas fa-clipboard-check"></i>
-        <strong>Requirements-aware software testing</strong>
-         <a href="https://dl.acm.org/doi/abs/10.1145/3729354" class="paper-badge">FSE’ 25</a>
-      </li>
-
-      <li>
-        <i class="fas fa-bug"></i>
-        <strong>Automated bug localization and debugging</strong>
-        <a href="https://dl.acm.org/doi/10.5555/3737916.3739036" class="paper-badge">NIPS’ 24</a>
-      </li>
-
-      <li>
         <i class="fas fa-wrench"></i>
-        <strong>AI-assisted program repair</strong>
+        <strong>AI-assisted debugging & repair</strong>
+         <a href="https://dl.acm.org/doi/10.5555/3737916.3739036" class="paper-badge">NIPS’ 24</a>
         <a href="https://dl.acm.org/doi/abs/10.1145/3660773" class="paper-badge">FSE ’24</a>
       </li>
 
       <li>
         <i class="fas fa-database"></i>
-        <strong>Data-centric foundations for reliable testing</strong>
+        <strong>Data-centric foundations for reliable SE</strong>
       </li>
 
       <li>
