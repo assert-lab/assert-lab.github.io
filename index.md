@@ -190,7 +190,7 @@ classes: wide
 
       <li>
         <i class="fas fa-atom"></i>
-        <strong>Automated testing for quantum software</strong>
+        <strong>Quantum software testing</strong>
       </li>
 
     </ul>
