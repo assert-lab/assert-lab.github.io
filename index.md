@@ -168,7 +168,7 @@ classes: wide
 
       <li>
         <i class="fas fa-vial"></i>
-        <strong>Automated testing</strong>
+        <strong>Automated Testing & Test Oracles</strong>
         <a href="https://ieeexplore.ieee.org/abstract/document/10172745" class="paper-badge">ICSE’23</a>
         <a href="https://dl.acm.org/doi/abs/10.1145/3611643.3616265" class="paper-badge">FSE’ 23</a>
         <a href="https://dl.acm.org/doi/10.1145/3639478.3639791" class="paper-badge">ICSE-DS’ 24</a>
@@ -178,19 +178,19 @@ classes: wide
 
       <li>
         <i class="fas fa-wrench"></i>
-        <strong>AI-assisted debugging & repair</strong>
+        <strong>AI-assisted Debugging & Repair</strong>
          <a href="https://dl.acm.org/doi/10.5555/3737916.3739036" class="paper-badge">NIPS’ 24</a>
         <a href="https://dl.acm.org/doi/abs/10.1145/3660773" class="paper-badge">FSE ’24</a>
       </li>
 
       <li>
         <i class="fas fa-database"></i>
-        <strong>Data-centric foundations for reliable SE</strong>
+        <strong>Data-centric Foundations for Reliable SE</strong>
       </li>
 
       <li>
         <i class="fas fa-atom"></i>
-        <strong>Quantum software testing</strong>
+        <strong>Quantum Software Testing</strong>
       </li>
 
     </ul>
