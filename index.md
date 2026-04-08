@@ -178,14 +178,14 @@ classes: wide
 
       <li>
         <i class="fas fa-wrench"></i>
-        <strong>AI-assisted Debugging & Repair</strong>
+        <strong>Automated Debugging & Repair</strong>
          <a href="https://dl.acm.org/doi/10.5555/3737916.3739036" class="paper-badge">NIPS’ 24</a>
         <a href="https://dl.acm.org/doi/abs/10.1145/3660773" class="paper-badge">FSE ’24</a>
       </li>
 
       <li>
         <i class="fas fa-database"></i>
-        <strong>Data-centric Foundations for Reliable SE</strong>
+        <strong>Datasets & Benchmarks for Reliable SE</strong>
       </li>
 
       <li>
