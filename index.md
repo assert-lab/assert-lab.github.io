@@ -223,5 +223,5 @@ classes: wide
 <ul class="ride-list">
   <li><strong>RIDE 033:</strong> Trustworthy AI in Software Testing</li>
   <li><strong>RIDE 041:</strong> Trustworthy AI in Software Engineering</li>
-  <li><strong>RIDE 045:</strong> Trustworthy AI in Quantum Software Engineeringe</li>
+  <li><strong>RIDE 045:</strong> Trustworthy AI in Quantum Software Engineering</li>
 </ul>
