@@ -16,6 +16,16 @@ author_profile: true
 <div class="pub-section">
   <h3>Conference Papers (Peer-reviewed)</h3>
 
+   <div class="pub-entry">
+    <i class="fas fa-file-alt pub-icon" aria-hidden="true"></i>
+    <strong>TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation</strong><br>
+    Tasfia Tasnim, Soneya Binta Hossain, Matthew Dwyer<br>
+    <span>3rd ACM International Conference on AI-Powered Software (<strong>AIware 2026</strong>)</span><br>
+    <div class="pub-links">
+      <a href="https://github.com/assert-lab/OE25-DEV">[GitHub]</a>
+    </div>
+  </div>
+
   <div class="pub-entry">
     <i class="fas fa-file-alt pub-icon" aria-hidden="true"></i>
     <strong>Doc2OracLL: Investigating the Impact of Documentation on LLM-based Test Oracle Generation</strong><br>
