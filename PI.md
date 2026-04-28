@@ -304,7 +304,49 @@ author_profile: true
         <li><a href="https://profiles.utdallas.edu/sbhossain">UTD Profile</a> · <a href="https://scholar.google.com/citations?user=xDDfwB8AAAAJ">Google Scholar</a></li>
         <li><a href="https://github.com/soneyahossain">GitHub</a> · <a href="https://www.linkedin.com/in/soneya/">LinkedIn</a> · <a href="https://orcid.org/0000-0002-7282-061X">ORCID</a></li>
       </ul>
+      
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Ph.D., Computer Science</strong>, University of Virginia.<br>
+          Advisor: Matthew Dwyer. Dissertation: <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection.</em>
+        </li>
+        <li><strong>MCS, Computer Science</strong>, University of Virginia.<br>
+          Project: <em>TOGLL: Correct and Strong Test Oracle Generation with LLMs.</em>
+        </li>
+        <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology (BUET).<br>
+          Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks.</em>
+        </li>
+      </ul>
+    
     </section>
+
+     <section class="pi-card pi-span-6">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Ph.D., Computer Science</strong>, University of Virginia.<br>
+          Advisor: Matthew Dwyer. Dissertation: <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection.</em>
+        </li>
+        <li><strong>MCS, Computer Science</strong>, University of Virginia.<br>
+          Project: <em>TOGLL: Correct and Strong Test Oracle Generation with LLMs.</em>
+        </li>
+        <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology (BUET).<br>
+          Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks.</em>
+        </li>
+      </ul>
+    </section>
+
+    <section class="pi-card pi-span-6">
+      <h2>Selected honors and awards</h2>
+      <ul>
+        <li><strong>Grace Hopper Spirit Award</strong>, UTD CS, 2025.</li>
+        <li><strong>Copenhaver Charitable Trust Bicentennial Fellow</strong>, UVA, 2024–2025.</li>
+        <li><strong>John A. Stankovic Outstanding Graduate Research Award</strong>, UVA CS, 2023.</li>
+        <li><strong>Student Choice Best Research Award</strong>, UVA CS Research Symposium, 2023.</li>
+        <li><strong>Outstanding Graduate Service Award</strong>, UVA CS, 2022.</li>
+        <li><strong>Best Research Poster</strong>, UVA CS Research Symposium, 2021.</li>
+      </ul>
+    </section>
+
 
     <section class="pi-card pi-span-12" id="research">
       <h2>Research interests</h2>
@@ -392,20 +434,7 @@ author_profile: true
       </div>
     </section>
 
-    <section class="pi-card pi-span-6">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Ph.D., Computer Science</strong>, University of Virginia.<br>
-          Advisor: Matthew Dwyer. Dissertation: <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection.</em>
-        </li>
-        <li><strong>MCS, Computer Science</strong>, University of Virginia.<br>
-          Project: <em>TOGLL: Correct and Strong Test Oracle Generation with LLMs.</em>
-        </li>
-        <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology (BUET).<br>
-          Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks.</em>
-        </li>
-      </ul>
-    </section>
+  
 
     <section class="pi-card pi-span-6">
       <h2>Selected honors and awards</h2>
