@@ -294,16 +294,6 @@ author_profile: true
 
   <div class="pi-grid">
 
-    <section class="pi-card pi-span-8" id="about">
-      <h2>About me</h2>
-      <p>
-        I am an Assistant Professor in the Department of Computer Science at <strong>The University of Texas at Dallas</strong> and the founding PI of the <strong>AS²ERT Lab</strong>. My research goal is to make software engineering tools more reliable, usable, and cost-effective by combining classical software engineering methods with modern AI techniques.
-      </p>
-      <p>
-        My work has appeared in premier software engineering and AI venues, including <strong>ICSE</strong>, <strong>FSE</strong>, and <strong>NeurIPS</strong>. During my Ph.D., I collaborated with <strong>Lockheed Martin</strong> and multiple <strong>AWS</strong> teams, including CodeGuru, CodeCatalyst, and AWS AI Labs.
-      </p>
-    </section>
-
     <section class="pi-card pi-span-4">
       <h2>Contact</h2>
       <ul class="pi-mini-list">
