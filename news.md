@@ -9,6 +9,11 @@ author_profile: true
 
 ### 2026
 ---
+**April 2026**: Our dataset and benchmark paper, “TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation,” has been accepted to the 3rd ACM International Conference on AI-Powered Software (AIware 2026)!  
+
+**April 2026**: Our research paper, “Measuring LLM Trust Allocation Across Conflicting Software Artifacts,” is now available on on [arXiv](https://arxiv.org/abs/2604.03447). 
+
+**April 2026**: Our paper, “From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions,” is now available on arXiv.  
 
 **April 2026**:  Dr. Hossain joined the Program Committee (PC) of the ASE 2026 tools and Datasets track!
 
