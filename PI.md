@@ -294,31 +294,7 @@ author_profile: true
 
   <div class="pi-grid">
 
-    <section class="pi-card pi-span-4">
-      <h2>Contact</h2>
-      <ul class="pi-mini-list">
-        <li><strong>Office:</strong> ECS 4.231</li>
-        <li><strong>Phone:</strong> +1 (972) 883-4172</li>
-        <li><strong>Email:</strong> <a href="mailto:sbhossain@utdallas.edu">sbhossain@utdallas.edu</a></li>
-        <li><strong>Location:</strong> Dallas, TX, USA</li>
-        <li><a href="https://profiles.utdallas.edu/sbhossain">UTD Profile</a> · <a href="https://scholar.google.com/citations?user=xDDfwB8AAAAJ">Google Scholar</a></li>
-        <li><a href="https://github.com/soneyahossain">GitHub</a> · <a href="https://www.linkedin.com/in/soneya/">LinkedIn</a> · <a href="https://orcid.org/0000-0002-7282-061X">ORCID</a></li>
-      </ul>
-      
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Ph.D., Computer Science</strong>, University of Virginia.<br>
-          Advisor: Matthew Dwyer. Dissertation: <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection.</em>
-        </li>
-        <li><strong>MCS, Computer Science</strong>, University of Virginia.<br>
-          Project: <em>TOGLL: Correct and Strong Test Oracle Generation with LLMs.</em>
-        </li>
-        <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology (BUET).<br>
-          Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks.</em>
-        </li>
-      </ul>
-    
-    </section>
+  
 
      <section class="pi-card pi-span-6">
       <h2>Education</h2>
@@ -332,6 +308,14 @@ author_profile: true
         <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology (BUET).<br>
           Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks.</em>
         </li>
+      </ul>
+
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>AWS CodeCatalyst</strong>, Santa Clara, CA, Summer 2023.</li>
+        <li><strong>AWS CodeGuru</strong>, Seattle, WA, Summer 2022.</li>
+        <li><strong>Software Engineer II, REVE Systems, </strong>, Dhaka, Bangladesh 2026-2019.</li>
+        
       </ul>
     </section>
 
@@ -372,16 +356,7 @@ author_profile: true
     </section>
 
     
-   
-    <section class="pi-card pi-span-6">
-      <h2>Teaching</h2>
-      <ul>
-        <li><strong>CS/CE/SE 3354 — Software Engineering</strong>, Fall 2025. Course coordinator.</li>
-        <li><strong>CS/SE 6356 — Software Maintenance, Evolution & Re-engineering</strong>, Spring 2026. Cross-listed with SYSM 6308.</li>
-        <li><strong>Graduate Teaching Assistant, UVA</strong>, 2021–2023: CS 4620 Undergraduate Compilers and CS 6620 Graduate Compilers; guest lectures in compilers and program analysis.</li>
-      </ul>
-      <p><a href="{{ '/teaching/' | relative_url }}">Lab teaching page →</a></p>
-    </section>
+
 
    
 
@@ -432,20 +407,6 @@ author_profile: true
           </ul>
         </section>
       </div>
-    </section>
-
-  
-
-    <section class="pi-card pi-span-6">
-      <h2>Selected honors and awards</h2>
-      <ul>
-        <li><strong>Grace Hopper Spirit Award</strong>, UTD CS, 2025.</li>
-        <li><strong>Copenhaver Charitable Trust Bicentennial Fellow</strong>, UVA, 2024–2025.</li>
-        <li><strong>John A. Stankovic Outstanding Graduate Research Award</strong>, UVA CS, 2023.</li>
-        <li><strong>Student Choice Best Research Award</strong>, UVA CS Research Symposium, 2023.</li>
-        <li><strong>Outstanding Graduate Service Award</strong>, UVA CS, 2022.</li>
-        <li><strong>Best Research Poster</strong>, UVA CS Research Symposium, 2021.</li>
-      </ul>
     </section>
 
 
