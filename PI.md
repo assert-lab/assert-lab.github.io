@@ -329,47 +329,8 @@ author_profile: true
       </ul>
     </section>
 
-    <section class="pi-card pi-span-6" id="working-with-me">
-      <h2>Working with me</h2>
-      <p>
-        I am recruiting students interested in <strong>AI for Software Engineering</strong>, especially trustworthy LLMs for software testing, test oracle generation, debugging, bug localization, repair, program analysis, benchmarks, and quantum software testing.
-      </p>
-      <div class="pi-callout">
-        <strong>Email subject suggestions:</strong><br>
-        <code>[Prospective PhD Student] Fall 2026</code><br>
-        <code>[Prospective MS Student] Spring 2026</code><br>
-        <code>[Prospective Undergraduate Researcher] Semester Year</code>
-      </div>
-      <p class="pi-muted">
-        Please include a CV, transcript, and a short research statement describing your background, what AS²ERT work interests you, and one concrete research question you would be excited to explore.
-      </p>
-    </section>
-
-    <section class="pi-card pi-span-6">
-      <h2>Advising style</h2>
-      <p>
-        My advising style is hands-on early in a project and gradually becomes more independent as students develop technical depth and research maturity. I value intellectual ownership, high standards, careful writing, open discussion, and follow-through.
-      </p>
-      <ul>
-        <li><strong>What I expect:</strong> curiosity, discipline, clear communication, technical effort, and willingness to revise ideas.</li>
-        <li><strong>What students can expect:</strong> regular feedback on papers, talks, experiments, and career planning.</li>
-        <li><strong>Lab culture:</strong> principled discussion, respect for people and time, and a shared commitment to high-quality research.</li>
-      </ul>
-    </section>
-
-    <section class="pi-card pi-span-6">
-      <h2>Undergraduate research</h2>
-      <p>
-        AS²ERT is committed to mentoring motivated undergraduate students and helping them grow into confident, independent researchers in Software Engineering. UTD’s RIDE program provides a structured path for students to ask research questions, build and evaluate technical solutions, and communicate their findings.
-      </p>
-      <ul>
-        <li><strong>RIDE 033:</strong> Trustworthy AI in Software Testing</li>
-        <li><strong>RIDE 041:</strong> Trustworthy AI in Software Engineering</li>
-        <li><strong>RIDE 045:</strong> Trustworthy AI in Quantum Software Engineering</li>
-        <li><strong>URAP:</strong> Two Summer 2026 undergraduate research awards supporting software engineering and quantum computing research.</li>
-      </ul>
-    </section>
-
+    
+   
     <section class="pi-card pi-span-6">
       <h2>Teaching</h2>
       <ul>
@@ -380,20 +341,7 @@ author_profile: true
       <p><a href="{{ '/teaching/' | relative_url }}">Lab teaching page →</a></p>
     </section>
 
-    <section class="pi-card pi-span-12" id="publications">
-      <h2>Selected publications</h2>
-      <ul>
-        <li><strong>TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation</strong>. Tasfia Tasnim, Soneya Binta Hossain, Matthew Dwyer. AIware 2026. <a href="https://github.com/assert-lab/OE25-DEV">[GitHub]</a></li>
-        <li><strong>Doc2OracLL: Investigating the Impact of Documentation on LLM-based Test Oracle Generation</strong>. Soneya Binta Hossain, Raygan Taylor, Matthew Dwyer. FSE 2025. <a href="https://dl.acm.org/doi/abs/10.1145/3729354">[Paper]</a></li>
-        <li><strong>TOGLL: Correct and Strong Test Oracle Generation with LLMs</strong>. Soneya Binta Hossain, Matthew Dwyer. ICSE 2025. <a href="https://ieeexplore.ieee.org/document/11029748">[Paper]</a></li>
-        <li><strong>A Deep Dive into Large Language Models for Automated Bug Localization and Repair</strong>. Soneya Binta Hossain, Nan Jiang, Qiang Zhou, Xiaopeng Li, Wen-Hao Chiang, Yingjun Lyu, Hoan Nguyen, Omer Tripp. FSE 2024. <a href="https://dl.acm.org/doi/abs/10.1145/3660773">[Paper]</a></li>
-        <li><strong>Ensuring Critical Properties of Test Oracles for Effective Bug Detection</strong>. Soneya Binta Hossain. ICSE Doctoral Symposium 2024. <a href="https://dl.acm.org/doi/10.1145/3639478.3639791">[Paper]</a></li>
-        <li><strong>LEDEX: Training LLMs to Better Self-Debug and Explain Code</strong>. Nan Jiang, Xiaopeng Li, Shiqi Wang, Qiang Zhou, Soneya Binta Hossain, Baishakhi Ray, Varun Kumar, Xiaofei Ma. NeurIPS 2024.</li>
-        <li><strong>Measuring and Mitigating Gaps in Structural Testing</strong>. Soneya Binta Hossain, Matthew Dwyer, Sebastian Elbaum, Anh Nguyen-Tuong. ICSE 2023. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10172745">[Paper]</a> <a href="https://github.com/soneyahossain/hcc-gap-recommender">[Artifact]</a></li>
-        <li><strong>Neural-Based Test Oracle Generation: A Large-Scale Evaluation and Lessons Learned</strong>. Soneya Binta Hossain, Antonio Filieri, Matthew Dwyer, Sebastian Elbaum, Willem Visser. ESEC/FSE 2023. <a href="https://dl.acm.org/doi/abs/10.1145/3611643.3616265">[Paper]</a></li>
-      </ul>
-      <p><a href="{{ '/publications/' | relative_url }}">Complete publications page →</a> · <a href="https://scholar.google.com/citations?user=xDDfwB8AAAAJ">Google Scholar →</a></p>
-    </section>
+   
 
     <section class="pi-card pi-span-12" id="service">
       <h2>Service</h2>
@@ -471,27 +419,6 @@ author_profile: true
       </ul>
     </section>
 
-    <section class="pi-card pi-span-12 pi-scroll" id="news">
-      <h2>Current news</h2>
-      <ul class="pi-mini-list">
-        <li><span class="pi-date">Apr 2026</span> Our dataset and benchmark paper, <em>TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation</em>, was accepted to AIware 2026.</li>
-        <li><span class="pi-date">Apr 2026</span> Our research paper, <em>Measuring LLM Trust Allocation Across Conflicting Software Artifacts</em>, is available on arXiv.</li>
-        <li><span class="pi-date">Apr 2026</span> Our paper, <em>From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions</em>, is available on arXiv.</li>
-        <li><span class="pi-date">Apr 2026</span> Joined the ASE 2026 Tools and Datasets Track Program Committee.</li>
-        <li><span class="pi-date">Apr 2026</span> Joined the FSE 2027 Program Committee.</li>
-        <li><span class="pi-date">Feb 2026</span> Incoming AS²ERT Ph.D. student Noshin Ulfat received UTD’s Presidential Fellowship.</li>
-        <li><span class="pi-date">Feb 2026</span> Joined the FSE 2026 Ideas, Visions and Reflections Track Program Committee.</li>
-        <li><span class="pi-date">Jan 2026</span> Joined the AIware 2026 Program Committee.</li>
-        <li><span class="pi-date">Jan 2026</span> Tasfia Tasnim joined AS²ERT as a Ph.D. student.</li>
-        <li><span class="pi-date">Jan 2026</span> Joined the ICST 2026 Program Committee.</li>
-        <li><span class="pi-date">2026</span> Continued serving ACM TOSEM through reviewing service.</li>
-        <li><span class="pi-date">Dec 2025</span> Received two URAP Summer 2026 awards supporting undergraduate research in Software Engineering and Quantum Computing.</li>
-        <li><span class="pi-date">Dec 2025</span> Received the Grace Hopper Spirit Award from the UT Dallas Department of Computer Science.</li>
-        <li><span class="pi-date">Aug 2025</span> Began teaching CS/CE/SE 3354: Software Engineering and serving as course coordinator.</li>
-        <li><span class="pi-date">Aug 2025</span> Joined the Department of Computer Science at UT Dallas as an Assistant Professor and founded AS²ERT.</li>
-      </ul>
-      <p><a href="{{ '/news/' | relative_url }}">Lab news page →</a></p>
-    </section>
 
   </div>
 
