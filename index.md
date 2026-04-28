@@ -6,142 +6,352 @@ classes: wide
 
 <style>
 /* ===============================
-   Home page (scoped)
+   AS²ERT lab homepage redesign
+   Content is preserved; this CSS only improves presentation.
+   Scoped to this page to avoid affecting the rest of the site.
+   =============================== */
+:root {
+  --as2ert-green: #154734;
+  --as2ert-green-2: #23614a;
+  --as2ert-orange: #E87500;
+  --as2ert-ink: #172033;
+  --as2ert-muted: #5f6b7a;
+  --as2ert-line: rgba(21, 71, 52, 0.16);
+  --as2ert-soft: #f7faf8;
+  --as2ert-warm: #fff7ef;
+  --as2ert-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+  --as2ert-shadow-soft: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+/* Page rhythm */
+.page__content > .home-hero,
+.page__content > .home-grid,
+.page__content > .home-card {
+  max-width: 1180px;
+}
+
+/* ===============================
+   Hero
    =============================== */
 .home-hero {
-  background: linear-gradient(135deg, rgba(21,71,52,0.10), rgba(232,117,0,0.12));
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 18px;
-  padding: 28px 28px;
-  box-shadow: 0 12px 28px rgba(0,0,0,0.06);
-  margin-bottom: 18px;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 92% 12%, rgba(232, 117, 0, 0.22), transparent 28%),
+    radial-gradient(circle at 8% 90%, rgba(21, 71, 52, 0.12), transparent 34%),
+    linear-gradient(135deg, #ffffff 0%, #fbfdfb 54%, rgba(21, 71, 52, 0.08) 100%);
+  border: 1px solid var(--as2ert-line);
+  border-radius: 26px;
+  padding: clamp(24px, 4vw, 38px);
+  box-shadow: var(--as2ert-shadow);
+  margin-bottom: 22px;
+  isolation: isolate;
+}
+
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 1px solid rgba(21, 71, 52, 0.08);
+  border-radius: 20px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.home-hero::after {
+  content: "";
+  position: absolute;
+  right: -72px;
+  bottom: -72px;
+  width: 190px;
+  height: 190px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(232, 117, 0, 0.14), rgba(21, 71, 52, 0.08));
+  filter: blur(4px);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .home-hero h1 {
   margin: 0 0 6px 0;
-  font-size: 2.0rem;
-  line-height: 1.15;
+  font-size: clamp(1.75rem, 3vw, 2.35rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  color: var(--as2ert-ink);
 }
 
 .home-hero .titleline {
+  position: relative;
   margin: 0;
-  opacity: 0.92;
-  line-height: 1.6;
-  max-width: 90ch;
+  max-width: 96ch;
+  color: var(--as2ert-ink);
+  line-height: 1.78;
+  font-size: clamp(0.98rem, 1.25vw, 1.07rem);
 }
 
+.home-hero .titleline strong {
+  color: var(--as2ert-green);
+  font-weight: 800;
+}
+
+/* ===============================
+   Main grid and cards
+   =============================== */
 .home-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 16px;
-}
-.ride-list {
-  padding-left: 2.5rem;
-  font-size: 0.94rem;
-  line-height: 1.45;
+  gap: 18px;
+  align-items: stretch;
 }
 
-.ride-list li::marker {
-  color: var(--utd-green);
-}
-
-.ride-list strong {
-  color: var(--utd-orange);
-  font-weight: 600;
-}
-@media (min-width: 860px) {
-  /* Research (first card) smaller, Prospective PhD (second card) larger */
+@media (min-width: 900px) {
   .home-grid {
-    grid-template-columns: 0.85fr 1.15fr;
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   }
 }
 
 .home-card {
-  background: #ffffff;
-  border: 1px solid rgba(0,0,0,0.07);
-  border-radius: 16px;
-  padding: 18px 18px;
-  box-shadow: 0 10px 22px rgba(0,0,0,0.05);
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid var(--as2ert-line);
+  border-radius: 22px;
+  padding: clamp(18px, 2.4vw, 24px);
+  box-shadow: var(--as2ert-shadow-soft);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.home-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.10);
+  border-color: rgba(21, 71, 52, 0.28);
+}
+
+.home-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 5px;
+  background: linear-gradient(180deg, var(--as2ert-green), rgba(232, 117, 0, 0.55));
 }
 
 .home-card h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.35rem;
-  color: #154734; /* UTD Green */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px 0;
+  font-size: clamp(1.18rem, 1.6vw, 1.42rem);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--as2ert-green);
+}
+
+.home-card h2 i {
+  display: inline-flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(21, 71, 52, 0.10);
+  color: var(--as2ert-green);
+  font-size: 0.95rem;
 }
 
 .home-card p {
-  margin: 0 0 10px 0;
-  line-height: 1.7;
+  margin: 0 0 12px 0;
+  color: var(--as2ert-ink);
+  line-height: 1.76;
 }
 
+.home-card p:last-child {
+  margin-bottom: 0;
+}
+
+.home-card a {
+  color: var(--as2ert-orange);
+  text-decoration: none;
+  font-weight: 750;
+}
+
+.home-card a:hover {
+  text-decoration: underline;
+}
+
+/* Research card highlight */
+.home-grid .home-card:first-child {
+  background:
+    linear-gradient(135deg, rgba(21, 71, 52, 0.075), rgba(255, 255, 255, 0.90)),
+    #ffffff;
+}
+
+/* ===============================
+   Research list as polished feature rows
+   =============================== */
+.home-list {
+  list-style: none;
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+
+.home-list li {
+  position: relative;
+  display: block;
+  margin: 10px 0;
+  padding: 12px 12px 12px 46px;
+  line-height: 1.55;
+  border: 1px solid rgba(21, 71, 52, 0.12);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.home-list li > i:first-child {
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  display: inline-flex;
+  width: 26px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: var(--as2ert-green);
+  background: rgba(21, 71, 52, 0.10);
+  font-size: 0.82rem;
+}
+
+.home-list strong {
+  color: var(--as2ert-ink);
+  font-weight: 850;
+}
+
+/* Paper badge links */
+.paper-badge {
+  display: inline-flex;
+  align-items: center;
+  margin: 4px 0 0 6px;
+  padding: 3px 9px;
+  font-size: 0.72rem;
+  line-height: 1.2;
+  font-weight: 800;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--as2ert-green) !important;
+  text-decoration: none !important;
+  border: 1px solid rgba(21, 71, 52, 0.18);
+  vertical-align: middle;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.paper-badge:hover {
+  background: var(--as2ert-green);
+  color: #ffffff !important;
+  border-color: var(--as2ert-green);
+  text-decoration: none !important;
+}
+
+/* ===============================
+   Hiring CTA
+   =============================== */
 .cta {
-  border-left: 5px solid #E87500;
-  background: rgba(232,117,0,0.10);
+  border-color: rgba(232, 117, 0, 0.28);
+  background:
+    radial-gradient(circle at 95% 8%, rgba(232, 117, 0, 0.20), transparent 30%),
+    linear-gradient(135deg, #ffffff 0%, var(--as2ert-warm) 100%);
+}
+
+.cta::before {
+  background: linear-gradient(180deg, var(--as2ert-orange), rgba(21, 71, 52, 0.55));
 }
 
 .cta .cta-title {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(232, 117, 0, 0.12);
+  color: #8a3b00;
   font-weight: 950;
-  margin-bottom: 8px;
+  letter-spacing: -0.01em;
 }
 
-.home-list {
-  margin: 10px 0 0 0;
-  padding-left: 18px;
+/* ===============================
+   Undergraduate / RIDE block
+   =============================== */
+.home-card[style*="margin-top:16px"] {
+  margin-top: 18px !important;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(21, 71, 52, 0.10), transparent 28%),
+    #ffffff;
 }
 
-.home-list li {
-  margin: 8px 0;
-  line-height: 1.6;
+.ride-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 16px 0 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 760px) {
+  .ride-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.ride-list li {
+  position: relative;
+  margin: 0;
+  padding: 13px 14px 13px 16px;
+  border: 1px solid rgba(21, 71, 52, 0.14);
+  border-radius: 16px;
+  background: var(--as2ert-soft);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.04);
+}
+
+.ride-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 14px;
+  bottom: 14px;
+  width: 4px;
+  border-radius: 999px;
+  background: var(--as2ert-orange);
+}
+
+.ride-list strong {
+  color: var(--as2ert-green);
+  font-weight: 850;
 }
 
 .note {
   font-size: 0.95rem;
-  opacity: 0.92;
+  color: var(--as2ert-muted);
   margin-top: 10px;
   margin-bottom: 0;
 }
-  /* Research interest card highlight */
-.home-grid .home-card:first-child {
-  background:
-    linear-gradient(
-      135deg,
-      rgba(21, 71, 52, 0.08),   /* UTD green */
-      rgba(21, 71, 52, 0.03)
-    ),
-    #ffffff;
-  border: 1px solid rgba(21, 71, 52, 0.25);
-}
 
-/* Optional: subtle accent on the title */
-.home-grid .home-card:first-child h2 {
-  color: #154734; /* UTD Green */
-}
-/* Paper badge links */
-.paper-badge {
-  display: inline-block;
-  margin-left: 6px;
-  padding: 2px 8px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  border-radius: 999px;
-  background: #f3f4f6;
-  color: #154734; /* UTD green */
-  text-decoration: none;
-  border: 1px solid #d1d5db;
-  vertical-align: middle;
-}
+@media (max-width: 640px) {
+  .home-hero,
+  .home-card {
+    border-radius: 18px;
+  }
 
-.paper-badge:hover {
-  background: #154734;
-  color: #ffffff;
-  border-color: #154734;
-}
+  .home-list li {
+    padding-right: 10px;
+  }
 
+  .paper-badge {
+    margin-left: 2px;
+    margin-right: 4px;
+  }
+}
 </style>
 
 <section class="home-hero">
