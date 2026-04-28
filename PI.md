@@ -414,6 +414,7 @@ author_profile: true
         <section class="pi-card pi-span-6">
           <h3>Program committees and reviewing</h3>
           <ul>
+            <li><strong>SPLASH/ISSTA 2026</strong> Social Events Co-Chair in Organizing Committee.</li>
             <li><strong>FSE 2027</strong>, ACM International Conference on the Foundations of Software Engineering.</li>
             <li><strong>ASE 2026</strong>, Tools and Datasets Track, IEEE/ACM International Conference on Automated Software Engineering.</li>
             <li><strong>FSE 2026</strong>, Ideas, Visions and Reflections Track.</li>
