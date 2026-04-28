@@ -6,6 +6,9 @@
 main:
   - title: '<i class="fas fa-home"></i> Home'
     url: /
+
+  - title: '<i class="fas fa-graduation-cap"></i> PI'
+    url: /PI/
   
   - title: '<i class="fas fa-user-graduate"></i> Team'
     url: /team/
@@ -16,5 +19,3 @@ main:
   - title: '<i class="fas fa-file-alt"></i> Publications'
     url: /publications/
 
-  - title: '<i class="fas fa-chalkboard-teacher"></i> Teaching'
-    url: /teaching/
