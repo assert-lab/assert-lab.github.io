@@ -380,7 +380,6 @@ toc: false
           <h3>Spring 2026</h3>
           <div class="name-chip-grid">
             <span class="name-chip">Kartik Kujala</span>
-            <span class="name-chip">Gautham Mariappan</span>
             <span class="name-chip">Atharva Mishra</span>
             <span class="name-chip">Tanishq Seetala</span>
             <span class="name-chip">Kaartik Virigineni</span>
