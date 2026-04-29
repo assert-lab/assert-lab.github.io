@@ -355,28 +355,37 @@ classes: wide
 </style>
 
 <section class="home-hero">
+ 
+
   <p class="titleline">
     Howdy! Welcome to the <strong>AS²ERT Lab</strong> 
     (<strong>AI for Safe Software Engineering and Testing</strong>) at the 
-    University of Texas at Dallas. We develop automated techniques to improve 
-    the safety and reliability of software systems.
+    University of Texas at Dallas. We can hardly go a single day without 
+    relying on software — in the apps we use, the systems we build, and the 
+    infrastructure that supports our everyday lives. As software becomes more 
+    deeply woven into society, it becomes increasingly important to make these 
+    systems trustworthy, reliable, and safe.
   </p>
 
   <p class="titleline" style="margin-top:10px;">
-    Our research spans program analysis, software testing, debugging, bug 
-    localization, and repair, with a focus on responsibly integrating modern 
-    AI methods — including large language models and agentic systems — into 
-    automated software engineering workflows.
+    Our mission is to ensure the trustworthiness of software systems through 
+    reliable automation across the software development lifecycle. At AS²ERT Lab, 
+    we study how to help developers test, debug, localize faults, repair 
+    defects, and understand software behavior more effectively. Our research 
+    brings together software engineering foundations — including program 
+    analysis, testing, debugging, bug localization, and repair — with responsible integration of AI methods such as large language models and agentic systems.
   </p>
 
   <p class="titleline" style="margin-top:10px;">
     The AS²ERT Lab is founded and led by 
     <strong>Dr. Soneya Binta Hossain</strong>, Assistant Professor of Computer 
-    Science at UT Dallas. She earned her Ph.D. and M.S. in Computer Science 
-    from the University of Virginia, where her research explored AI-driven 
-    approaches to automated software testing. She earned her B.Sc. in Computer 
-    Science and Engineering from the Bangladesh University of Engineering and 
-    Technology (BUET).
+    Science at UT Dallas. Her path to AS²ERT began at the Bangladesh University 
+    of Engineering and Technology (BUET), where she earned her B.Sc. in Computer 
+    Science and Engineering, and continued at the University of Virginia, where 
+    she earned her Ph.D. and M.S. in Computer Science. During her Ph.D., she 
+    studied AI-driven approaches to automated software testing — work that now 
+    shapes the lab’s broader vision of building safer and more trustworthy 
+    software systems.
   </p>
 </section>
 
