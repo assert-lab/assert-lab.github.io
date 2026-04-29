@@ -221,7 +221,7 @@ author_profile: true
 </div>
 
 <div class="pub-section">
-  <h3>Conference Papers (Peer-reviewed)</h3>
+  <h3>Publications (Peer-reviewed)</h3>
 
   <div class="pub-entry">
     <span class="pub-icon" aria-hidden="true"><i class="fas fa-file-alt"></i></span>
