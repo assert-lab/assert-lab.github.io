@@ -367,14 +367,16 @@ classes: wide
     systems trustworthy, reliable, and safe.
   </p>
 
-  <p class="titleline" style="margin-top:10px;">
-    Our mission is to ensure the trustworthiness of software systems through 
-    reliable automation across the software development lifecycle. At AS²ERT Lab, 
-    we study how to help developers test, debug, localize faults, repair 
-    defects, and understand software behavior more effectively. Our research 
-    brings together software engineering foundations — including program 
-    analysis, testing, debugging, bug localization, and repair — with responsible integration of AI methods such as large language models and agentic systems.
-  </p>
+<p class="titleline" style="margin-top:10px;">
+  At the <strong>AS²ERT Lab</strong>, we see trustworthy software as a 
+  full-lifecycle challenge. We build cost-effective and robust methods that 
+  help developers improve software reliability and trustworthiness; study how 
+  modern AI methods — including large language models and agentic systems — 
+  can be used responsibly across testing, debugging, fault localization, and 
+  repair; and create high-quality datasets and benchmarks that help the 
+  community measure real progress in trustworthy software engineering. Our 
+  work spans both classical and quantum software systems.
+</p>
 
   <p class="titleline" style="margin-top:10px;">
     The AS²ERT Lab is founded and led by 
