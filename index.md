@@ -394,7 +394,7 @@ classes: wide
 
 <div class="home-grid">
   <section class="home-card">
-    <h2><i class="fas fa-microscope"></i> Research Interests</h2>
+    <h2><i class="fas fa-microscope"></i> Research Areas</h2>
 
     <ul class="home-list icon-list">
     <li>
