@@ -355,8 +355,6 @@ classes: wide
 </style>
 
 <section class="home-hero">
-  <h1>AS²ERT Lab</h1>
-
   <p class="titleline">
     Howdy! Welcome to the <strong>AS²ERT Lab</strong> 
     (<strong>AI for Safe Software Engineering and Testing</strong>) at the 
