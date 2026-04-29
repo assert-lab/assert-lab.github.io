@@ -355,12 +355,30 @@ classes: wide
 </style>
 
 <section class="home-hero">
+  <h1>AS²ERT Lab</h1>
+
   <p class="titleline">
-    Howdy! Welcome to the <strong>AS²ERT </strong> (<strong>A</strong>I for <strong>S</strong>afe <strong>S</strong>oftware <strong>E</strong>ngineering and <strong>T</strong>esting) Lab at the University of Texas at Dallas (UTD). We develop automated techniques to improve the safety and reliability of software systems. Our research spans program analysis, testing, debugging, bug localization, and repair, with a focus on responsibly integrating modern AI methods, including large language models and agentic systems, into automated software engineering workflows.
-</p>
+    Howdy! Welcome to the <strong>AS²ERT Lab</strong> 
+    (<strong>AI for Safe Software Engineering and Testing</strong>) at the 
+    University of Texas at Dallas. We develop automated techniques to improve 
+    the safety and reliability of software systems.
+  </p>
 
   <p class="titleline" style="margin-top:10px;">
-    AS²ERT lab is founded and led by <strong>Dr. Soneya Binta Hossain</strong>, Assistant Professor of Computer Science at UTD. She earned her Ph.D. and M.S in Computer Science from the University of Virginia, where her research explored AI-driven approaches to automated software testing. She earned her B.Sc. in Computer Science and Engineering from the Bangladesh University of Engineering and Technology (BUET). 
+    Our research spans program analysis, software testing, debugging, bug 
+    localization, and repair, with a focus on responsibly integrating modern 
+    AI methods — including large language models and agentic systems — into 
+    automated software engineering workflows.
+  </p>
+
+  <p class="titleline" style="margin-top:10px;">
+    The AS²ERT Lab is founded and led by 
+    <strong>Dr. Soneya Binta Hossain</strong>, Assistant Professor of Computer 
+    Science at UT Dallas. She earned her Ph.D. and M.S. in Computer Science 
+    from the University of Virginia, where her research explored AI-driven 
+    approaches to automated software testing. She earned her B.Sc. in Computer 
+    Science and Engineering from the Bangladesh University of Engineering and 
+    Technology (BUET).
   </p>
 </section>
 
