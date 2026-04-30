@@ -130,7 +130,7 @@ author_profile: true
       </li>
       <li>
         <span class="news-date">April 2026</span>
-        <span class="news-text">Our paper, “From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions,” is now available on arXiv.</span>
+        <span class="news-text">Our paper, “From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions,” is now available on <a href="https://arxiv.org/abs/2604.25880">arXiv</a>.</span>
       </li>
       <li>
         <span class="news-date">April 2026</span>
