@@ -370,13 +370,7 @@ author_profile: true
   </section>
 
   <div class="pi-grid">
-    <section class="pi-card pi-archive-card pi-span-12">
-      <h3>Graduate-School Context</h3>
-      <p>
-        During my Ph.D., I collaborated with <strong>AWS AI Labs</strong> and <strong>Lockheed Martin</strong> on AI for software engineering, with a focus on requirements, testing, debugging, repair, and reliable software automation.
-      </p>
-    </section>
-
+  
     <section class="pi-card pi-archive-card pi-span-12">
       <h3>Archived Timeline</h3>
       <ul class="pi-timeline">
