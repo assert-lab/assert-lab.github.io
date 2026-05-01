@@ -100,30 +100,6 @@ author_profile: true
     border-color:var(--pi-green);
   }
 
-  .pi-note{
-    margin:12px 0 0 0;
-    color:var(--pi-muted);
-    font-size:.92rem;
-  }
-
-  .pi-tags{
-    display:flex;
-    flex-wrap:wrap;
-    gap:8px;
-    margin:14px 0 0 0;
-  }
-
-  .pi-tag{
-    display:inline-flex;
-    border:1px solid rgba(46,111,64,.20);
-    border-radius:999px;
-    padding:4px 9px;
-    background:var(--pi-soft);
-    color:#334155;
-    font-size:.88rem;
-    font-weight:650;
-  }
-
   .pi-section{ margin:24px 0; }
 
   .pi-section-title{
@@ -259,29 +235,47 @@ author_profile: true
     <p class="pi-title">Assistant Professor · Department of Computer Science · The University of Texas at Dallas</p>
 
     <p class="pi-summary">
-      I lead the <strong>AS²ERT Lab</strong> — <em>AI for Safe Software Engineering and Testing</em>. My research focuses on verification and validation for classical and quantum software systems, with an emphasis on trustworthy AI for software engineering, automated testing, test oracles, bug localization, debugging, repair, and program analysis. My group studies how AI, LLMs, and agentic systems can be responsibly combined with established software engineering techniques to build reliable software and understand the limitations and failure modes of AI-based development tools.
+      I lead the <strong>AS²ERT Lab</strong> — <em>AI for Safe Software Engineering and Testing</em>. My research focuses on verification and validation for classical and quantum software systems, and on responsibly combining AI, LLMs, and established software engineering techniques to improve software reliability and understand the failure modes of AI-based development tools.
     </p>
 
-    <div class="pi-tags" aria-label="Research areas">
-      <span class="pi-tag">Trustworthy AI for SE</span>
-      <span class="pi-tag">Testing & V&V</span>
-      <span class="pi-tag">Test Oracles</span>
-      <span class="pi-tag">Bug Localization & Repair</span>
-      <span class="pi-tag">Program Analysis</span>
-      <span class="pi-tag">Quantum Software</span>
-    </div>
-
     <div class="pi-actions">
-      <a class="pi-button primary" href="#service">Service</a>
+      <a class="pi-button primary" href="#education">Education</a>
+      <a class="pi-button primary" href="#experience">Experience</a>
+      <a class="pi-button" href="#service">Service</a>
       <a class="pi-button" href="#awards">Awards</a>
       <a class="pi-button" href="#grants">Grants</a>
       <a class="pi-button" href="#teaching">Teaching</a>
       <a class="pi-button" href="#phd-archive">Ph.D. Archive</a>
-      <a class="pi-button" href="{{ '/news/' | relative_url }}">Lab News</a>
-      <a class="pi-button" href="mailto:sbhossain@utdallas.edu">Email</a>
     </div>
+  </section>
 
-    <p class="pi-note">I am currently accepting undergraduate and graduate students. Last updated: {{ site.time | date: "%B %Y" }}.</p>
+
+  <section class="pi-section" id="education">
+    <h2 class="pi-section-title">Education</h2>
+    <div class="pi-grid">
+      <section class="pi-card pi-span-12">
+        <ul class="pi-compact-list">
+          <li><strong>Ph.D., Computer Science</strong>, University of Virginia, 2025. Dissertation: <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection</em>.</li>
+          <li><strong>M.C.S., Computer Science</strong>, University of Virginia, 2024. Project: <em>TOGLL: Correct and Strong Test Oracle Generation with Large Language Models</em>.</li>
+          <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology, 2016. Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks</em>.</li>
+        </ul>
+      </section>
+    </div>
+  </section>
+
+  <section class="pi-section" id="experience">
+    <h2 class="pi-section-title">Experience</h2>
+    <div class="pi-grid">
+      <section class="pi-card pi-span-12">
+        <ul class="pi-compact-list">
+          <li><strong>Assistant Professor</strong>, Department of Computer Science, The University of Texas at Dallas, 2025–present.</li>
+          <li><strong>Graduate Research and Teaching Assistant</strong>, Department of Computer Science, University of Virginia, 2019–2025.</li>
+          <li><strong>Applied Scientist Intern</strong>, AWS CodeCatalyst, 2023.</li>
+          <li><strong>Applied Scientist Intern</strong>, AWS CodeGuru, 2022.</li>
+          <li><strong>Senior Software Development Engineer</strong>, R&amp;D, REVE Systems, 2016–2019.</li>
+        </ul>
+      </section>
+    </div>
   </section>
 
   <section class="pi-section" id="service">
@@ -291,7 +285,7 @@ author_profile: true
         <h3>External Professional Service</h3>
         <ul class="pi-compact-list">
           <li><strong>Social Events Co-Chair</strong>, SPLASH/ISSTA 2026.</li>
-          <li><strong>Program Committee:</strong> ASE 2026 Tools & Datasets, AIware 2026, FSE 2026 IVR, ICST 2025/2026.</li>
+          <li><strong>Program Committee:</strong> ASE 2026 Tools &amp; Datasets, AIware 2026, FSE 2026 IVR, ICST 2025/2026.</li>
           <li><strong>Invited Panel Reviewer</strong>, NSF SHF Future CoRe program.</li>
           <li><strong>Reviewer:</strong> ACM TOSEM and IEEE TSE.</li>
         </ul>
@@ -354,7 +348,7 @@ author_profile: true
       <section class="pi-card pi-span-6">
         <h3>Instructor</h3>
         <ul class="pi-compact-list">
-          <li><strong>CS/SE/SYSM 6356:</strong> Software Maintenance, Evolution & Re-engineering, UTD.</li>
+          <li><strong>CS/SE/SYSM 6356:</strong> Software Maintenance, Evolution &amp; Re-engineering, UTD.</li>
           <li><strong>CS/CE/SE 3354:</strong> Software Engineering, UTD. <a href="https://catalog.utdallas.edu/2024/undergraduate/courses/cs3354">[catalog]</a> <a href="https://assert-lab.github.io/teaching/CS3354_Fall2025_Syllabus.pdf">[syllabus]</a></li>
           <li><strong>RIDE:</strong> Research, Inquiry, Design Experience, UTD undergraduate research program.</li>
         </ul>
@@ -373,22 +367,19 @@ author_profile: true
 
   <section class="pi-archive-intro" id="phd-archive">
     <h2>Ph.D. Archive</h2>
-    <p>A concise record of my graduate-school background and earlier portfolio milestones.</p>
+    <p>A concise record of my graduate-school context and earlier portfolio milestones.</p>
   </section>
 
   <div class="pi-grid">
     <section class="pi-card pi-archive-card pi-span-12">
-      <h3>Graduate-School Background</h3>
+      <h3>Graduate-School Context</h3>
       <p>
-        I received my <strong>Ph.D. in Computer Science</strong> from the University of Virginia in April 2025. My dissertation was <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection</em>. My advisor was Matthew Dwyer, and my committee included Sebastian Elbaum, Yangfeng Ji, Matthew Bolton, and Antonio Filieri.
-      </p>
-      <p>
-        During my Ph.D., I collaborated with AWS AI Labs and Lockheed Martin on AI for software engineering, with a focus on requirements, testing, debugging, repair, and reliable software automation.
+        During my Ph.D., I collaborated with <strong>AWS AI Labs</strong> and <strong>Lockheed Martin</strong> on AI for software engineering, with a focus on requirements, testing, debugging, repair, and reliable software automation.
       </p>
     </section>
 
     <section class="pi-card pi-archive-card pi-span-12">
-      <h3>Selected Milestones</h3>
+      <h3>Archived Timeline</h3>
       <ul class="pi-timeline">
         <li><span class="pi-date">Aug 2025</span><span>Joined CS@UTD as a tenure-track Assistant Professor.</span></li>
         <li><span class="pi-date">Jun 2025</span><span>Attended FSE 2025 in Trondheim, Norway.</span></li>
