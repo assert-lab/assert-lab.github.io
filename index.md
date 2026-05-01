@@ -379,15 +379,9 @@ classes: wide
 </p>
 
   <p class="titleline" style="margin-top:10px;">
-    The AS²ERT Lab is founded and led by 
+    The AS²ERT Lab is founded by 
     <strong>Dr. Soneya Binta Hossain</strong>, Assistant Professor of Computer 
-    Science at UT Dallas. Her path to AS²ERT began at the Bangladesh University 
-    of Engineering and Technology (BUET), where she earned her B.Sc. in Computer 
-    Science and Engineering, and continued at the University of Virginia, where 
-    she earned her Ph.D. and M.S. in Computer Science. During her Ph.D., she 
-    studied AI-driven approaches to automated software testing — work that now 
-    shapes the lab’s broader vision of building safer and more trustworthy 
-    software systems.
+    Science at UT Dallas. 
   </p>
 </section>
 
