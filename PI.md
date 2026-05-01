@@ -286,7 +286,6 @@ author_profile: true
         <ul class="pi-compact-list">
           <li><strong>Social Events Co-Chair</strong>, SPLASH/ISSTA 2026.</li>
           <li><strong>Program Committee:</strong> ASE 2026 Tools &amp; Datasets, AIware 2026, FSE 2026 IVR, ICST 2025/2026.</li>
-          <li><strong>Invited Panel Reviewer</strong>, NSF SHF Future CoRe program.</li>
           <li><strong>Reviewer:</strong> ACM TOSEM and IEEE TSE.</li>
         </ul>
       </section>
