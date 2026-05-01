@@ -236,6 +236,9 @@ author_profile: true
 
     <p class="pi-summary">
       I lead the <strong>AS²ERT Lab</strong> — <em>AI for Safe Software Engineering and Testing</em>. My research focuses on verification and validation for classical and quantum software systems, and on responsibly combining AI, LLMs, and established software engineering techniques to improve software reliability and understand the failure modes of AI-based development tools.
+
+My path to AS²ERT Lab began at the Bangladesh University of Engineering and Technology (BUET), where I earned her B.Sc. in Computer Science and Engineering, and continued at the University of Virginia, where I earned my Ph.D. and M.S. in Computer Science. During my Ph.D., I studied AI-driven approaches to automated software testing — work that now shapes the lab’s broader vision of building safer and more trustworthy software systems.
+      
     </p>
 
     <div class="pi-actions">
