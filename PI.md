@@ -358,7 +358,7 @@ author_profile: true
         <ul class="pi-compact-list">
           <li>Research mentor for high school, undergraduate, M.S., and Ph.D. students across multiple institutions.</li>
           <li><strong>Graduate TA:</strong> CS 4620 Undergraduate Compilers and CS 6620 Graduate Compilers, UVA.</li>
-          <li><strong>BWCSE Mentor:</strong> supported BUET students preparing for research and graduate school.</li>
+         
         </ul>
       </section>
     </div>
