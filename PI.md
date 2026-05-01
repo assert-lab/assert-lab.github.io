@@ -253,11 +253,7 @@ My path to AS²ERT Lab began at the Bangladesh University of Engineering and Tec
   </section>
 
 
-  <section class="pi-section" id="education">
-    <h2 class="pi-section-title">Education</h2>
-    <div class="pi-grid">
-      <section class="pi-card pi-span-12">
-        <ul class="pi-compact-list">
+ 
          <section class="pi-section" id="education">
     <h2 class="pi-section-title">Education</h2>
     <div class="pi-grid">
@@ -271,12 +267,7 @@ My path to AS²ERT Lab began at the Bangladesh University of Engineering and Tec
       </section>
     </div>
   </section>
-          <li><strong>M.C.S., Computer Science</strong>, University of Virginia, 2024. Project: <em>TOGLL: Correct and Strong Test Oracle Generation with Large Language Models</em>.</li>
-          <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology, 2016. Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks</em>.</li>
-        </ul>
-      </section>
-    </div>
-  </section>
+          
 
   <section class="pi-section" id="experience">
     <h2 class="pi-section-title">Experience</h2>
