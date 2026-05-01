@@ -258,7 +258,19 @@ My path to AS²ERT Lab began at the Bangladesh University of Engineering and Tec
     <div class="pi-grid">
       <section class="pi-card pi-span-12">
         <ul class="pi-compact-list">
-          <li><strong>Ph.D., Computer Science</strong>, University of Virginia, 2025. Dissertation: <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection</em>.</li>
+         <section class="pi-section" id="education">
+    <h2 class="pi-section-title">Education</h2>
+    <div class="pi-grid">
+      <section class="pi-card pi-span-12">
+        <ul class="pi-compact-list">
+          <li><strong>Ph.D., Computer Science</strong>, University of Virginia, 2025. Dissertation: <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection</em>.<br>
+            <strong>Advisor:</strong> Matthew B. Dwyer. <strong>Committee Members:</strong> Sebastian Elbaum, Yangfeng Ji, Matthew Bolton, and Antonio Filieri.</li>
+          <li><strong>M.C.S., Computer Science</strong>, University of Virginia, 2024. Project: <em>TOGLL: Correct and Strong Test Oracle Generation with Large Language Models</em>.</li>
+          <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology, 2016. Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks</em>.</li>
+        </ul>
+      </section>
+    </div>
+  </section>
           <li><strong>M.C.S., Computer Science</strong>, University of Virginia, 2024. Project: <em>TOGLL: Correct and Strong Test Oracle Generation with Large Language Models</em>.</li>
           <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology, 2016. Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks</em>.</li>
         </ul>
