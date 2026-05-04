@@ -418,6 +418,7 @@ classes: wide
         <i class="fas fa-database"></i>
         <strong>Datasets & Benchmarks for Reliable SE</strong>
            <a href="https://github.com/assert-lab/OE25-DEV" class="paper-badge">TOGBench (AIware' 26)</a>
+            <a href="https://github.com/assert-lab/PITMuS" class="paper-badge">PITMuS</a>
            <a href="https://github.com/Geek-a-Byte/SWE-MIMIC-BENCH" class="paper-badge">SWE-MIMIC-BENCH</a>
       </li>
 
