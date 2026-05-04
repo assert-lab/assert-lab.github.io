@@ -325,28 +325,7 @@ My path to the AS²ERT Lab began at the Bangladesh University of Engineering and
 
  
 
-  <section class="pi-section" id="teaching">
-    <h2 class="pi-section-title">Teaching and Mentoring</h2>
-    <div class="pi-grid">
-      <section class="pi-card pi-span-6">
-        <h3>Instructor</h3>
-        <ul class="pi-compact-list">
-          <li><strong>CS/SE/SYSM 6356:</strong> Software Maintenance, Evolution &amp; Re-engineering, UTD.</li>
-          <li><strong>CS/CE/SE 3354:</strong> Software Engineering, UTD. <a href="https://catalog.utdallas.edu/2024/undergraduate/courses/cs3354">[catalog]</a> <a href="https://assert-lab.github.io/teaching/CS3354_Fall2025_Syllabus.pdf">[syllabus]</a></li>
-          <li><strong>RIDE:</strong> Research, Inquiry, Design Experience, UTD undergraduate research program.</li>
-        </ul>
-      </section>
 
-      <section class="pi-card pi-span-6">
-        <h3>Mentoring and Prior Teaching</h3>
-        <ul class="pi-compact-list">
-          <li>Research mentor for high school, undergraduate, M.S., and Ph.D. students across multiple institutions.</li>
-          <li><strong>Graduate TA:</strong> CS 4620 Undergraduate Compilers and CS 6620 Graduate Compilers, UVA.</li>
-         
-        </ul>
-      </section>
-    </div>
-  </section>
 
 
 <section class="pi-section" id="awards">
@@ -382,6 +361,31 @@ My path to the AS²ERT Lab began at the Bangladesh University of Engineering and
     </section>
   </div>
 </section>
+
+
+
+<section class="pi-section" id="teaching">
+  <h2 class="pi-section-title">Teaching and Mentoring</h2>
+  <div class="pi-grid">
+    <section class="pi-card pi-span-12">
+
+      <h3>Teaching at UTD</h3>
+      <ul class="pi-compact-list">
+        <li><strong>CS/SE/SYSM 6356:</strong> Software Maintenance, Evolution &amp; Re-engineering, UTD.</li>
+        <li><strong>CS/CE/SE 3354:</strong> Software Engineering, UTD.</li>
+        <li><strong>RIDE:</strong> Research, Inquiry, Design Experience, UTD undergraduate research program.</li>
+      </ul>
+
+      <h3>Prior Experience (Ph.D.)</h3>
+      <ul class="pi-compact-list">
+        <li><strong>Graduate TA:</strong> CS 4620 Undergraduate Compilers and CS 6620 Graduate Compilers, UVA.</li>
+        <li>Research mentor for high school, undergraduate, M.S., and Ph.D. students across multiple institutions.</li>
+      </ul>
+
+    </section>
+  </div>
+</section>
+
   
 <div class="pi-grid">
   <section class="pi-card pi-archive-card pi-span-12">
