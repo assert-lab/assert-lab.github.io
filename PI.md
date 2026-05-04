@@ -263,7 +263,7 @@ My path to the AS²ERT Lab began at the Bangladesh University of Engineering and
             <strong>Advisor:</strong> Matthew B. Dwyer. <strong>Committee Members:</strong> Sebastian Elbaum, Yangfeng Ji, Matthew Bolton, and Antonio Filieri.</li>
           <li><strong>M.C.S., Computer Science</strong>, University of Virginia, 2024. Project: <em>TOGLL: Correct and Strong Test Oracle Generation with Large Language Models</em>.</li>
           <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology, 2016. Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks</em>.<br>
-          <strong>Advisor:</strong>Dr. A.K.M. Ashikur Rahman.</li>
+          <strong>Advisor:</strong> Dr. A.K.M. Ashikur Rahman.</li>
         </ul>
       </section>
     </div>
