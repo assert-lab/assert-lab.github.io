@@ -316,44 +316,14 @@ My path to the AS²ERT Lab began at the Bangladesh University of Engineering and
   </div>
 </section>
 
-  <section class="pi-section" id="awards">
-    <h2 class="pi-section-title">Notable Awards and Fellowships</h2>
-    <div class="pi-grid">
-      <section class="pi-card pi-span-12">
-        <ul class="pi-compact-list">
-          <li><strong>Grace Hopper Spirit Award</strong>, Department of Computer Science, UTD, 2026.</li>
-          <li><strong>UVA Endowed Ph.D. Fellowship</strong>, competitive fellowship, 2024–2025.</li>
-          <li><strong>John A. Stankovic Outstanding Graduate Research Award</strong>, UVA, 2023.</li>
-          <li><strong>Outstanding Research Award</strong>, UVA, 2021 and 2023.</li>
-          <li><strong>Outstanding Graduate Service Award</strong>, UVA Computer Science, 2022.</li>
-          <li><strong>Outstanding Undergraduate Thesis Award</strong>, BUET, 2016.</li>
-        </ul>
-      </section>
-    </div>
-  </section>
 
-  <section class="pi-section" id="grants">
-    <h2 class="pi-section-title">Grants and Research Support</h2>
-    <div class="pi-grid">
-      <section class="pi-card pi-span-6">
-        <h3>Current UTD Support</h3>
-        <ul class="pi-compact-list">
-          <li><strong>Presidential Fellowship</strong> for one Ph.D. student, 2026 — $37,000.</li>
-          <li><strong>Summer Research Support</strong> for two UTD undergraduate students, 2026 — $9,000.</li>
-          <li><strong>Research API Credits</strong> for undergraduate research, 2026 — $1,500.</li>
-        </ul>
-      </section>
 
-      <section class="pi-card pi-span-6">
-        <h3>Selected Research and Travel Support</h3>
-        <ul class="pi-compact-list">
-          <li>Research support from NSF, DARPA, AFOSR, AWS, and the UVA Endowed Ph.D. Fellowship.</li>
-          <li><strong>ACM SIGSOFT Travel Award</strong>, 2025.</li>
-          <li><strong>CRA Travel Grants</strong>, 2020 and 2023.</li>
-        </ul>
-      </section>
-    </div>
-  </section>
+
+
+
+
+
+ 
 
   <section class="pi-section" id="teaching">
     <h2 class="pi-section-title">Teaching and Mentoring</h2>
@@ -378,27 +348,56 @@ My path to the AS²ERT Lab began at the Bangladesh University of Engineering and
     </div>
   </section>
 
-  <section class="pi-archive-intro" id="phd-archive">
-    <h2>Ph.D. Archive</h2>
-    <p>A concise record of my graduate-school context and earlier portfolio milestones.</p>
-  </section>
 
+<section class="pi-section" id="awards">
+  <h2 class="pi-section-title">Honors, Recognition, and Research Support</h2>
   <div class="pi-grid">
-  
-    <section class="pi-card pi-archive-card pi-span-12">
-      <h3>Archived Timeline</h3>
-      <ul class="pi-timeline">
-        <li><span class="pi-date">Aug 2025</span><span>Joined CS@UTD as a tenure-track Assistant Professor.</span></li>
-        <li><span class="pi-date">Jun 2025</span><span>Attended FSE 2025 in Trondheim, Norway.</span></li>
-        <li><span class="pi-date">Apr 2025</span><span>Defended my Ph.D. dissertation and attended ICSE 2025 in Ottawa, Canada.</span></li>
-        <li><span class="pi-date">May 2024</span><span>Defended my Ph.D. dissertation proposal. <a href="{{ '/proposal/' | relative_url }}">[gallery]</a></span></li>
-        <li><span class="pi-date">Apr 2024</span><span>Attended ICSE 2024 in Lisbon, Portugal, and participated in the Doctoral Symposium. <a href="{{ '/icse-24/' | relative_url }}">[gallery]</a></span></li>
-        <li><span class="pi-date">Dec 2023</span><span>Attended FSE 2023 in San Francisco, CA. <a href="{{ '/FSE-23/' | relative_url }}">[gallery]</a></span></li>
-        <li><span class="pi-date">May 2023</span><span>Attended ICSE 2023 in Melbourne, Australia. <a href="{{ '/ICSE-23/' | relative_url }}">[gallery]</a></span></li>
-        <li><span class="pi-date">Sep 2021</span><span>Passed the Ph.D. qualifying exam.</span></li>
-        <li><span class="pi-date">Aug 2019</span><span>Began my Ph.D. in Computer Science at the University of Virginia.</span></li>
+    <section class="pi-card pi-span-12">
+
+      <h3>Research Awards</h3>
+      <ul class="pi-compact-list">
+        <li><strong>John A. Stankovic Outstanding Graduate Research Award</strong>, UVA, 2023 <span class="pi-note">(Ph.D.)</span>.</li>
+        <li><strong>Outstanding Research Award</strong>, UVA, 2021 and 2023 <span class="pi-note">(Ph.D.)</span>.</li>
+        <li><strong>Outstanding Undergraduate Thesis Award</strong>, BUET, 2016 <span class="pi-note">(undergraduate)</span>.</li>
+      </ul>
+
+      <h3>Service Awards</h3>
+      <ul class="pi-compact-list">
+        <li><strong>Grace Hopper Spirit Award</strong>, Department of Computer Science, UTD, 2026.</li>
+        <li><strong>Outstanding Graduate Service Award</strong>, UVA Computer Science, 2022 <span class="pi-note">(Ph.D.)</span>.</li>
+      </ul>
+
+      <h3>Fellowships and Travel Support</h3>
+      <ul class="pi-compact-list">
+        <li><strong>UVA Endowed Ph.D. Fellowship</strong>, competitive fellowship, 2024-2025.</li>
+        <li><strong>ACM SIGSOFT Travel Award</strong>, 2025.</li>
+        <li><strong>CRA Travel Grants</strong>, 2014, 2020 and 2023.</li>
+      </ul>
+
+      <h3>Research Group Support at UTD</h3>
+      <ul class="pi-compact-list">
+        <li><strong>Presidential Fellowship</strong> for one Ph.D. student, UTD, 2026, $37,000.</li>
+        <li><strong>UTD Undergraduate Research Support</strong> $10,500.</li>
       </ul>
     </section>
   </div>
+</section>
+  
+<div class="pi-grid">
+  <section class="pi-card pi-archive-card pi-span-12">
+    <h3>Academic Timeline</h3>
+    <ul class="pi-timeline">
+      <li><span class="pi-date">Aug 2025</span><span>Joined CS@UTD as a tenure-track Assistant Professor.</span></li>
+      <li><span class="pi-date">Jun 2025</span><span>Attended FSE 2025 in Trondheim, Norway, and presented our paper.</span></li>
+      <li><span class="pi-date">Apr 2025</span><span>Defended my Ph.D. dissertation and attended ICSE 2025 in Ottawa, Canada, where I presented our paper.</span></li>
+      <li><span class="pi-date">May 2024</span><span>Defended my Ph.D. dissertation proposal. <a href="{{ '/proposal/' | relative_url }}">[gallery]</a></span></li>
+      <li><span class="pi-date">Apr 2024</span><span>Attended ICSE 2024 in Lisbon, Portugal, participated in the Doctoral Symposium, and presented my paper. <a href="{{ '/icse-24/' | relative_url }}">[gallery]</a></span></li>
+      <li><span class="pi-date">Dec 2023</span><span>Attended FSE 2023 in San Francisco, CA, and presented our paper. <a href="{{ '/FSE-23/' | relative_url }}">[gallery]</a></span></li>
+      <li><span class="pi-date">May 2023</span><span>Attended ICSE 2023 in Melbourne, Australia, and presented our paper. <a href="{{ '/ICSE-23/' | relative_url }}">[gallery]</a></span></li>
+      <li><span class="pi-date">Sep 2021</span><span>Passed the Ph.D. qualifying exam.</span></li>
+      <li><span class="pi-date">Aug 2019</span><span>Began my Ph.D. in Computer Science at the University of Virginia.</span></li>
+    </ul>
+  </section>
+</div>
 
 </div>
