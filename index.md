@@ -381,7 +381,7 @@ classes: wide
   <p class="titleline" style="margin-top:10px;">
     The AS²ERT Lab is founded by 
     <strong>Dr. Soneya Binta Hossain</strong>, Assistant Professor of Computer 
-    Science at UT Dallas. 
+    Science at UTD. 
   </p>
 </section>
 
