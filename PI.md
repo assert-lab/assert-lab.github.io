@@ -279,7 +279,7 @@ My path to the AS²ERT Lab began at the Bangladesh University of Engineering and
           <li><strong>Graduate Research and Teaching Assistant</strong>, Department of Computer Science, University of Virginia, 2019–2025.</li>
           <li><strong>Applied Scientist Intern</strong>, AWS CodeCatalyst, 2023.</li>
           <li><strong>Applied Scientist Intern</strong>, AWS CodeGuru, 2022.</li>
-          <li><strong>Senior Software Development Engineer</strong>, R&amp;D, REVE Systems, 2016–2019.</li>
+          <li><strong>Software Development Engineer II </strong>, R&amp;D, REVE Systems, 2016–2019.</li>
         </ul>
       </section>
     </div>
