@@ -291,11 +291,17 @@ My path to the AS²ERT Lab began at the Bangladesh University of Engineering and
       <section class="pi-card pi-span-6">
         <h3>External Professional Service</h3>
         <ul class="pi-compact-list">
-          <li><strong>Social Events Co-Chair</strong>, SPLASH/ISSTA 2026.</li>
-          <li><strong>Program Committee:</strong> ASE 2026 Tools &amp; Datasets, AIware 2026, FSE 2026 IVR, ICST 2025/2026.</li>
-          <li><strong>Reviewer:</strong> ACM TOSEM and IEEE TSE.</li>
-        </ul>
-      </section>
+    <li><strong>Invited Panel Reviewer</strong>, National Science Foundation (NSF).</li>
+    <li><strong>Program Committee Member</strong>, ACM International Conference on the Foundations of Software Engineering (FSE 2027), Research Papers track.</li>
+    <li><strong>Program Committee Member</strong>, IEEE/ACM International Conference on Automated Software Engineering (ASE 2026), The New Ideas and Emerging Results (NIER) track.</li>
+    <li><strong>Program Committee Member</strong>, IEEE/ACM International Conference on Automated Software Engineering (ASE 2026), Tools and Datasets track.</li>
+    <li><strong>Program Committee Member</strong>, ACM International Conference on the Foundations of Software Engineering (FSE 2026), Ideas, Visions, and Reflections (IVR) track.</li>
+    <li><strong>Program Committee Member</strong>, 3rd ACM International Conference on AI-Powered Software (AIware 2026).</li>
+    <li><strong>Program Committee Member</strong>, IEEE International Conference on Software Testing, Verification and Validation (ICST 2025 and 2026).</li>
+    <li><strong>Social Events Co-Chair</strong>, ACM SIGPLAN Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) / ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026.</li>
+    <li><strong>Reviewer</strong>, ACM Transactions on Software Engineering and Methodology (TOSEM).</li>
+  </ul>
+</section>
 
       <section class="pi-card pi-span-6">
         <h3>Institutional and Community Service</h3>
