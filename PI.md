@@ -235,10 +235,9 @@ author_profile: true
     <p class="pi-title">Assistant Professor · Department of Computer Science · The University of Texas at Dallas</p>
 
     <p class="pi-summary">
-      I lead the <strong>AS²ERT Lab</strong> — <em>AI for Safe Software Engineering and Testing</em>. My research focuses on verification and validation for classical and quantum software systems, and on responsibly combining AI, LLMs, and established software engineering techniques to improve software reliability and understand the failure modes of AI-based development tools.
+      I lead the **AS²ERT Lab** — *AI for Safe Software Engineering and Testing* — at UTD. My research focuses on verification and validation of both classical and quantum software systems. We aim to effectively combine AI with established software engineering techniques to improve software correctness checking and ensure reliability. A major part of my work also seeks to better understand the failure modes of AI-based development tools.  
 
-My path to AS²ERT Lab began at the Bangladesh University of Engineering and Technology (BUET), where I earned her B.Sc. in Computer Science and Engineering, and continued at the University of Virginia, where I earned my Ph.D. and M.S. in Computer Science. During my Ph.D., I studied AI-driven approaches to automated software testing — work that now shapes the lab’s broader vision of building safer and more trustworthy software systems.
-      
+My path to the AS²ERT Lab began at the Bangladesh University of Engineering and Technology (BUET), where I earned my B.Sc. in Computer Science and Engineering, and continued at the University of Virginia, where I earned my Ph.D. and M.S. in Computer Science under the guidance of [Prof. Matthew Dwyer](https://matthewbdwyer.github.io). During my Ph.D., I studied AI-driven approaches to automated software testing — work that now shapes the lab’s broader vision of building safer and more trustworthy software systems.
     </p>
 
     <div class="pi-actions">
