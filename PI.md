@@ -236,6 +236,7 @@ author_profile: true
 
     <p class="pi-summary">
       I lead the AS²ERT Lab — AI for Safe Software Engineering and Testing — at UTD. My research focuses on verification and validation of both classical and quantum software systems. We aim to effectively combine AI with established software engineering techniques to improve software correctness checking and ensure reliability. A major part of my work also seeks to better understand the failure modes of AI-based development tools.  
+      
 
 My path to the AS²ERT Lab began at the Bangladesh University of Engineering and Technology (BUET), where I earned my B.Sc. in Computer Science and Engineering, and continued at the University of Virginia, where I earned my Ph.D. and M.S. in Computer Science under the guidance of <a href="https://matthewbdwyer.github.io">Prof. Matthew Dwyer</a>. During my Ph.D., I studied AI-driven approaches to automated software testing — work that now shapes the lab’s broader vision of building safer and more trustworthy software systems.
     </p>
@@ -261,7 +262,8 @@ My path to the AS²ERT Lab began at the Bangladesh University of Engineering and
           <li><strong>Ph.D., Computer Science</strong>, University of Virginia, 2025. Dissertation: <em>Assessing and Improving Critical Properties of Test Oracles for Effective Software Bug Detection</em>.<br>
             <strong>Advisor:</strong> Matthew B. Dwyer. <strong>Committee Members:</strong> Sebastian Elbaum, Yangfeng Ji, Matthew Bolton, and Antonio Filieri.</li>
           <li><strong>M.C.S., Computer Science</strong>, University of Virginia, 2024. Project: <em>TOGLL: Correct and Strong Test Oracle Generation with Large Language Models</em>.</li>
-          <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology, 2016. Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks</em>.</li>
+          <li><strong>B.Sc., Computer Science and Engineering</strong>, Bangladesh University of Engineering and Technology, 2016. Thesis: <em>Balanced Coverage in Fault-Tolerant Broadcasting for Wireless Multi-hop Networks</em>.<br>
+          <strong>Advisor:</strong>Dr. A.K.M. Ashikur Rahman.</li>
         </ul>
       </section>
     </div>
