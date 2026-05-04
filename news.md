@@ -134,6 +134,10 @@ author_profile: true
       </li>
       <li>
         <span class="news-date">April 2026</span>
+        <span class="news-text">Dr. Hossain joined the Program Committee (PC) of the ASE 2026 The New Ideas and Emerging Results (NIER) track!</span>
+      </li>
+      <li>
+        <span class="news-date">April 2026</span>
         <span class="news-text">Dr. Hossain joined the Program Committee (PC) of the ASE 2026 Tools and Datasets track!</span>
       </li>
       <li>
