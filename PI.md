@@ -338,6 +338,7 @@ author_profile: true
           <li><strong>Program Committee Member</strong>, IEEE International Conference on Software Testing, Verification and Validation (ICST 2025 and 2026).</li>
           <li><strong>Social Events Co-Chair</strong>, ACM SIGPLAN Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) / ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026.</li>
           <li><strong>Reviewer</strong>, ACM Transactions on Software Engineering and Methodology (TOSEM).</li>
+          <li><strong>Reviewer</strong>, <a href="https://link.springer.com/journal/10515">Automated Software Engineering</a> (Springer Nature) </li>
         </ul>
       </section>
 
