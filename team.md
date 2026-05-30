@@ -452,11 +452,11 @@ toc: false
     <section class="team-card team-half">
       <h2>High Scool Students</h2>
       <div class="member-grid">
-        <div class="member-card">
+  
           <div class="member-placeholder" aria-hidden="true">N</div>
           <strong class="member-name">Shiven Garisa</strong>
           <strong class="member-name">Yash Pamnani</strong>
-        </div>
+       
       </div>
     </section>
 
