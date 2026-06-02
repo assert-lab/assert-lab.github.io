@@ -395,9 +395,17 @@ toc: false
     <section class="team-card team-full">
       <h2>Undergraduate Researchers</h2>
       <div class="undergrad-wrapper">
+      <section class="semester-card">
+          <h3>2026 UTD URAP Fellow</h3>
+          <div class="name-chip-grid">
+             <span class="name-chip">Davis Mo</span>
+             <span class="name-chip">Jonah Brandenburgh</span>
+          </div>
+        </section>
+
 
         <section class="semester-card">
-          <h3>Spring 2026</h3>
+          <h3>RIDE Cohort (Spring 2026)</h3>
           <div class="name-chip-grid">
             <span class="name-chip">Kartik Kujala</span>
             <span class="name-chip">Atharva Mishra</span>
@@ -429,7 +437,7 @@ toc: false
         </section>
 
         <section class="semester-card">
-          <h3>Fall 2025</h3>
+          <h3>RIDE Cohort (Fall 2025)</h3>
           <div class="name-chip-grid">
             <span class="name-chip">Aadit Aggarwal</span>
             <span class="name-chip">Jaya Vardhini Akurathi</span>
