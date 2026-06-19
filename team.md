@@ -340,56 +340,61 @@ toc: false
 
   <div class="team-grid">
 
-    <section class="team-card team-half">
-      <h2>PhD Students</h2>
-      <div class="member-grid">
-        <div class="member-card with-photo">
-          <img src="/assets/images/tasfia.jpeg" alt="Tasfia Tasnim">
-          <strong class="member-name">Tasfia Tasnim</strong>
-          <div class="member-role">
-            PhD Student, Computer Science<br>
-            University of Texas at Dallas
-          </div>
-          <div class="member-links">
-            <a href="https://scholar.google.com/citations?user=qn2iKXIAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">Google Scholar</a> ·
-            <a href="https://www.linkedin.com/in/tasfia-tasnim-1a52631aa/" target="_blank" rel="noopener">LinkedIn</a>
-          </div>
-        </div>
-      </div>
-    </section>
+   <section class="team-card team-half">
+  <h2>PhD Students</h2>
 
-     <section class="team-card team-half">
-      <h2>PhD Students</h2>
-      <div class="member-grid">
-        <div class="member-card with-photo">
-          <img src="/assets/images/noshin.jpg" alt="Tasfia Tasnim">
-          <strong class="member-name">Noshin Ulfat</strong>
-          <div class="member-role">
-            PhD Student, Computer Science<br>
-            University of Texas at Dallas
-          </div>
-          <div class="member-links">
-            <a href="https://scholar.google.com/citations?user=iDGVVQkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
-            <a href="https://noshinulfat.github.io/github-portfolio/" target="_blank" rel="noopener">Profile</a>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="team-card team-half">
-      <h2>Master’s Students</h2>
-      <div class="member-grid">
-        <div class="member-card">
-          <div class="member-placeholder" aria-hidden="true">N</div>
-          <strong class="member-name">Nazia Shehnaz Joynab</strong>
-          <div class="member-role">
-            MS Student<br>
-            University of Texas at Dallas
-          </div>
-        </div>
+    <div class="member-card">
+      <strong class="member-name">Noshin Ulfat</strong>
+      <div class="member-links">
+        <a href="https://noshinulfat.github.io/github-portfolio/" target="_blank" rel="noopener">Website</a> ·
+        <a href="https://www.linkedin.com/in/noshin-ulfat-abb555256/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
-    </section>
+    </div>
 
+    <div class="member-card">
+      <strong class="member-name">Ahsanul Ameen</strong>
+      <div class="member-links">
+        <a href="https://ahsanul-ameen.github.io/" target="_blank" rel="noopener">Website</a>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <strong class="member-name">Alessandro Botta</strong>
+      <div class="member-links">
+        <a href="https://it.linkedin.com/in/alessandro-botta-21248b223" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <section class="team-card team-half">
+  <h2>Remote Interns</h2>
+
+  <div class="member-grid">
+    <div class="member-card">
+      <strong class="member-name">Dipayan Banik</strong>
+      <div class="member-links">
+        <a href="https://www.linkedin.com/in/banik42"
+           target="_blank"
+           rel="noopener">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <strong class="member-name">Md Nafiu Rahman</strong>
+      <div class="member-links">
+        <a href="https://scholar.google.com/citations?user=VComsdEAAAAJ&amp;hl=en"
+           target="_blank"
+           rel="noopener">
+          Google Scholar
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
     
 
     <section class="team-card team-full">
