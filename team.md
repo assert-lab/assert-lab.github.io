@@ -368,7 +368,7 @@ toc: false
   </div>
 </section>
 
- <section class="team-card team-half">
+<section class="team-card team-half">
   <h2>Remote Interns</h2>
 
   <div class="member-grid">
@@ -377,9 +377,7 @@ toc: false
       <div class="member-links">
         <a href="https://www.linkedin.com/in/banik42"
            target="_blank"
-           rel="noopener">
-          LinkedIn
-        </a>
+           rel="noopener">LinkedIn</a>
       </div>
     </div>
 
@@ -388,9 +386,16 @@ toc: false
       <div class="member-links">
         <a href="https://scholar.google.com/citations?user=VComsdEAAAAJ&amp;hl=en"
            target="_blank"
-           rel="noopener">
-          Google Scholar
-        </a>
+           rel="noopener">Google Scholar</a>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <strong class="member-name">Cemil Canbaz</strong>
+      <div class="member-links">
+        <a href="https://tr.linkedin.com/in/cemil-canbaz"
+           target="_blank"
+           rel="noopener">LinkedIn</a>
       </div>
     </div>
   </div>
