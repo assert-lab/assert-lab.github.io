@@ -353,19 +353,6 @@ toc: false
     <section class="team-card team-half">
       <h2>PhD Students</h2>
 
-      <div class="member-grid">
-        <div class="member-card">
-          <strong class="member-name">Tasfia Tasnim</strong>
-          <div class="member-links">
-            <a href="https://tasfia7042.github.io/"
-               target="_blank"
-               rel="noopener noreferrer">Website</a> ·
-            <a href="https://www.linkedin.com/in/tasfia-tasnim-1a52631aa/"
-               target="_blank"
-               rel="noopener noreferrer">LinkedIn</a>
-          </div>
-        </div>
-
         <div class="member-card">
           <strong class="member-name">Noshin Ulfat</strong>
           <div class="member-links">
