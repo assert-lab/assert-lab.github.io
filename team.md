@@ -7,6 +7,11 @@ toc: false
 ---
 
 <style>
+.team-page,
+.team-page * {
+  box-sizing: border-box;
+}
+
 /* ===============================
    Team page (scoped)
    Matches AS²ERT Lab homepage theme
@@ -326,12 +331,17 @@ toc: false
           Assistant Professor, Computer Science<br>
           University of Texas at Dallas
         </p>
-        <p class="team-titleline" style="margin-top:10px;">
-          Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering &amp; Testing)</strong>
+        <p class="team-titleline" style="margin-top: 10px;">
+          Principal Investigator,
+          <strong>AS²ERT Lab (AI for Safe Software Engineering &amp; Testing)</strong>
         </p>
         <div class="team-link-row">
-          <a class="team-button" href="https://assert-lab.github.io/PI/">
-            <i class="fas fa-user" aria-hidden="true"></i> Portfolio
+          <a class="team-button"
+             href="https://assert-lab.github.io/PI/"
+             target="_blank"
+             rel="noopener noreferrer">
+            <i class="fas fa-user" aria-hidden="true"></i>
+            Portfolio
           </a>
         </div>
       </div>
@@ -340,79 +350,98 @@ toc: false
 
   <div class="team-grid">
 
-   <section class="team-card team-half">
-  <h2>PhD Students</h2>
+    <section class="team-card team-half">
+      <h2>PhD Students</h2>
 
+      <div class="member-grid">
+        <div class="member-card">
+          <strong class="member-name">Tasfia Tasnim</strong>
+          <div class="member-links">
+            <a href="https://tasfia7042.github.io/"
+               target="_blank"
+               rel="noopener noreferrer">Website</a> ·
+            <a href="https://www.linkedin.com/in/tasfia-tasnim-1a52631aa/"
+               target="_blank"
+               rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
 
-    <div class="member-card">
-      <strong class="member-name">Noshin Ulfat</strong>
-      <div class="member-links">
-        <a href="https://noshinulfat.github.io/github-portfolio/" target="_blank" rel="noopener">Website</a> ·
-        <a href="https://www.linkedin.com/in/noshin-ulfat-abb555256/" target="_blank" rel="noopener">LinkedIn</a>
+        <div class="member-card">
+          <strong class="member-name">Noshin Ulfat</strong>
+          <div class="member-links">
+            <a href="https://noshinulfat.github.io/github-portfolio/"
+               target="_blank"
+               rel="noopener noreferrer">Website</a> ·
+            <a href="https://www.linkedin.com/in/noshin-ulfat-abb555256/"
+               target="_blank"
+               rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <strong class="member-name">Ahsanul Ameen</strong>
+          <div class="member-links">
+            <a href="https://ahsanul-ameen.github.io/"
+               target="_blank"
+               rel="noopener noreferrer">Website</a>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <strong class="member-name">Alessandro Botta</strong>
+          <div class="member-links">
+            <a href="https://it.linkedin.com/in/alessandro-botta-21248b223"
+               target="_blank"
+               rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="member-card">
-      <strong class="member-name">Ahsanul Ameen</strong>
-      <div class="member-links">
-        <a href="https://ahsanul-ameen.github.io/" target="_blank" rel="noopener">Website</a>
+    <section class="team-card team-half">
+      <h2>Remote Interns</h2>
+
+      <div class="member-grid">
+        <div class="member-card">
+          <strong class="member-name">Dipayan Banik</strong>
+          <div class="member-links">
+            <a href="https://www.linkedin.com/in/banik42"
+               target="_blank"
+               rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <strong class="member-name">Md Nafiu Rahman</strong>
+          <div class="member-links">
+            <a href="https://scholar.google.com/citations?user=VComsdEAAAAJ&amp;hl=en"
+               target="_blank"
+               rel="noopener noreferrer">Google Scholar</a>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <strong class="member-name">Cemil Canbaz</strong>
+          <div class="member-links">
+            <a href="https://tr.linkedin.com/in/cemil-canbaz"
+               target="_blank"
+               rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="member-card">
-      <strong class="member-name">Alessandro Botta</strong>
-      <div class="member-links">
-        <a href="https://it.linkedin.com/in/alessandro-botta-21248b223" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="team-card team-half">
-  <h2>Remote Interns</h2>
-
-  <div class="member-grid">
-    <div class="member-card">
-      <strong class="member-name">Dipayan Banik</strong>
-      <div class="member-links">
-        <a href="https://www.linkedin.com/in/banik42"
-           target="_blank"
-           rel="noopener">LinkedIn</a>
-      </div>
-    </div>
-
-    <div class="member-card">
-      <strong class="member-name">Md Nafiu Rahman</strong>
-      <div class="member-links">
-        <a href="https://scholar.google.com/citations?user=VComsdEAAAAJ&amp;hl=en"
-           target="_blank"
-           rel="noopener">Google Scholar</a>
-      </div>
-    </div>
-
-    <div class="member-card">
-      <strong class="member-name">Cemil Canbaz</strong>
-      <div class="member-links">
-        <a href="https://tr.linkedin.com/in/cemil-canbaz"
-           target="_blank"
-           rel="noopener">LinkedIn</a>
-      </div>
-    </div>
-  </div>
-</section>
-    
+    </section>
 
     <section class="team-card team-full">
       <h2>Undergraduate Researchers</h2>
+
       <div class="undergrad-wrapper">
-      <section class="semester-card">
-          <h3>2026 UTD URAP Fellow</h3>
+        <section class="semester-card">
+          <h3>2026 UTD URAP Fellows</h3>
           <div class="name-chip-grid">
-             <span class="name-chip">Davis Mo</span>
-             <span class="name-chip">Jonah Brandenburgh</span>
+            <span class="name-chip">Davis Mo</span>
+            <span class="name-chip">Jonah Brandenburgh</span>
           </div>
         </section>
-
 
         <section class="semester-card">
           <h3>RIDE Cohort (Spring 2026)</h3>
@@ -463,21 +492,19 @@ toc: false
             <span class="name-chip">Atharva Mishra</span>
           </div>
         </section>
-
       </div>
     </section>
 
+    <section class="team-card team-full">
+      <h2>High School Students</h2>
 
-  <section class="team-card team-full">
-       <h2>High Scool Students</h2>
       <div class="undergrad-wrapper">
-          <div class="name-chip-grid">
-            <span class="name-chip">Shiven Garisa</span>
-            <span class="name-chip">Yash Pamnani</span>
-          </div>
+        <div class="name-chip-grid">
+          <span class="name-chip">Shiven Garisa</span>
+          <span class="name-chip">Yash Pamnani</span>
+        </div>
       </div>
-</section>
-
+    </section>
 
     <section class="team-card team-full alumni-card">
       <h2>Alumni</h2>
