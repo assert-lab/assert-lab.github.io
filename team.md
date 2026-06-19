@@ -381,7 +381,6 @@ toc: false
                target="_blank"
                rel="noopener noreferrer">LinkedIn</a>
           </div>
-        </div>
       </div>
     </section>
 
