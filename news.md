@@ -121,6 +121,10 @@ author_profile: true
     <h2>2026</h2>
     <ul class="news-list">
       <li>
+        <span class="news-date">June 2026</span>
+        <span class="news-text">Our tool paper, “PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction,” has been accepted to the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026 Tools and Datasets Track)!</span>
+      </li>
+      <li>
         <span class="news-date">April 2026</span>
         <span class="news-text">Our dataset and benchmark paper, “TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation,” has been accepted to the 3rd ACM International Conference on AI-Powered Software (AIware 2026)!</span>
       </li>
