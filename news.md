@@ -123,7 +123,7 @@ author_profile: true
 
   <li>
         <span class="news-date">July 2026</span>
-        <span class="news-text">Our Tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated
+        <span class="news-text">Our Tool paper “CoCoMUT: A Tool for Code-Context Mining and Automated
 Dataset Generation,” is now available on <a href="https://arxiv.org/pdf/2606.31971">arXiv</a>.</span>
       </li>
       
