@@ -120,6 +120,13 @@ author_profile: true
   <section class="home-card highlight" id="2026">
     <h2>2026</h2>
     <ul class="news-list">
+
+  <li>
+        <span class="news-date">July 2026</span>
+        <span class="news-text">Our Tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated
+Dataset Generation,” is now available on <a href="https://arxiv.org/pdf/2606.31971">arXiv</a>.</span>
+      </li>
+      
       <li>
         <span class="news-date">June 2026</span>
         <span class="news-text">Our tool paper, “PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction,” has been accepted to the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026 Tools and Datasets Track)!</span>
