@@ -223,7 +223,38 @@ author_profile: true
 <div class="pub-section">
   <h3>Publications (Peer-reviewed)</h3>
 
+<div class="pub-entry">
+  <span class="pub-icon" aria-hidden="true">
+    <i class="fas fa-file-alt"></i>
+  </span>
+  <div class="pub-content">
+    <strong class="pub-title">Documentation vs. Code Patterns: What Drives LLM-Based Exception Oracle Generation?</strong>  
+  <em>Soneya Binta Hossain</em>, Matthew Dwyer, Tasfia Tasnim  <br>
+    <span>
+      41st IEEE/ACM International Conference on Automated Software Engineering
+      (<strong>ASE 2026</strong>)
+    </span><br>
+  </div>
+</div>
 
+<div class="pub-entry">
+  <span class="pub-icon" aria-hidden="true">
+    <i class="fas fa-file-alt"></i>
+  </span>
+  <div class="pub-content">
+    <strong class="pub-title">CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation</strong>
+    Alessandro Botta, Shiven Garisa, Jaya Vardhini Akurathi, Ahsanul Ameen Sabit,
+    Trey Woodlief, <em>Soneya Binta Hossain</em><br>
+    <span>
+      35th International Symposium on Software Testing and Analysis
+      (<strong>SPLASH/ISSTA 2026, Tool Demonstration Track</strong>)
+    </span><br>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2606.31971">[arXiv]</a>
+      <a href="https://github.com/assert-lab/CoCoMUT">[GitHub]</a>
+    </div>
+  </div>
+</div>
    <div class="pub-entry">
     <span class="pub-icon" aria-hidden="true"><i class="fas fa-file-alt"></i></span>
     <div class="pub-content">
