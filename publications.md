@@ -247,7 +247,7 @@ author_profile: true
     Trey Woodlief, <em>Soneya Binta Hossain</em><br>
     <span>
       35th International Symposium on Software Testing and Analysis
-      (<strong>SPLASH/ISSTA 2026, Tool Demonstration Track</strong>)
+      (<strong>ISSTA 2026, Tool Demonstration Track</strong>)
     </span><br>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2606.31971">[arXiv]</a>
