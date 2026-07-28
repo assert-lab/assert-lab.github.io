@@ -121,24 +121,27 @@ author_profile: true
   <h2>2026</h2>
   <ul class="news-list">
 
- <li>
-      <span class="news-date">July 2026</span>
-      <span class="news-text">Our paper, “Documentation vs. Code Patterns: What Drives LLM-Based
-  Exception Oracle Generation?” has been accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026) </span>
-    </li>
-  
+<li>
+  <span class="news-date">July 2026</span>
+  <span class="news-text">
+    Our paper, “Documentation vs. Code Patterns: What Drives LLM-Based Exception Oracle Generation?” has been accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)!
+  </span>
+</li>
 
-    <li>
-      <span class="news-date">July 2026</span>
-      <span class="news-text">Our tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation,”  has been accepted at the 35th International Symposium on
-Software Testing and Analysis - Tool Demo Track (SPLASH/ISSTA 2026 Tool
-Demo) and is now available on <a href="https://arxiv.org/abs/2606.31971">arXiv</a>.</span>
-    </li>
-      
-      <li>
-        <span class="news-date">June 2026</span>
-        <span class="news-text">Our tool paper, “PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction,” has been accepted to the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026 Tools and Datasets Track)!</span>
-      </li>
+<li>
+  <span class="news-date">July 2026</span>
+  <span class="news-text">
+    Our tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation,” has been accepted at the 35th International Symposium on
+Software Testing and Analysis (ISSTA 2026) Tool Demonstration Track and is now available on <a href="https://arxiv.org/abs/2606.31971">arXiv</a>.
+  </span>
+</li>
+
+<li>
+  <span class="news-date">June 2026</span>
+  <span class="news-text">
+    Our tool paper, “PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction,” has been accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026) Tools and Datasets Track!
+  </span>
+</li>
       <li>
         <span class="news-date">April 2026</span>
         <span class="news-text">Our dataset and benchmark paper, “TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation,” has been accepted to the 3rd ACM International Conference on AI-Powered Software (AIware 2026)!</span>
