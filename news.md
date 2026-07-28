@@ -121,9 +121,18 @@ author_profile: true
   <h2>2026</h2>
   <ul class="news-list">
 
+ <li>
+      <span class="news-date">July 2026</span>
+      <span class="news-text">Our paper, “Documentation vs. Code Patterns: What Drives LLM-Based
+  Exception Oracle Generation?” has been accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026) </span>
+    </li>
+  
+
     <li>
       <span class="news-date">July 2026</span>
-      <span class="news-text">Our tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation,” is now available on <a href="https://arxiv.org/abs/2606.31971">arXiv</a>.</span>
+      <span class="news-text">Our tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation,”  has been accepted at the 35th International Symposium on
+Software Testing and Analysis - Tool Demo Track (SPLASH/ISSTA 2026 Tool
+Demo) and is now available on <a href="https://arxiv.org/abs/2606.31971">arXiv</a>.</span>
     </li>
       
       <li>
