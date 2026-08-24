@@ -229,7 +229,7 @@ author_profile: true
   </span>
   <div class="pub-content">
     <strong class="pub-title">Documentation vs. Code Patterns: What Drives LLM-Based Exception Oracle Generation?</strong>  
-  <em>Soneya Binta Hossain</em>, Matthew Dwyer, Tasfia Tasnim  <br>
+  <em>Soneya Binta Hossain</em>, Matthew Dwyer, Tasfia Tasnim<br>
     <span>
       41st IEEE/ACM International Conference on Automated Software Engineering
       (<strong>ASE 2026</strong>)
@@ -260,7 +260,7 @@ author_profile: true
     <div class="pub-content">
       <strong class="pub-title">PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction</strong>
       Tasfia Tasnim, <em>Soneya Binta Hossain</em> <br>
-      <span>IEEE/ACM International Conference on Automated Software Engineering (<strong> ASE 2026, Tools & Datasets Track </strong>)</span><br>
+      <span>IEEE/ACM International Conference on Automated Software Engineering (<strong>ASE 2026, Tools & Datasets Track </strong>)</span><br>
       <div class="pub-links">
         <a href="https://github.com/assert-lab/OE25-DEV">[GitHub]</a>
       </div>
