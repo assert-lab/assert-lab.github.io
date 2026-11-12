@@ -2,41 +2,52 @@
 # Research areas shown on the Publications page, in this order.
 # `key` must match the `area` field of entries in publications.yml.
 # `figure` is a file in assets/images/ (optional).
+# `long` is the longer text used on the Research page.
+# `ongoing: true` adds a dashed "ongoing" chip. `extras` adds non-paper links.
 # `show_empty: true` keeps a section visible even with no papers yet.
 # ---------------------------------------------------------------
 
 - key: testing
   title: "Software testing and test oracles"
+  long: "We develop methods to assess and improve the effectiveness of software testing. Our research examines test adequacy, the correctness and strength of test oracles, checked coverage, mutation testing, and automated test generation. A central question is whether tests can detect incorrect behavior, even when they achieve high structural coverage."
   blurb: "How do we know a test checks the right thing? We generate and evaluate test oracles, measure what tests miss, and use oracles to guide test generation."
   figure: pub-testing.svg
   alt: "The same set of behaviors judged by an oracle whose boundary separates correct behavior from faults"
 
 - key: specs
   title: "Software specifications and intended behavior"
+  long: "Software requirements are spread across documentation, source code, tests, and development histories. We investigate how to recover intended behavior from these artifacts, how documentation and code patterns shape what AI systems infer about it, and how to turn it into executable checks."
   blurb: "What should the software do? We recover intent from documentation, code, and tests, and study where they disagree."
   figure: pub-specs.svg
   alt: "Three overlapping sources of intent, documentation, code, and tests, with agreement at the center and disagreements at the edges"
 
 - key: ai
   title: "Trustworthy AI and agents"
+  long: "We study the reliability of large language models used in software development, including how they reason about conflicting evidence from code, documentation, and tests, and how much they trust each source."
   blurb: "Can we trust AI that reads and changes software? We study how models handle conflicting evidence."
   figure: pub-ai.svg
   alt: "A guard that covers only part of what a tool can actually do"
 
 - key: debug
   title: "Debugging, fault analysis, and repair"
+  long: "We investigate how software failures can be detected, explained, localized, and repaired. Our research combines program analysis, machine learning, and empirical studies of real-world defects."
   blurb: "How do we find, explain, and fix failures? We combine program analysis and learning with studies of real bugs."
   figure: pub-debug.svg
   alt: "Suspicion narrowing onto one line of code, followed by a repair"
 
 - key: quantum
   title: "Quantum and scientific software assurance"
+  long: "We are extending software testing and verification to quantum and scientific software, where outputs are statistical and hardware is noisy. This is an emerging direction for the lab."
   blurb: "How do we check software whose outputs are statistical and whose hardware is noisy? An emerging direction for the lab."
   figure: pub-quantum.svg
   alt: "Two quantum states that look identical in one measurement direction and differ in another"
+  ongoing: true
   show_empty: true
   empty_note: "Publications in this area will appear here."
 
 - key: infra
   title: "Datasets, benchmarks, and tools"
+  long: "Across these areas we build reusable tools, datasets, and benchmarks, so that results can be measured and reproduced by others."
   blurb: "Reusable infrastructure that lets the community measure progress and reproduce results."
+  extras:
+    - { tag: "SWE-MIMIC-BENCH", url: "https://github.com/Geek-a-Byte/SWE-MIMIC-BENCH" }
