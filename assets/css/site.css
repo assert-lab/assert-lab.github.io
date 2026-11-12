@@ -314,6 +314,7 @@ strong { font-weight: 600; }
   font-weight: 500;
   line-height: 0.98;
   letter-spacing: -0.03em;
+  color: var(--orange);   /* UTD orange */
 }
 .hero-sub {
   margin: 0 0 30px;
