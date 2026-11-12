@@ -1,0 +1,27 @@
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <span>The University of Texas at Dallas <span class="topbar-sep" aria-hidden="true">/</span> Department of Computer Science</span>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-name">AS²ERT Lab</span>
+      <span class="brand-tag">AI for Safe Software Engineering and Testing</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        {% for item in site.data.navigation.main %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
