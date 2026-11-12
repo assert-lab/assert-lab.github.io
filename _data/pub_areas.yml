@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------
+# Research areas shown on the Publications page, in this order.
+# `key` must match the `area` field of entries in publications.yml.
+# `figure` is a file in assets/images/ (optional).
+# `show_empty: true` keeps a section visible even with no papers yet.
+# ---------------------------------------------------------------
+
+- key: testing
+  title: "Software testing and test oracles"
+  blurb: "How do we know a test checks the right thing? We generate and evaluate test oracles, measure what tests miss, and use oracles to guide test generation."
+  figure: pub-testing.svg
+  alt: "The same set of behaviors judged by an oracle whose boundary separates correct behavior from faults"
+
+- key: specs
+  title: "Software specifications and intended behavior"
+  blurb: "What should the software do? We recover intent from documentation, code, and tests, and study where they disagree."
+  figure: pub-specs.svg
+  alt: "Three overlapping sources of intent, documentation, code, and tests, with agreement at the center and disagreements at the edges"
+
+- key: ai
+  title: "Trustworthy AI and agents"
+  blurb: "Can we trust AI that reads and changes software? We study how models handle conflicting evidence."
+  figure: pub-ai.svg
+  alt: "A guard that covers only part of what a tool can actually do"
+
+- key: debug
+  title: "Debugging, fault analysis, and repair"
+  blurb: "How do we find, explain, and fix failures? We combine program analysis and learning with studies of real bugs."
+  figure: pub-debug.svg
+  alt: "Suspicion narrowing onto one line of code, followed by a repair"
+
+- key: quantum
+  title: "Quantum and scientific software assurance"
+  blurb: "How do we check software whose outputs are statistical and whose hardware is noisy? An emerging direction for the lab."
+  figure: pub-quantum.svg
+  alt: "Two quantum states that look identical in one measurement direction and differ in another"
+  show_empty: true
+  empty_note: "Publications in this area will appear here."
+
+- key: infra
+  title: "Datasets, benchmarks, and tools"
+  blurb: "Reusable infrastructure that lets the community measure progress and reproduce results."
