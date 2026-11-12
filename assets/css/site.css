@@ -1031,3 +1031,26 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
   .area { grid-template-columns: 110px minmax(0, 1fr) 300px; }
   .area-fig { grid-column: 3; grid-row: 1; margin-top: 6px; }
 }
+
+/* ---------- Publications: plain list ---------- */
+
+.pub-simple { list-style: none; margin: 0; padding: 0; }
+.pub-simple li { padding: 16px 0; border-top: 1px solid var(--rule); }
+.pub-simple li:first-child { border-top: 0; padding-top: 0; }
+.pub-line-title { display: block; font-size: 1.2rem; font-weight: 500; line-height: 1.35; }
+.pub-line-title a { color: var(--ink); text-decoration-color: rgba(21, 71, 52, 0.35); }
+.pub-line-title a:hover { color: var(--green); }
+.pub-line-venue { display: block; margin-top: 5px; font-family: var(--sans); font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.04em; color: var(--green); }
+
+/* ---------- Publications: year / venue / track table ---------- */
+
+.pub-table { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--rule-strong); }
+.pub-row { display: grid; gap: 10px 48px; padding: 24px 0; border-top: 1px solid var(--rule-strong); }
+@media (min-width: 760px) { .pub-row { grid-template-columns: 250px minmax(0, 1fr); } }
+.pub-meta { display: flex; flex-direction: column; gap: 5px; padding-left: 16px; border-left: 3px solid var(--green); }
+.pub-year { font-size: 1.9rem; font-weight: 400; line-height: 1; letter-spacing: -0.02em; color: var(--green); }
+.pub-venue-name { font-family: var(--sans); font-size: 0.9375rem; font-weight: 700; letter-spacing: 0.01em; color: var(--ink); }
+.pub-track { font-family: var(--sans); font-size: 0.75rem; font-weight: 500; line-height: 1.4; color: var(--muted); }
+.pub-name { font-size: 1.2rem; font-weight: 500; line-height: 1.4; align-self: center; }
+.pub-name a { color: var(--ink); text-decoration-color: rgba(21, 71, 52, 0.35); }
+.pub-name a:hover { color: var(--green); }
