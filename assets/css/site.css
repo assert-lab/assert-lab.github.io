@@ -1054,3 +1054,29 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
 .pub-name { font-size: 1.2rem; font-weight: 500; line-height: 1.4; align-self: center; }
 .pub-name a { color: var(--ink); text-decoration-color: rgba(21, 71, 52, 0.35); }
 .pub-name a:hover { color: var(--green); }
+
+/* ---------- Publications: papers listed under each year ---------- */
+
+.year-block .pub-table { border-bottom: 0; }
+.year-block .pub-row { padding: 18px 0; border-top: 1px solid var(--rule); }
+.year-block .pub-row:first-child { border-top: 0; padding-top: 4px; }
+@media (min-width: 760px) { .year-block .pub-row { grid-template-columns: 210px minmax(0, 1fr); gap: 10px 36px; } }
+.year-block .pub-meta { align-self: start; }
+.year-block .pub-name { align-self: start; padding-top: 1px; }
+
+/* ---------- Publications: venue as the highlighted label ---------- */
+
+.year-block .pub-meta { padding-left: 0; border-left: 0; align-items: flex-start; gap: 7px; }
+.year-block .pub-venue-name {
+  display: inline-block;
+  padding: 5px 13px 6px;
+  border-radius: 2px;
+  background: var(--green);
+  color: #fff;
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+.year-block .pub-track { padding-left: 2px; font-size: 0.78rem; color: var(--ink-2); }
