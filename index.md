@@ -62,54 +62,18 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
       <p class="eyebrow">Research</p>
       <h2>Research areas</h2>
       <p class="more"><a href="{{ '/project/' | relative_url }}">Read more about our research →</a></p>
+      <p class="legend"><span class="tag tag-static tag-ongoing">Ongoing</span> marks a preprint or work in progress.</p>
     </div>
 
     <ol class="topics">
+      {% for a in site.data.pub_areas %}
       <li>
         <div>
-          <h3>Trustworthy AI for Software Engineering</h3>
-          <div class="tags">
-            <a class="tag" href="https://arxiv.org/pdf/2604.03447">arXiv ’26</a>
-          </div>
+          <h3>{{ a.title }}</h3>
+          <div class="tags">{% include area-tags.html key=a.key %}</div>
         </div>
       </li>
-      <li>
-        <div>
-          <h3>Automated Testing &amp; Test Oracles</h3>
-          <div class="tags">
-            <a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10172745">ICSE ’23</a>
-            <a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3611643.3616265">FSE ’23</a>
-            <a class="tag" href="https://dl.acm.org/doi/10.1145/3639478.3639791">ICSE-DS ’24</a>
-            <a class="tag" href="https://ieeexplore.ieee.org/abstract/document/11029748">ICSE ’25</a>
-            <a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3729354">FSE ’25</a>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h3>Automated Debugging &amp; Repair</h3>
-          <div class="tags">
-            <a class="tag" href="https://dl.acm.org/doi/10.5555/3737916.3739036">NeurIPS ’24</a>
-            <a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3660773">FSE ’24</a>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h3>Tools, Datasets &amp; Benchmarks</h3>
-          <div class="tags">
-            <a class="tag" href="https://github.com/assert-lab/OE25-DEV">TOGBench · AIware ’26</a>
-            <a class="tag" href="https://github.com/assert-lab/PITMuS">PITMuS · ASE ’26 Tools</a>
-            <a class="tag" href="https://github.com/Geek-a-Byte/SWE-MIMIC-BENCH">SWE-MIMIC-BENCH</a>
-            <a class="tag" href="https://github.com/assert-lab/CoCoMUT">CoCoMUT</a>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div>
-          <h3>Quantum Software Testing</h3>
-        </div>
-      </li>
+      {% endfor %}
     </ol>
   </div>
 </section>
