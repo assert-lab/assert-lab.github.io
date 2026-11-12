@@ -1,21 +1,14 @@
-# ================================
-#  AS²ERT Lab Navigation
-#  (AI for Safe Software EngineeRing and Testing)
-# ================================
-
+# Primary navigation. Order here = order in the header and footer.
 main:
-  - title: '<i class="fas fa-home"></i> Home'
-    url: /
-
-  - title: '<i class="fas fa-graduation-cap"></i> PI'
-    url: /PI/
-  
-  - title: '<i class="fas fa-user-graduate"></i> Team'
-    url: /team/
-
-  - title: '<i class="fas fa-newspaper"></i> News'
-    url: /news/
-    
-  - title: '<i class="fas fa-file-alt"></i> Publications'
+  - title: "Research"
+    url: /project/
+  - title: "Publications"
     url: /publications/
-
+  - title: "People"
+    url: /team/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "News"
+    url: /news/
+  - title: "Dr. Hossain"
+    url: /PI/
