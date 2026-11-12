@@ -38,6 +38,7 @@
   tag: "CoCoMUT · ISSTA ’26"
   tag_url: "https://github.com/assert-lab/CoCoMUT"
   links:
+    - { label: "Paper", url: "https://doi.org/10.1145/3837729.3840485" }
     - { label: "arXiv", url: "https://arxiv.org/abs/2606.31971" }
     - { label: "GitHub", url: "https://github.com/assert-lab/CoCoMUT" }
 
@@ -51,6 +52,7 @@
   tag: "PITMuS · ASE ’26"
   tag_url: "https://github.com/assert-lab/PITMuS"
   links:
+    - { label: "Paper", url: "https://doi.org/10.1145/3832783.3834626" }
     - { label: "arXiv", url: "https://arxiv.org/abs/2605.21930" }
     - { label: "GitHub", url: "https://github.com/assert-lab/PITMuS" }
 
@@ -64,6 +66,7 @@
   tag: "TOGBench · AIware ’26"
   tag_url: "https://github.com/assert-lab/OE25-DEV"
   links:
+    - { label: "Paper", url: "https://doi.org/10.1145/3805760.3814927" }
     - { label: "GitHub", url: "https://github.com/assert-lab/OE25-DEV" }
 
 - area: testing
