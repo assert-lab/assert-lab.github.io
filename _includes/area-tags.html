@@ -1,0 +1,9 @@
+{% assign items = site.data.publications | where: "area", include.key %}
+{% for p in items %}
+{% assign u = p.tag_url | default: p.links[0].url %}
+{% if u %}<a class="tag{% if p.status %} tag-ongoing{% endif %}" href="{{ u }}">{{ p.tag }}</a>{% else %}<span class="tag tag-static{% if p.status %} tag-ongoing{% endif %}">{{ p.tag }}</span>{% endif %}
+{% endfor %}
+{% for ar in site.data.pub_areas %}{% if ar.key == include.key %}
+{% for e in ar.extras %}<a class="tag" href="{{ e.url }}">{{ e.tag }}</a>{% endfor %}
+{% if ar.ongoing %}<span class="tag tag-static tag-ongoing">Ongoing</span>{% endif %}
+{% endif %}{% endfor %}
