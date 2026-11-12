@@ -1,21 +1,15 @@
 ---
-layout: single
+layout: page
+eyebrow: "Gallery"
 title: "My PhD Proposal!"
 permalink: /proposal/
-classes: wide
-author_profile: true
 ---
-<img src="../assets/photo/proposal_1.jpg"
-alt="proposal"
-style="max-width: 80%;float: center;" />
 
+<img loading="lazy" decoding="async" src="../assets/photo/proposal_1.jpg"
+alt="proposal" />
 
-<img src="../assets/photo/proposal_2.jpg"
-alt="proposal"
-style="max-width: 80%; float: center;" />
+<img loading="lazy" decoding="async" src="../assets/photo/proposal_2.jpg"
+alt="proposal" />
 
-
-
-<img src="../assets/photo/proposal_3.jpg"
-alt="proposal"
-style="max-width: 80%;float: center;" />
+<img loading="lazy" decoding="async" src="../assets/photo/proposal_3.jpg"
+alt="proposal" />

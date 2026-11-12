@@ -5,14 +5,12 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
+# Theme
 #
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+# The site now uses its own layouts (_layouts/default.html, page.html) and
+# stylesheet (assets/css/main.scss). The Minimal Mistakes remote theme is no
+# longer needed, so `remote_theme` and `minimal_mistakes_skin` were removed.
 
-# theme                    : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -21,7 +19,9 @@ title                    : #"AS²ERT Lab"
 title_separator          : "-"
 subtitle                 : #"AI for Safe Software EngineeRing and Testing"
 name                     : "AS²ERT Lab"
-description              : "AS²ERT Lab Website."
+description              : "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The University of Texas at Dallas."
+email                    : "sbhossain@utdallas.edu"
+pi_name                  : "Soneya Binta Hossain"   # must match the name used in _data/publications.yml
 url                      : "https://assert-lab.github.io/"
 baseurl                  : ""
 repository               : "assert-lab/assert-lab.github.io"

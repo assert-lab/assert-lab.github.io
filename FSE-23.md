@@ -1,29 +1,26 @@
 ---
-layout: single
+layout: page
+eyebrow: "Gallery"
 title: "FSE 2023 Gallery"
 permalink: /FSE-23/
-classes: wide
-author_profile: true
 ---
 
-<figure style="text-align: center;">
-  <img src="../assets/photo/FSE-23-1.jpg" alt="FSE" style="max-width: 80%;" />
-  <figcaption style="font-style: italic;">During my paper presentation</figcaption>
+<figure>
+  <img loading="lazy" decoding="async" src="../assets/photo/FSE-23-1.jpg" alt="During my paper presentation" />
+  <figcaption>During my paper presentation</figcaption>
 </figure>
 
-<figure style="text-align: center;">
-  <img src="../assets/photo/FSE-23-2.jpg" alt="FSE" style="max-width: 80%;" />
-  <figcaption style="font-style: italic;">With the co-authors of my paper</figcaption>
+<figure>
+  <img loading="lazy" decoding="async" src="../assets/photo/FSE-23-2.jpg" alt="With the co-authors of my paper" />
+  <figcaption>With the co-authors of my paper</figcaption>
 </figure>
 
-
-<figure style="text-align: center;">
-  <img src="../assets/photo/FSE-23-3.jpg" alt="FSE" style="max-width: 80%;" />
-  <figcaption style="font-style: italic;">With my advisor Matt and labmate Swaroopa</figcaption>
+<figure>
+  <img loading="lazy" decoding="async" src="../assets/photo/FSE-23-3.jpg" alt="With my advisor Matt and labmate Swaroopa" />
+  <figcaption>With my advisor Matt and labmate Swaroopa</figcaption>
 </figure>
 
-
-<figure style="text-align: center;">
-  <img src="../assets/photo/FSE-23-4.jpg" alt="FSE" style="max-width: 80%;" />
-  <figcaption style="font-style: italic;">With other student volunteers</figcaption>
+<figure>
+  <img loading="lazy" decoding="async" src="../assets/photo/FSE-23-4.jpg" alt="With other student volunteers" />
+  <figcaption>With other student volunteers</figcaption>
 </figure>

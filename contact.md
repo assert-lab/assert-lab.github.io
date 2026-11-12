@@ -1,31 +1,42 @@
 ---
-layout: single
+layout: default
 title: "Contact"
 permalink: /contact/
-author_profile: true
-toc: false
+description: "Contact Dr. Soneya Binta Hossain and the AS²ERT Lab at UT Dallas."
 ---
 
-Have a question or want to collaborate? Reach out!
+{% include page-head.html eyebrow="AS²ERT Lab" title="Contact" lede="Have a question or want to collaborate? Reach out!" %}
 
-**Email:** <sbhossain@utdallas.edu>
+<div class="wrap">
+  <div class="contact-grid">
 
-**Address:** Department of Computer Science, The University of Texas at Dallas 
+    <div class="contact-info">
+      <dl>
+        <dt>Email</dt>
+        <dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+        <dt>Address</dt>
+        <dd>Department of Computer Science<br>The University of Texas at Dallas</dd>
+      </dl>
+    </div>
 
----
-<div style="background-color:#f5f5f5; padding:25px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); margin-top:20px;">
-  <h2 style="text-align:center; color:#222;">Message Me</h2>
-  <form target="_blank" action="https://formsubmit.co/sbhossain@utdallas.edu" method="POST">
-    
-    <label for="name"><strong>Name</strong></label><br/>
-    <input type="text" name="name" id="name" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;" required><br/><br/>
+    <div class="form">
+      <h2>Message me</h2>
+      <form target="_blank" action="https://formsubmit.co/{{ site.email }}" method="POST">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="6" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send message</button>
+      </form>
+    </div>
 
-    <label for="email"><strong>Email</strong></label><br/>
-    <input type="email" name="email" id="email" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;" required><br/><br/>
-
-    <label for="message"><strong>Message</strong></label><br/>
-    <textarea name="message" id="message" rows="6" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:6px;" required></textarea><br/><br/>
-
-    <button type="submit" style="background-color:#222; color:#fff; border:none; padding:12px 20px; border-radius:6px; width:100%; font-size:1em; cursor:pointer;">Send Message</button>
-  </form>
+  </div>
 </div>

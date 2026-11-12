@@ -1,462 +1,170 @@
 ---
-layout: single
-author_profile: true
-classes: wide
+layout: default
+description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The University of Texas at Dallas, led by Dr. Soneya Binta Hossain."
 ---
 
-<style>
-/* ===============================
-   AS²ERT lab homepage redesign
-   Content is preserved; this CSS only improves presentation.
-   Scoped to this page to avoid affecting the rest of the site.
-   =============================== */
-:root {
-  --as2ert-green: #154734;
-  --as2ert-green-2: #23614a;
-  --as2ert-orange: #E87500;
-  --as2ert-ink: #172033;
-  --as2ert-muted: #5f6b7a;
-  --as2ert-line: rgba(21, 71, 52, 0.16);
-  --as2ert-soft: #f7faf8;
-  --as2ert-warm: #fff7ef;
-  --as2ert-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
-  --as2ert-shadow-soft: 0 10px 24px rgba(15, 23, 42, 0.06);
-}
+<section class="hero">
+  <div class="wrap hero-grid">
 
-/* Page rhythm */
-.page__content > .home-hero,
-.page__content > .home-grid,
-.page__content > .home-card {
-  max-width: 1180px;
-}
+    <div class="hero-copy">
+      <p class="eyebrow">The University of Texas at Dallas</p>
+      <h1 class="hero-title">AS²ERT Lab</h1>
+      <p class="hero-sub">AI for Safe Software Engineering and Testing</p>
 
-/* ===============================
-   Hero
-   =============================== */
-.home-hero {
-  position: relative;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 92% 12%, rgba(232, 117, 0, 0.22), transparent 28%),
-    radial-gradient(circle at 8% 90%, rgba(21, 71, 52, 0.12), transparent 34%),
-    linear-gradient(135deg, #ffffff 0%, #fbfdfb 54%, rgba(21, 71, 52, 0.08) 100%);
-  border: 1px solid var(--as2ert-line);
-  border-radius: 26px;
-  padding: clamp(24px, 4vw, 38px);
-  box-shadow: var(--as2ert-shadow);
-  margin-bottom: 22px;
-  isolation: isolate;
-}
+      <p class="lede">
+        Howdy! Welcome to the <strong>AS²ERT Lab</strong> (<strong>AI for Safe Software Engineering and Testing</strong>) at the University of Texas at Dallas. We can hardly go a single day without relying on software — in the apps we use, the systems we build, and the infrastructure that supports our everyday lives. As software becomes more deeply woven into society, it becomes increasingly important to make these systems trustworthy, reliable, and safe.
+      </p>
 
-.home-hero::before {
-  content: "";
-  position: absolute;
-  inset: 14px;
-  border: 1px solid rgba(21, 71, 52, 0.08);
-  border-radius: 20px;
-  pointer-events: none;
-  z-index: -1;
-}
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ '/project/' | relative_url }}">Our research</a>
+        <a class="btn" href="#join">Join the lab</a>
+      </div>
 
-.home-hero::after {
-  content: "";
-  position: absolute;
-  right: -72px;
-  bottom: -72px;
-  width: 190px;
-  height: 190px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, rgba(232, 117, 0, 0.14), rgba(21, 71, 52, 0.08));
-  filter: blur(4px);
-  pointer-events: none;
-  z-index: -1;
-}
+      <div class="byline">
+        <img class="avatar" src="{{ '/assets/images/soneya.jpg' | relative_url }}" alt="">
+        <p>The AS²ERT Lab is founded by <a href="{{ '/PI/' | relative_url }}"><strong>Dr. Soneya Binta Hossain</strong></a>, Assistant Professor of Computer Science at UTD.</p>
+      </div>
+    </div>
 
-.home-hero h1 {
-  margin: 0 0 6px 0;
-  font-size: clamp(1.75rem, 3vw, 2.35rem);
-  line-height: 1.12;
-  letter-spacing: -0.035em;
-  color: var(--as2ert-ink);
-}
+    <!-- Decorative only: a nod to the lab's name. Safe to delete this whole block. -->
+    <div class="hero-figure" aria-hidden="true">
+      <div class="codecard">
+        <code><span class="ln">1</span><span class="k">@Test</span></code>
+        <code><span class="ln">2</span><span class="k">void</span> trustworthy_software() {</code>
+        <code><span class="ln">3</span>    var report = lab.verify(software);</code>
+        <code><span class="ln">4</span></code>
+        <code class="hl"><span class="ln">5</span>    <span class="a">assert</span>True(report.isCorrect());</code>
+        <code class="hl"><span class="ln">6</span>    <span class="a">assert</span>True(report.isSafe());</code>
+        <code><span class="ln">7</span>}</code>
+      </div>
+    </div>
 
-.home-hero .titleline {
-  position: relative;
-  margin: 0;
-  max-width: 96ch;
-  color: var(--as2ert-ink);
-  line-height: 1.78;
-  font-size: clamp(0.98rem, 1.25vw, 1.07rem);
-}
-
-.home-hero .titleline strong {
-  color: var(--as2ert-green);
-  font-weight: 800;
-}
-
-/* ===============================
-   Main grid and cards
-   =============================== */
-.home-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 18px;
-  align-items: stretch;
-}
-
-@media (min-width: 900px) {
-  .home-grid {
-    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
-  }
-}
-
-.home-card {
-  position: relative;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid var(--as2ert-line);
-  border-radius: 22px;
-  padding: clamp(18px, 2.4vw, 24px);
-  box-shadow: var(--as2ert-shadow-soft);
-  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
-}
-
-.home-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.10);
-  border-color: rgba(21, 71, 52, 0.28);
-}
-
-.home-card::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 5px;
-  background: linear-gradient(180deg, var(--as2ert-green), rgba(232, 117, 0, 0.55));
-}
-
-.home-card h2 {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0 0 14px 0;
-  font-size: clamp(1.18rem, 1.6vw, 1.42rem);
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  color: var(--as2ert-green);
-}
-
-.home-card h2 i {
-  display: inline-flex;
-  width: 34px;
-  height: 34px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  background: rgba(21, 71, 52, 0.10);
-  color: var(--as2ert-green);
-  font-size: 0.95rem;
-}
-
-.home-card p {
-  margin: 0 0 12px 0;
-  color: var(--as2ert-ink);
-  line-height: 1.76;
-}
-
-.home-card p:last-child {
-  margin-bottom: 0;
-}
-
-.home-card a {
-  color: var(--as2ert-orange);
-  text-decoration: none;
-  font-weight: 750;
-}
-
-.home-card a:hover {
-  text-decoration: underline;
-}
-
-/* Research card highlight */
-.home-grid .home-card:first-child {
-  background:
-    linear-gradient(135deg, rgba(21, 71, 52, 0.075), rgba(255, 255, 255, 0.90)),
-    #ffffff;
-}
-
-/* ===============================
-   Research list as polished feature rows
-   =============================== */
-.home-list {
-  list-style: none;
-  margin: 12px 0 0 0;
-  padding: 0;
-}
-
-.home-list li {
-  position: relative;
-  display: block;
-  margin: 10px 0;
-  padding: 12px 12px 12px 46px;
-  line-height: 1.55;
-  border: 1px solid rgba(21, 71, 52, 0.12);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.82);
-}
-
-.home-list li > i:first-child {
-  position: absolute;
-  left: 13px;
-  top: 13px;
-  display: inline-flex;
-  width: 26px;
-  height: 26px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  color: var(--as2ert-green);
-  background: rgba(21, 71, 52, 0.10);
-  font-size: 0.82rem;
-}
-
-.home-list strong {
-  color: var(--as2ert-ink);
-  font-weight: 850;
-}
-
-/* Paper badge links */
-.paper-badge {
-  display: inline-flex;
-  align-items: center;
-  margin: 4px 0 0 6px;
-  padding: 3px 9px;
-  font-size: 0.72rem;
-  line-height: 1.2;
-  font-weight: 800;
-  border-radius: 999px;
-  background: #ffffff;
-  color: var(--as2ert-green) !important;
-  text-decoration: none !important;
-  border: 1px solid rgba(21, 71, 52, 0.18);
-  vertical-align: middle;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
-}
-
-.paper-badge:hover {
-  background: var(--as2ert-green);
-  color: #ffffff !important;
-  border-color: var(--as2ert-green);
-  text-decoration: none !important;
-}
-
-/* ===============================
-   Hiring CTA
-   =============================== */
-.cta {
-  border-color: rgba(232, 117, 0, 0.28);
-  background:
-    radial-gradient(circle at 95% 8%, rgba(232, 117, 0, 0.20), transparent 30%),
-    linear-gradient(135deg, #ffffff 0%, var(--as2ert-warm) 100%);
-}
-
-.cta::before {
-  background: linear-gradient(180deg, var(--as2ert-orange), rgba(21, 71, 52, 0.55));
-}
-
-.cta .cta-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 12px;
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(232, 117, 0, 0.12);
-  color: #8a3b00;
-  font-weight: 950;
-  letter-spacing: -0.01em;
-}
-
-/* ===============================
-   Undergraduate / RIDE block
-   =============================== */
-.home-card[style*="margin-top:16px"] {
-  margin-top: 18px !important;
-  background:
-    radial-gradient(circle at 100% 0%, rgba(21, 71, 52, 0.10), transparent 28%),
-    #ffffff;
-}
-
-.ride-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  margin: 16px 0 0 0;
-  padding: 0;
-  list-style: none;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-@media (min-width: 760px) {
-  .ride-list {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-.ride-list li {
-  position: relative;
-  margin: 0;
-  padding: 13px 14px 13px 16px;
-  border: 1px solid rgba(21, 71, 52, 0.14);
-  border-radius: 16px;
-  background: var(--as2ert-soft);
-  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.04);
-}
-
-.ride-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 14px;
-  bottom: 14px;
-  width: 4px;
-  border-radius: 999px;
-  background: var(--as2ert-orange);
-}
-
-.ride-list strong {
-  color: var(--as2ert-green);
-  font-weight: 850;
-}
-
-.note {
-  font-size: 0.95rem;
-  color: var(--as2ert-muted);
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-
-@media (max-width: 640px) {
-  .home-hero,
-  .home-card {
-    border-radius: 18px;
-  }
-
-  .home-list li {
-    padding-right: 10px;
-  }
-
-  .paper-badge {
-    margin-left: 2px;
-    margin-right: 4px;
-  }
-}
-</style>
-
-<section class="home-hero">
- 
-
-  <p class="titleline">
-    Howdy! Welcome to the <strong>AS²ERT Lab</strong> 
-    (<strong>AI for Safe Software Engineering and Testing</strong>) at the 
-    University of Texas at Dallas. We can hardly go a single day without 
-    relying on software — in the apps we use, the systems we build, and the 
-    infrastructure that supports our everyday lives. As software becomes more 
-    deeply woven into society, it becomes increasingly important to make these 
-    systems trustworthy, reliable, and safe.
-  </p>
-
-<p class="titleline" style="margin-top:10px;">
-  At the <strong>AS²ERT Lab</strong>, we see trustworthy software as a 
-  full-lifecycle challenge. We build cost-effective and robust methods that 
-  help developers improve software reliability and trustworthiness; study how 
-  modern AI methods — including large language models and agentic systems — 
-  can be used responsibly across testing, debugging, fault localization, and 
-  repair; and create high-quality datasets and benchmarks that help the 
-  community measure real progress in trustworthy software engineering. Our 
-  work spans both classical and quantum software systems.
-</p>
-
-  <p class="titleline" style="margin-top:10px;">
-    The AS²ERT Lab is founded by 
-    <strong>Dr. Soneya Binta Hossain</strong>, Assistant Professor of Computer 
-    Science at UTD. 
-  </p>
-</section>
-
-
-<div class="home-grid">
-  <section class="home-card">
-    <h2><i class="fas fa-microscope"></i> Research Areas</h2>
-
-    <ul class="home-list icon-list">
-    <li>
-  <i class="fas fa-clipboard-check"></i>
-  <strong>Trustworthy AI for Software Engineering</strong>
-  <a href="https://arxiv.org/pdf/2604.03447" class="paper-badge">arXiv’ 26</a>
-</li>
-
-      <li>
-        <i class="fas fa-vial"></i>
-        <strong>Automated Testing & Test Oracles</strong>
-        <a href="https://ieeexplore.ieee.org/abstract/document/10172745" class="paper-badge">ICSE’23</a>
-        <a href="https://dl.acm.org/doi/abs/10.1145/3611643.3616265" class="paper-badge">FSE’ 23</a>
-        <a href="https://dl.acm.org/doi/10.1145/3639478.3639791" class="paper-badge">ICSE-DS’ 24</a>
-        <a href="https://ieeexplore.ieee.org/abstract/document/11029748" class="paper-badge">ICSE’ 25</a>
-        <a href="https://dl.acm.org/doi/abs/10.1145/3729354" class="paper-badge">FSE’ 25</a>
-      </li>
-
-      <li>
-        <i class="fas fa-wrench"></i>
-        <strong>Automated Debugging & Repair</strong>
-         <a href="https://dl.acm.org/doi/10.5555/3737916.3739036" class="paper-badge">NIPS’ 24</a>
-        <a href="https://dl.acm.org/doi/abs/10.1145/3660773" class="paper-badge">FSE ’24</a>
-      </li>
-
-      <li>
-        <i class="fas fa-database"></i>
-        <strong>Tools, Datasets & Benchmarks</strong>
-           <a href="https://github.com/assert-lab/OE25-DEV" class="paper-badge">TOGBench (AIware' 26)</a>
-            <a href="https://github.com/assert-lab/PITMuS (ASE'26 Tools)" class="paper-badge">PITMuS</a>
-           <a href="https://github.com/Geek-a-Byte/SWE-MIMIC-BENCH" class="paper-badge">SWE-MIMIC-BENCH</a>
-           <a href="https://github.com/assert-lab/CoCoMUT" class="paper-badge">CoCoMUT</a>
-      </li>
-
-      <li>
-        <i class="fas fa-atom"></i>
-        <strong>Quantum Software Testing</strong>
-      </li>
-
-    </ul>
-</section>
-
-
-  <aside class="home-card cta">
-   <div class="cta-title">
-    🚨 We are hiring PhD students!
   </div>
-<p>
- The AS²ERT Lab is looking for graduate students who are excited about software engineering research. If you are interested, we encourage you to take a look at our recent work and reach out with your thoughts on what current approaches miss and where the field could go next. Our lab culture values intellectual ownership, high standards, and deep technical engagement, along with open, principled discussion and follow-through. These values are closely aligned with these
-<a href="https://www.amazon.jobs/content/en/our-workplace/leadership-principles" target="_blank" rel="noopener">principles</a>.
-</p>
+</section>
 
-<p style="margin-top:10px; margin-bottom:0;">
-  <strong>Remote internships:</strong> We offer remote internship opportunities, particularly for international students. Please reach out via email if interested.
-</p>
+<section class="section">
+  <div class="wrap split">
+    <div class="split-label">
+      <p class="eyebrow">Our approach</p>
+      <h2>Trustworthy software as a full-lifecycle challenge</h2>
+    </div>
+    <div class="split-body">
+      <p class="prose-lg">
+        At the <strong>AS²ERT Lab</strong>, we see trustworthy software as a full-lifecycle challenge. We build cost-effective and robust methods that help developers improve software reliability and trustworthiness; study how modern AI methods — including large language models and agentic systems — can be used responsibly across testing, debugging, fault localization, and repair; and create high-quality datasets and benchmarks that help the community measure real progress in trustworthy software engineering. Our work spans both classical and quantum software systems.
+      </p>
+    </div>
+  </div>
+</section>
 
-  </aside>
-</div>
+<section class="section section-alt" id="research">
+  <div class="wrap split">
+    <div class="split-label">
+      <p class="eyebrow">Research</p>
+      <h2>Research areas</h2>
+      <p class="more"><a href="{{ '/project/' | relative_url }}">Read more about our research →</a></p>
+    </div>
 
-<section class="home-card" style="margin-top:16px;">
-  <h2> Undergraduate Research</h2>
+    <ol class="topics">
+      <li>
+        <div>
+          <h3>Trustworthy AI for Software Engineering</h3>
+          <div class="tags">
+            <a class="tag" href="https://arxiv.org/pdf/2604.03447">arXiv ’26</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Automated Testing &amp; Test Oracles</h3>
+          <div class="tags">
+            <a class="tag" href="https://ieeexplore.ieee.org/abstract/document/10172745">ICSE ’23</a>
+            <a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3611643.3616265">FSE ’23</a>
+            <a class="tag" href="https://dl.acm.org/doi/10.1145/3639478.3639791">ICSE-DS ’24</a>
+            <a class="tag" href="https://ieeexplore.ieee.org/abstract/document/11029748">ICSE ’25</a>
+            <a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3729354">FSE ’25</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Automated Debugging &amp; Repair</h3>
+          <div class="tags">
+            <a class="tag" href="https://dl.acm.org/doi/10.5555/3737916.3739036">NeurIPS ’24</a>
+            <a class="tag" href="https://dl.acm.org/doi/abs/10.1145/3660773">FSE ’24</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Tools, Datasets &amp; Benchmarks</h3>
+          <div class="tags">
+            <a class="tag" href="https://github.com/assert-lab/OE25-DEV">TOGBench · AIware ’26</a>
+            <a class="tag" href="https://github.com/assert-lab/PITMuS">PITMuS · ASE ’26 Tools</a>
+            <a class="tag" href="https://github.com/Geek-a-Byte/SWE-MIMIC-BENCH">SWE-MIMIC-BENCH</a>
+            <a class="tag" href="https://github.com/assert-lab/CoCoMUT">CoCoMUT</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h3>Quantum Software Testing</h3>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
 
- <p>
-  The AS²ERT Lab is deeply committed to mentoring motivated undergraduate students and helping them grow into confident, independent researchers in Software Engineering. UTD’s <strong>RIDE (Research, Inquiry, Design Experience)</strong> program provides an excellent foundation for introducing undergraduates to research in a structured and supportive environment. Through RIDE, students work on carefully scoped projects that encourage them to ask meaningful research questions, build and evaluate technical solutions, and communicate their findings at a level suitable for scholarly venues.
-</p>
+<section class="section">
+  <div class="wrap split">
+    <div class="split-label">
+      <p class="eyebrow">News</p>
+      <h2>Recent news</h2>
+      <p class="more"><a href="{{ '/news/' | relative_url }}">All news and updates →</a></p>
+    </div>
 
-<ul class="ride-list">
-  <li><strong>RIDE 033:</strong> Trustworthy AI in Software Testing</li>
-  <li><strong>RIDE 041:</strong> Trustworthy AI in Software Engineering</li>
-  <li><strong>RIDE 045:</strong> Trustworthy AI in Quantum Software Engineering</li>
-</ul>
+    <ul class="news-list">
+      {% for item in site.data.news limit: 4 %}
+      <li class="news-item">
+        <span class="news-date">{{ item.date }}</span>
+        <span class="news-text">{{ item.text }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt" id="join">
+  <div class="wrap">
+    <div class="join">
+      <div>
+        <p class="eyebrow">Join the lab</p>
+        <h2>We are hiring PhD students.</h2>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:{{ site.email }}">Get in touch</a>
+        </div>
+      </div>
+      <div>
+        <p>The AS²ERT Lab is looking for graduate students who are excited about software engineering research. If you are interested, we encourage you to take a look at our recent work and reach out with your thoughts on what current approaches miss and where the field could go next. Our lab culture values intellectual ownership, high standards, and deep technical engagement, along with open, principled discussion and follow-through. These values are closely aligned with these <a href="https://www.amazon.jobs/content/en/our-workplace/leadership-principles" target="_blank" rel="noopener">principles</a>.</p>
+        <p><strong>Remote internships:</strong> We offer remote internship opportunities, particularly for international students. Please reach out via email if interested.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="split-label">
+      <p class="eyebrow">Students</p>
+      <h2>Undergraduate research</h2>
+    </div>
+    <div class="split-body">
+      <p class="prose-lg">The AS²ERT Lab is deeply committed to mentoring motivated undergraduate students and helping them grow into confident, independent researchers in Software Engineering. UTD’s <strong>RIDE (Research, Inquiry, Design Experience)</strong> program provides an excellent foundation for introducing undergraduates to research in a structured and supportive environment. Through RIDE, students work on carefully scoped projects that encourage them to ask meaningful research questions, build and evaluate technical solutions, and communicate their findings at a level suitable for scholarly venues.</p>
+
+      <ul class="ride">
+        <li><span class="ride-code">RIDE 033</span>Trustworthy AI in Software Testing</li>
+        <li><span class="ride-code">RIDE 041</span>Trustworthy AI in Software Engineering</li>
+        <li><span class="ride-code">RIDE 045</span>Trustworthy AI in Quantum Software Engineering</li>
+      </ul>
+    </div>
+  </div>
+</section>

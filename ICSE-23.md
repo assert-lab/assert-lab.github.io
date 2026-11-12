@@ -1,27 +1,26 @@
 ---
-layout: single
+layout: page
+eyebrow: "Gallery"
 title: "ICSE ’23 Gallery"
 permalink: /ICSE-23/
-classes: wide
-author_profile: true
 ---
 
-<figure style="text-align:center;">
-  <img src="{{ '/assets/photo/ICSE-23-0.jpg' | relative_url }}" alt="ICSE" style="max-width:80%;" />
-  <figcaption style="font-style:italic;">ICSE 2023 in Melbourne, Australia</figcaption>
+<figure>
+  <img loading="lazy" decoding="async" src="{{ '/assets/photo/ICSE-23-0.jpg' | relative_url }}" alt="ICSE 2023 in Melbourne, Australia" />
+  <figcaption>ICSE 2023 in Melbourne, Australia</figcaption>
 </figure>
 
-<figure style="text-align:center;">
-  <img src="{{ '/assets/photo/ICSE-23-4.jpg' | relative_url }}" alt="ICSE" style="max-width:80%;" />
-  <figcaption style="font-style:italic;">Submitted/Accepted at ICSE 2023</figcaption>
+<figure>
+  <img loading="lazy" decoding="async" src="{{ '/assets/photo/ICSE-23-4.jpg' | relative_url }}" alt="Submitted/Accepted at ICSE 2023" />
+  <figcaption>Submitted/Accepted at ICSE 2023</figcaption>
 </figure>
 
-<figure style="text-align:center;">
-  <img src="{{ '/assets/photo/ICSE-23-1.jpg' | relative_url }}" alt="ICSE" style="max-width:80%;" />
-  <figcaption style="font-style:italic;">During my paper presentation</figcaption>
+<figure>
+  <img loading="lazy" decoding="async" src="{{ '/assets/photo/ICSE-23-1.jpg' | relative_url }}" alt="During my paper presentation" />
+  <figcaption>During my paper presentation</figcaption>
 </figure>
 
-<figure style="text-align:center;">
-  <img src="{{ '/assets/photo/ICSE-23-3.jpg' | relative_url }}" alt="ICSE" style="max-width:80%;" />
-  <figcaption style="font-style:italic;">The best part of the conference :D</figcaption>
+<figure>
+  <img loading="lazy" decoding="async" src="{{ '/assets/photo/ICSE-23-3.jpg' | relative_url }}" alt="The best part of the conference :D" />
+  <figcaption>The best part of the conference :D</figcaption>
 </figure>
