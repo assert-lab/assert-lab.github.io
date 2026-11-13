@@ -1360,3 +1360,19 @@ html { scroll-padding-top: 92px; }
 @media (max-width: 880px) {
   .site-header .site-nav ul { gap: 0; }
 }
+
+/* ---------- Landing page: compact join card in the top-right corner ---------- */
+
+.home-head-grid { display: grid; gap: 28px; align-items: start; }
+@media (min-width: 960px) { .home-head-grid { grid-template-columns: minmax(0, 1fr) 360px; gap: 80px; } }
+
+.hire-card { padding: 20px 24px 22px; background: var(--green); border-top: 5px solid var(--orange); color: #e9f0ec; }
+@media (min-width: 960px) { .hire-card { margin-top: 10px; } }
+.hire-card p { margin: 0 0 10px; font-size: 1rem; line-height: 1.5; color: #e9f0ec; }
+.hire-card .hire-card-title { margin-bottom: 8px; font-size: 1.5rem; font-weight: 600; line-height: 1.2; color: #fff; }
+.hire-card p:last-child { margin-bottom: 0; }
+.hire-card a.hire-cta, .hire-card a.hire-cta:visited { color: #ffffff; font-weight: 600; text-decoration: underline; text-decoration-color: var(--orange); text-decoration-thickness: 2px; text-underline-offset: 5px; }
+.hire-card a.hire-cta:hover { text-decoration-color: #ffffff; }
+
+.home-head { padding-bottom: clamp(6px, 1vw, 12px); }
+.home-main2 { padding-top: clamp(14px, 2vw, 22px); }
