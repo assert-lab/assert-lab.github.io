@@ -1282,3 +1282,17 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
 .hire-band .hire-panel strong { font-size: 1.12em; }
 
 .home-main2 { padding: clamp(40px, 6vw, 72px) 0 clamp(56px, 7vw, 96px); }
+
+/* ---------- Join band: the call-to-action link must always be white ---------- */
+
+.hire-band .hire-panel p a.hire-cta,
+.hire-band .hire-panel p a.hire-cta:visited {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--orange);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  white-space: nowrap;
+}
+.hire-band .hire-panel p a.hire-cta:hover { color: #ffffff; text-decoration-color: #ffffff; }
