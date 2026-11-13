@@ -83,6 +83,17 @@
 - area: testing
   year: 2026
   status: "preprint"
+  title: "Covered Is Not Checked: Which Branch Outcomes Would Your Tests Notice?"
+  authors: ["Md Nafiu Rahman", "Cemil Canbaz", "Soneya Binta Hossain"]
+  venue: "arXiv preprint"
+  short: "arXiv:2610.33708"
+  tag: "Covered Is Not Checked"
+  links:
+    - { label: "arXiv", url: "https://arxiv.org/abs/2610.33708" }
+
+- area: testing
+  year: 2026
+  status: "preprint"
   title: "PROGRESS: Property-Guided Regression Search for Semantic Falsification"
   authors: ["Davis Mo", "Noshin Ulfat", "Matthew Dwyer", "Soneya Binta Hossain"]
   venue: "arXiv preprint"
