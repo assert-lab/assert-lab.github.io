@@ -3,101 +3,121 @@
 # the News page shows everything, grouped by `year`.
 #
 # To add an item, copy a block, paste it at the TOP, and edit.
-# `text` may contain HTML (links, <strong>). Keep the `>-` and the
+# `short` is the one-line headline shown on the homepage.
+# `text` (full version, shown on the News page) may contain HTML (links, <strong>). Keep the `>-` and the
 # indentation exactly as shown.
 # ---------------------------------------------------------------
 
 - date: "Jul 2026"
   year: 2026
+  short: "Paper accepted at ASE 2026: Documentation vs. Code Patterns"
   text: >-
     Our paper, “Documentation vs. Code Patterns: What Drives LLM-Based Exception Oracle Generation?” has been accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)!
 
 - date: "Jul 2026"
   year: 2026
+  short: "CoCoMUT accepted at ISSTA 2026 Tool Demonstrations"
   text: >-
     Our tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation,” has been accepted at the 35th International Symposium on Software Testing and Analysis (ISSTA 2026) Tool Demonstration Track and is now available <a href="https://arxiv.org/abs/2606.31971">online</a>.
 
 - date: "Jun 2026"
   year: 2026
+  short: "PITMuS accepted at ASE 2026 Tools and Datasets"
   text: >-
     Our tool paper, “PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction,” has been accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026) Tools and Datasets Track!
 
 - date: "Apr 2026"
   year: 2026
+  short: "TOGBench accepted at AIware 2026"
   text: >-
     Our dataset and benchmark paper, “TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation,” has been accepted to the 3rd ACM International Conference on AI-Powered Software (AIware 2026)!
 
 - date: "Apr 2026"
   year: 2026
+  short: "New paper: Measuring LLM Trust Allocation Across Conflicting Software Artifacts"
   text: >-
     Our research paper, “Measuring LLM Trust Allocation Across Conflicting Software Artifacts,” is now available <a href="https://arxiv.org/abs/2604.03447">online</a>.
 
 - date: "Apr 2026"
   year: 2026
+  short: "New paper: From Threads to Trajectories"
   text: >-
     Our paper, “From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions,” is now available <a href="https://arxiv.org/abs/2604.25880">online</a>.
 
 - date: "Apr 2026"
   year: 2026
+  short: "Dr. Hossain joins the ASE 2026 NIER program committee"
   text: >-
     Dr. Hossain joined the Program Committee (PC) of the ASE 2026 The New Ideas and Emerging Results (NIER) track!
 
 - date: "Apr 2026"
   year: 2026
+  short: "Dr. Hossain joins the ASE 2026 Tools and Datasets program committee"
   text: >-
     Dr. Hossain joined the Program Committee (PC) of the ASE 2026 Tools and Datasets track!
 
 - date: "Apr 2026"
   year: 2026
+  short: "Dr. Hossain joins the FSE 2027 program committee"
   text: >-
     Dr. Hossain joined the Program Committee (PC) of the 2027 edition of FSE, the ACM International Conference on the Foundations of Software Engineering!
 
 - date: "Feb 2026"
   year: 2026
+  short: "Noshin Ulfat awarded the UTD Presidential Fellowship"
   text: >-
     Noshin Ulfat (incoming PhD student at the AS²ERT Lab) received UTD’s prestigious <strong>Presidential Fellowship</strong>, totaling $37,000.
 
 - date: "Feb 2026"
   year: 2026
+  short: "Dr. Hossain joins the FSE’26 IVR program committee"
   text: >-
     Dr. Hossain joined the Program Committee of FSE'26 Ideas, Visions and Reflections (IVR) track!
 
 - date: "Jan 2026"
   year: 2026
+  short: "Dr. Hossain joins the AIware 2026 program committee"
   text: >-
     Dr. Hossain joined the Program Committee of 3rd ACM International Conference on AI-powered Software (AIware 2026), co-located with FSE'26!
 
 - date: "Jan 2026"
   year: 2026
+  short: "Tasfia joins the lab as a PhD student"
   text: >-
     Tasfia joined the AS²ERT Lab as a PhD student. Welcome to the lab!
 
 - date: "Jan 2026"
   year: 2026
+  short: "Dr. Hossain joins the ICST 2026 program committee"
   text: >-
     Dr. Hossain joined the Program Committee of ICST 2026.
 
 - date: "2026"
   year: 2026
+  short: "Dr. Hossain continues serving on the ACM TOSEM program committee"
   text: >-
     Dr. Hossain continued serving as a Program Committee member for ACM TOSEM.
 
 - date: "Dec 2025"
   year: 2025
+  short: "Two URAP Summer 2026 awards for undergraduate research"
   text: >-
     Dr. Hossain received two <strong>URAP</strong> (Undergraduate Research Apprenticeship Program) Summer 2026 awards, supporting two undergraduate researchers with summer stipends to conduct research in Software Engineering and Quantum Computing!
 
 - date: "Dec 2025"
   year: 2025
+  short: "Grace Hopper Spirit Award from UTD Computer Science"
   text: >-
     Dr. Hossain received the <strong>Grace Hopper Spirit Award</strong> from the Department of Computer Science at UT Dallas, recognizing her service and contributions to the department.
 
 - date: "Aug 2025"
   year: 2025
+  short: "Dr. Hossain begins teaching CS/CE/SE 3354 Software Engineering"
   text: >-
     Dr. Hossain began teaching <strong>CS/CE/SE 3354: Software Engineering</strong>; she is also serving as the course coordinator for this course.
 
 - date: "Aug 2025"
   year: 2025
+  short: "Dr. Hossain joins UT Dallas and founds the AS²ERT Lab"
   text: >-
     Dr. Hossain joined the Department of Computer Science at The University of Texas at Dallas as an Assistant Professor and founded the <strong>AS²ERT Lab (AI for Safe Software Engineering and Testing)</strong>.
