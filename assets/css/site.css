@@ -1155,3 +1155,19 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
 .home-top .actions { margin-top: 28px; }
 .home-top .home-block { margin-top: 52px; padding-top: 36px; border-top: 1px solid var(--rule); }
 .home-top .home-block p { max-width: 34em; }
+
+/* ---------- Landing page: plain personal-homepage style ---------- */
+
+.home-contact { margin: 0 0 30px; font-style: normal; font-size: 1.05rem; line-height: 1.65; color: var(--ink-2); }
+.home-contact strong { color: var(--ink); }
+.home-call { margin: 0 0 34px; padding: 20px 8px; border-top: 3px solid var(--ink); border-bottom: 3px solid var(--ink); text-align: center; }
+.home-call p { margin: 0; font-size: 1.2rem; line-height: 1.5; color: var(--ink); }
+.home-bio p { max-width: 36em; margin: 0 0 1.1em; font-size: 1.08rem; line-height: 1.7; color: var(--ink); }
+
+.home-recent { padding-top: 14px; border-top: 3px solid var(--ink); }
+@media (min-width: 960px) { .home-recent { position: sticky; top: 24px; } }
+.home-recent h2 { margin: 0 0 14px; font-size: 1.45rem; line-height: 1.2; }
+.home-recent ul { list-style: none; margin: 0; padding: 0; }
+.home-recent li { margin: 0 0 12px; font-size: 0.98rem; line-height: 1.5; color: var(--ink); }
+.home-recent li strong { display: block; font-family: var(--sans); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.home-recent .home-more { margin: 14px 0 0; }
