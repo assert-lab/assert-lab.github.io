@@ -4,10 +4,8 @@ main:
     url: /project/
   - title: "Publications"
     url: /publications/
-  - title: "People"
+  - title: "Team"
     url: /team/
-  - title: "Teaching"
-    url: /teaching/
   - title: "News"
     url: /news/
   - title: "Dr. Hossain"
