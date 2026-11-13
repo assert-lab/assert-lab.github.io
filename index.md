@@ -62,7 +62,6 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
       <p class="eyebrow">Research</p>
       <h2>Research areas</h2>
       <p class="more"><a href="{{ '/project/' | relative_url }}">Read more about our research →</a></p>
-      <p class="legend"><span class="tag tag-static tag-ongoing">Ongoing</span> marks a preprint or work in progress.</p>
     </div>
 
     <ol class="topics">
