@@ -3,13 +3,6 @@ layout: default
 description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The University of Texas at Dallas, led by Dr. Soneya Binta Hossain."
 ---
 
-<div class="hire-bar">
-  <div class="wrap hire-inner">
-    <p><strong>We are hiring PhD students.</strong> Remote internships are also available.</p>
-    <a class="hire-link hire-mail" href="mailto:{{ site.email }}">Get in touch</a>
-  </div>
-</div>
-
 <section class="home-top">
   <div class="wrap home-grid">
 
@@ -17,33 +10,31 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
       <h1 class="hero-title">AS²ERT Lab</h1>
       <p class="hero-sub">AI for Safe Software Engineering and Testing</p>
 
-      <p class="home-lede">Howdy! Welcome to the AS²ERT Lab at the University of Texas at Dallas. We develop methods, datasets, and benchmarks that make software, classical and quantum, more trustworthy, reliable, and safe.</p>
-      <p class="home-led">Led by <a href="{{ '/PI/' | relative_url }}">Dr. Soneya Binta Hossain</a>, Assistant Professor of Computer Science at UTD.</p>
+      <address class="home-contact">
+        <strong><a href="{{ '/PI/' | relative_url }}">Dr. Soneya Binta Hossain</a></strong><br>
+        Assistant Professor, Department of Computer Science<br>
+        The University of Texas at Dallas<br>
+        <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </address>
 
-      <div class="actions">
-        <a class="btn btn-primary" href="{{ '/project/' | relative_url }}">Our research</a>
-        <a class="btn" href="{{ '/team/' | relative_url }}">Meet the team</a>
+      <div class="home-call">
+        <p>We are hiring PhD students and offering remote internships. If you are interested, <a href="mailto:{{ site.email }}">send me an email</a>.</p>
       </div>
 
-      <div class="home-block">
-        <h2>Undergraduate research</h2>
-        <p>Through UTD’s RIDE (Research, Inquiry, Design Experience) program, undergraduates work on carefully scoped projects and grow into independent researchers.</p>
-        <ul class="home-ride">
-          <li><span>RIDE 033</span> Trustworthy AI in Software Testing</li>
-          <li><span>RIDE 041</span> Trustworthy AI in Software Engineering</li>
-          <li><span>RIDE 045</span> Trustworthy AI in Quantum Software Engineering</li>
-        </ul>
+      <div class="home-bio">
+        <p>Howdy! I lead the AS²ERT Lab at the University of Texas at Dallas. My research focuses on verification and validation of both classical and quantum software systems. We combine AI with established software engineering techniques to improve software correctness checking and ensure reliability, and we study the failure modes of AI-based development tools.</p>
+
+        <p>I received my Ph.D. and M.S. in Computer Science from the University of Virginia, advised by <a href="https://matthewbdwyer.github.io">Prof. Matthew Dwyer</a>, and my B.Sc. from the Bangladesh University of Engineering and Technology (BUET).</p>
+
+        <p>Our work is organized into a few research areas, from test oracles to quantum software assurance. See the <a href="{{ '/project/' | relative_url }}">research areas</a>, <a href="{{ '/publications/' | relative_url }}">publications</a>, and <a href="{{ '/team/' | relative_url }}">people</a>. Undergraduates join the lab through UTD’s RIDE (Research, Inquiry, Design Experience) program.</p>
       </div>
     </div>
 
-    <aside class="home-news" aria-label="News">
-      <h2>News</h2>
-      <ul class="home-news-list">
-        {% for item in site.data.news limit: 6 %}
-        <li>
-          <span class="home-news-date">{{ item.date }}</span>
-          <span class="home-news-text">{{ item.short | default: item.text }}</span>
-        </li>
+    <aside class="home-recent" aria-label="Recent news">
+      <h2>Recent News</h2>
+      <ul>
+        {% for item in site.data.news limit: 7 %}
+        <li><strong>{{ item.date }}</strong> {{ item.short | default: item.text }}</li>
         {% endfor %}
       </ul>
       <p class="home-more"><a href="{{ '/news/' | relative_url }}">All news →</a></p>
