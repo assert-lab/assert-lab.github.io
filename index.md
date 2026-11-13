@@ -3,10 +3,10 @@ layout: default
 description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The University of Texas at Dallas, led by Dr. Soneya Binta Hossain."
 ---
 
-<section class="home-head">
-  <div class="wrap home-head-grid">
+<section class="home-top2">
+  <div class="wrap home-grid">
 
-    <div class="home-head-copy">
+    <div class="home-col">
       <h1 class="hero-title">AS²ERT Lab</h1>
       <p class="hero-sub">AI for Safe Software Engineering and Testing</p>
 
@@ -16,37 +16,33 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
         Led by <a href="{{ '/PI/' | relative_url }}">Dr. Soneya Binta Hossain</a><br>
         <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </address>
-    </div>
 
-    <aside class="hire-card" aria-label="Join the lab">
-      <p class="hire-card-title">Join Our Lab!</p>
-      <p>We are hiring PhD students who are passionate about AI, Software Engineering and Quantum Computing.</p>
-      <p><a class="hire-cta" href="{{ '/join/' | relative_url }}" style="color:#ffffff;">Explore opportunities →</a></p>
-    </aside>
-
-  </div>
-</section>
-
-<section class="home-main2">
-  <div class="wrap home-grid">
-
-    <div class="home-col">
       <div class="home-bio">
-        <p class="home-message">As AI begins to write code, make decisions, and operate increasingly complex systems, the fundamental challenge of software engineering is establishing what we can trust. At the AS²ERT Lab, we aim to redefine how software correctness is established. We advance software testing, formal verification, and trustworthy AI to uncover hidden failures, reason about intended behavior, and prevent errors before they cause harm. From traditional software to autonomous agents and quantum computing, our ambition is to make software trustworthiness something we can systematically establish, measure, and verify.</p>
+        <p class="home-question">How can we trust software when we cannot fully specify, understand, or predict its behavior?</p>
+
+        <p class="home-message">At the <strong>AS²ERT Lab</strong>, we tackle this fundamental question through <strong>software testing</strong>, <strong>formal verification</strong>, and <strong>artificial intelligence</strong>. We investigate how to <strong>establish software intent</strong>, <strong>uncover hidden failures</strong>, and <strong>verify increasingly autonomous systems</strong>. From traditional software to AI agents and quantum software, our goal is to advance the foundations of <strong>software correctness and trustworthiness</strong>.</p>
 
         <p class="home-explore">Explore our <a href="{{ '/project/' | relative_url }}">research areas</a>, <a href="{{ '/publications/' | relative_url }}">publications</a>, and <a href="{{ '/team/' | relative_url }}">people</a>.</p>
       </div>
     </div>
 
-    <aside class="home-recent" aria-label="Recent news">
-      <h2>Recent News</h2>
-      <ul>
-        {% for item in site.data.news limit: 7 %}
-        <li><strong>{{ item.date }}</strong> {{ item.short | default: item.text }}</li>
-        {% endfor %}
-      </ul>
-      <p class="home-more"><a href="{{ '/news/' | relative_url }}">All news →</a></p>
-    </aside>
+    <div class="home-side">
+      <aside class="hire-card" aria-label="Join the lab">
+        <p class="hire-card-title">Join Our Lab!</p>
+        <p>We are hiring PhD students who are passionate about AI, Software Engineering and Quantum Computing.</p>
+        <p><a class="hire-cta" href="{{ '/join/' | relative_url }}" style="color:#ffffff;">Explore opportunities →</a></p>
+      </aside>
+
+      <aside class="home-recent" aria-label="Recent news">
+        <h2>Recent News</h2>
+        <ul>
+          {% for item in site.data.news limit: 7 %}
+          <li><strong>{{ item.date }}</strong> {{ item.short | default: item.text }}</li>
+          {% endfor %}
+        </ul>
+        <p class="home-more"><a href="{{ '/news/' | relative_url }}">All news →</a></p>
+      </aside>
+    </div>
 
   </div>
 </section>
