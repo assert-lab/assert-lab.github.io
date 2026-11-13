@@ -1144,3 +1144,14 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
 .home-news-text { display: block; font-size: 0.95rem; line-height: 1.5; color: var(--ink); }
 .home-news-text strong { color: var(--green); }
 .home-news .home-more { margin: 10px 0 0; }
+
+/* ---------- Landing page: compact single-screen layout ---------- */
+
+.home-top { padding: clamp(40px, 6vw, 80px) 0 clamp(52px, 7vw, 96px); }
+.home-top .hero-title { margin: 0 0 8px; font-size: clamp(2.8rem, 5.6vw, 4.6rem); }
+.home-top .hero-sub { margin-bottom: 24px; }
+.home-top .home-lede { max-width: 30em; margin: 0 0 14px; }
+.home-led { margin: 0; font-size: 1rem; color: var(--ink-2); }
+.home-top .actions { margin-top: 28px; }
+.home-top .home-block { margin-top: 52px; padding-top: 36px; border-top: 1px solid var(--rule); }
+.home-top .home-block p { max-width: 34em; }
