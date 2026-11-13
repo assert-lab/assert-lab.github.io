@@ -1095,3 +1095,52 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
   .area-flip .area-text { grid-column: 2; }
   .area-flip .area-fig { grid-column: 1; }
 }
+
+/* ---------- Landing page ---------- */
+
+.hire-bar { background: var(--green); color: #fff; }
+.hire-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding-top: 12px; padding-bottom: 12px; }
+.hire-inner p { margin: 0; flex: 1 1 320px; font-size: 1rem; line-height: 1.45; color: #e9f0ec; }
+.hire-inner strong { color: #fff; font-weight: 600; }
+.hire-link { font-family: var(--sans); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #e9f0ec; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.4); text-underline-offset: 4px; }
+.hire-link:hover { color: #fff; text-decoration-color: var(--orange); }
+.hire-mail { padding: 8px 16px; border: 1px solid rgba(255,255,255,0.6); border-radius: 2px; text-decoration: none; }
+.hire-mail:hover { background: #fff; color: var(--green); }
+
+.home-hero { padding: clamp(40px, 6vw, 84px) 0 clamp(44px, 6vw, 84px); border-bottom: 1px solid var(--rule); }
+.home-hero-grid { display: grid; gap: 44px; align-items: start; }
+@media (min-width: 960px) { .home-hero-grid { grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.8fr); gap: 72px; } }
+.home-hero .hero-title { margin: 0 0 8px; font-size: clamp(2.8rem, 5.6vw, 4.6rem); }
+.home-hero .hero-sub { margin-bottom: 26px; }
+.home-lede { margin: 0 0 1.1em; font-size: clamp(1.1rem, 1.5vw, 1.25rem); line-height: 1.62; color: var(--ink); }
+.home-body { margin: 0; font-size: 1.05rem; line-height: 1.68; color: var(--ink-2); }
+.home-hero .actions { margin-top: 30px; }
+
+.home-portrait { margin: 0; }
+.portrait-frame { position: relative; }
+.portrait-frame::before { content: ""; position: absolute; inset: 14px -14px -14px 14px; background: var(--green-tint); z-index: 0; }
+.portrait-frame img { position: relative; z-index: 1; width: 100%; aspect-ratio: 0.9; object-fit: cover; object-position: 50% 35%; border: 1px solid var(--rule-strong); }
+.home-portrait figcaption { margin-top: 30px; font-size: 0.95rem; line-height: 1.5; color: var(--ink-2); }
+
+.home-main { padding: clamp(44px, 6vw, 80px) 0 clamp(56px, 7vw, 96px); }
+.home-grid { display: grid; gap: 56px; align-items: start; }
+@media (min-width: 960px) { .home-grid { grid-template-columns: minmax(0, 1fr) 360px; gap: 80px; } }
+.home-block + .home-block { margin-top: 48px; padding-top: 40px; border-top: 1px solid var(--rule); }
+.home-block h2, .home-news h2 { margin-bottom: 14px; font-size: 1.55rem; line-height: 1.2; letter-spacing: -0.01em; }
+.home-block p { margin: 0 0 1em; font-size: 1.05rem; line-height: 1.68; color: var(--ink-2); max-width: 40em; }
+.home-more { font-family: var(--sans); font-size: 0.8125rem; font-weight: 500; }
+.home-block .home-more { margin-top: 4px; }
+.home-ride { list-style: none; margin: 18px 0 0; padding: 0; max-width: 40em; }
+.home-ride li { padding: 10px 0; border-top: 1px solid var(--rule); font-size: 1rem; }
+.home-ride li:last-child { border-bottom: 1px solid var(--rule); }
+.home-ride span { display: inline-block; min-width: 86px; margin-right: 10px; font-family: var(--sans); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+
+.home-news { padding: 28px 26px 22px; background: var(--paper-2); border-top: 3px solid var(--green); }
+@media (min-width: 960px) { .home-news { position: sticky; top: 24px; } }
+.home-news-list { list-style: none; margin: 0; padding: 0; }
+.home-news-list li { padding: 14px 0; border-top: 1px solid var(--rule-strong); }
+.home-news-list li:first-child { border-top: 0; padding-top: 4px; }
+.home-news-date { display: block; margin-bottom: 4px; font-family: var(--sans); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.home-news-text { display: block; font-size: 0.95rem; line-height: 1.5; color: var(--ink); }
+.home-news-text strong { color: var(--green); }
+.home-news .home-more { margin: 10px 0 0; }
