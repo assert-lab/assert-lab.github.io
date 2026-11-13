@@ -1442,3 +1442,22 @@ html { scroll-padding-top: 92px; }
 /* ---------- Header: aligned with the page's text column ---------- */
 
 .site-header .wrap.bar { max-width: 1120px; padding-left: var(--gutter); padding-right: var(--gutter); }
+
+/* ---------- Dr. Hossain page: course blocks ---------- */
+
+.course-block { padding: 18px 0; border-top: 1px solid var(--rule); }
+.course-block:first-of-type { border-top: 0; padding-top: 6px; }
+.course-term { margin: 0 0 4px; font-family: var(--sans); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); }
+.course-block h4 { margin: 0 0 8px; font-size: 1.2rem; font-weight: 500; line-height: 1.3; }
+.course-block p { margin: 0 0 8px; font-size: 1rem; line-height: 1.6; color: var(--ink-2); }
+.course-links { font-family: var(--sans); font-size: 0.875rem; }
+.course-block details { margin-top: 10px; }
+.course-block summary { cursor: pointer; font-family: var(--sans); font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.04em; color: var(--green); }
+.course-block details[open] summary { margin-bottom: 10px; }
+.course-block details ul { margin: 0 0 12px; padding-left: 1.2em; font-size: 0.975rem; line-height: 1.55; color: var(--ink-2); }
+.course-table { width: 100%; max-width: 420px; border-collapse: collapse; font-size: 0.95rem; }
+.course-table th { text-align: left; font-family: var(--sans); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.course-table th, .course-table td { padding: 8px 12px 8px 0; border-bottom: 1px solid var(--rule); }
+
+.course-block .course-term { margin: 0 0 4px; font-family: var(--sans); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); }
+.course-block .course-links { font-family: var(--sans); font-size: 0.875rem; }
