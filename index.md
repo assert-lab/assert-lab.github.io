@@ -4,28 +4,26 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
 ---
 
 <section class="home-head">
-  <div class="wrap">
-    <h1 class="hero-title">AS²ERT Lab</h1>
-    <p class="hero-sub">AI for Safe Software Engineering and Testing</p>
+  <div class="wrap home-head-grid">
 
-    <address class="home-contact">
-      Department of Computer Science<br>
-      The University of Texas at Dallas<br>
-      Led by <a href="{{ '/PI/' | relative_url }}">Dr. Soneya Binta Hossain</a><br>
-      <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    </address>
-  </div>
-</section>
+    <div class="home-head-copy">
+      <h1 class="hero-title">AS²ERT Lab</h1>
+      <p class="hero-sub">AI for Safe Software Engineering and Testing</p>
 
-<section class="hire-band">
-  <div class="wrap">
-    <div class="hire-panel">
-      <p>
-        <strong>Join Our Lab!</strong>
-        We are hiring PhD students who are passionate about AI, Software Engineering and Quantum Computing.
-        <a class="hire-cta" href="{{ '/join/' | relative_url }}" style="color:#ffffff;">Explore opportunities →</a>
-      </p>
+      <address class="home-contact">
+        Department of Computer Science<br>
+        The University of Texas at Dallas<br>
+        Led by <a href="{{ '/PI/' | relative_url }}">Dr. Soneya Binta Hossain</a><br>
+        <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </address>
     </div>
+
+    <aside class="hire-card" aria-label="Join the lab">
+      <p class="hire-card-title">Join Our Lab!</p>
+      <p>We are hiring PhD students who are passionate about AI, Software Engineering and Quantum Computing.</p>
+      <p><a class="hire-cta" href="{{ '/join/' | relative_url }}" style="color:#ffffff;">Explore opportunities →</a></p>
+    </aside>
+
   </div>
 </section>
 
