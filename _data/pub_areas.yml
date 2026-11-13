@@ -37,7 +37,7 @@
 
 - key: quantum
   title: "Quantum and scientific software assurance"
-  long: "We are extending software testing and verification to quantum and scientific software, where outputs are statistical and hardware is noisy. This is an emerging direction for the lab."
+  long: "We advance software testing and verification across the quantum computing stack, from quantum circuits and compilers to execution on real hardware. Our research investigates real-world fault mechanisms, develops mutation testing and noise-aware correctness oracles, and explores semantics-preserving compiler optimizations. We also build reproducible fault datasets and benchmarks to improve the reliability of quantum software as its frameworks and hardware evolve."
   blurb: "How do we check software whose outputs are statistical and whose hardware is noisy? An emerging direction for the lab."
   figure: pub-quantum.svg
   alt: "Two quantum states that look identical in one measurement direction and differ in another"
