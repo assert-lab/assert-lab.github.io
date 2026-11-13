@@ -1327,3 +1327,36 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
 .rcard h3 { margin: 2px 0 4px; font-size: 1.12rem; font-weight: 500; line-height: 1.25; }
 .rcard p { margin: 0; font-size: 0.95rem; line-height: 1.45; color: var(--ink-2); }
 .rcard .tags { margin-top: 10px; gap: 6px; }
+
+/* The dark top strip is not used on any page. */
+.topbar { display: none; }
+
+/* ---------- Header: deep-green bar, white brand, orange marker ---------- */
+
+html { scroll-padding-top: 92px; }
+.site-header { position: sticky; top: 0; z-index: 100; background: var(--green-deep); border-bottom: 0; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06), 0 6px 18px rgba(14, 51, 37, 0.12); }
+.site-header .bar { padding-top: 16px; padding-bottom: 16px; }
+
+.site-header .brand { color: #fff; gap: 3px; }
+.site-header .brand:hover { color: #fff; }
+.site-header .brand-name { font-size: 1.75rem; font-weight: 600; letter-spacing: -0.015em; color: #fff; }
+.site-header .brand-tag { font-size: 0.625rem; letter-spacing: 0.16em; color: #9dbfae; }
+
+.site-header .site-nav ul { gap: 34px; }
+.site-header .site-nav a { padding: 8px 0 7px; font-size: 0.75rem; letter-spacing: 0.12em; color: #d3e2d9; border-bottom: 2px solid transparent; }
+.site-header .site-nav a:hover { color: #fff; border-bottom-color: var(--orange); }
+.site-header .site-nav a[aria-current="page"] { color: #fff; border-bottom-color: var(--orange); }
+
+.site-header .nav-toggle { border-color: rgba(255, 255, 255, 0.55); color: #fff; background: transparent; }
+.site-header .nav-toggle:hover { background: rgba(255, 255, 255, 0.1); }
+
+@media (max-width: 880px) {
+  .site-header .site-nav li { border-top: 1px solid rgba(255, 255, 255, 0.16); }
+  .site-header .site-nav a { padding: 14px 0; border-bottom: 0; }
+  .site-header .site-nav a[aria-current="page"] { color: #f3b27a; }
+  .site-header .brand-name { font-size: 1.5rem; }
+}
+
+@media (max-width: 880px) {
+  .site-header .site-nav ul { gap: 0; }
+}
