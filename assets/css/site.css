@@ -1438,3 +1438,7 @@ html { scroll-padding-top: 92px; }
   .site-header .site-nav ul { gap: 24px; justify-content: center; }
 }
 @media (min-width: 881px) and (max-width: 1040px) { .site-header .site-nav ul { gap: 18px; } }
+
+/* ---------- Header: aligned with the page's text column ---------- */
+
+.site-header .wrap.bar { max-width: 1120px; padding-left: var(--gutter); padding-right: var(--gutter); }
