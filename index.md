@@ -52,3 +52,31 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
 
   </div>
 </section>
+
+<section class="home-research">
+  <div class="wrap">
+    <div class="home-research-head">
+      <h2>Research</h2>
+      <a href="{{ '/project/' | relative_url }}">All research areas →</a>
+    </div>
+
+    <div class="rgrid">
+      {% for a in site.data.pub_areas %}
+      {% assign items = site.data.publications | where: "area", a.key %}
+      <article class="rcard{% unless a.figure %} rcard-nofig{% endunless %}">
+        {% if a.figure %}<img src="{{ '/assets/images/' | append: a.figure | relative_url }}" alt="" loading="lazy">{% endif %}
+        <div>
+          <h3>{{ a.title }}</h3>
+          <p>{{ a.tagline }}</p>
+          <div class="tags">
+            {% for p in items limit: 3 %}
+            {% assign u = p.tag_url | default: p.links[0].url %}
+            {% if u %}<a class="tag{% if p.status %} tag-ongoing{% endif %}" href="{{ u }}" title="{{ p.title | escape }}">{{ p.tag }}</a>{% else %}<span class="tag tag-static" title="{{ p.title | escape }}">{{ p.tag }}</span>{% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
