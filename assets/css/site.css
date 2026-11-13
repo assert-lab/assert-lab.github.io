@@ -1263,3 +1263,22 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
 .hire-panel strong { color: #fff; font-size: 1.15em; font-weight: 600; }
 .btn-orange { background: var(--orange); border-color: var(--orange); color: #fff; }
 .btn-orange:hover { background: #fff; border-color: #fff; color: var(--green); }
+
+.hire-panel p { margin: 0; }
+.hire-panel a { color: #fff; font-weight: 600; text-decoration: underline; text-decoration-color: var(--orange); text-decoration-thickness: 2px; text-underline-offset: 5px; white-space: nowrap; }
+.hire-panel a:hover { color: #fff; text-decoration-color: #fff; }
+
+/* ---------- Landing page: head, full-width join band, then message and news ---------- */
+
+.home-head { padding: clamp(40px, 6vw, 76px) 0 clamp(30px, 4vw, 48px); }
+.home-head .hero-title { margin: 0 0 12px; font-size: clamp(3.4rem, 8vw, 6.75rem); line-height: 0.95; letter-spacing: -0.035em; }
+.home-head .hero-sub { margin: 0 0 28px; font-size: clamp(1.3rem, 2.3vw, 1.75rem); }
+.home-head .home-contact { margin: 0; }
+
+.hire-band { background: var(--green); border-top: 5px solid var(--orange); }
+.hire-band .wrap { padding-top: clamp(28px, 4vw, 44px); padding-bottom: clamp(30px, 4vw, 46px); }
+.hire-band .hire-panel { margin: 0; padding: 0; background: none; border: 0; }
+.hire-band .hire-panel p { max-width: none; font-size: clamp(1.3rem, 2.4vw, 1.85rem); line-height: 1.45; }
+.hire-band .hire-panel strong { font-size: 1.12em; }
+
+.home-main2 { padding: clamp(40px, 6vw, 72px) 0 clamp(56px, 7vw, 96px); }
