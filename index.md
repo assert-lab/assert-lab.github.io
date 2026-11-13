@@ -18,7 +18,7 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
       </address>
 
       <div class="home-bio">
-        <p class="home-question">How can we trust software when we cannot fully specify, understand, or predict its behavior?</p>
+    
 
         <p class="home-message">At the <strong>AS²ERT Lab</strong>, we study how to <strong>make software more reliable</strong> as systems grow increasingly complex and AI takes on a greater role in software development. Our research brings together <strong>software testing</strong>, <strong>formal verification</strong>, and <strong>artificial intelligence</strong> to understand software behavior, find faults, and develop stronger methods for <strong>establishing correctness</strong>. We work across <strong>traditional software</strong>, <strong>autonomous AI agents</strong>, and <strong>quantum computing</strong>, addressing fundamental challenges in how software is tested, verified, and trusted.</p>
 
