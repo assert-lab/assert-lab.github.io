@@ -1312,3 +1312,18 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
 .home-bio .home-explore { margin-top: 16px; }
 .home-recent { padding-top: 12px; }
 .home-recent li { margin-bottom: 10px; }
+
+/* ---------- Landing page: research areas at the bottom ---------- */
+
+.home-research { padding: clamp(28px, 4vw, 44px) 0 clamp(40px, 5vw, 64px); border-top: 1px solid var(--rule-strong); }
+.home-research-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 8px; }
+.home-research-head h2 { margin: 0; font-size: 1.6rem; line-height: 1.2; }
+.home-research-head a { font-family: var(--sans); font-size: 0.8125rem; font-weight: 500; }
+.rgrid { display: grid; gap: 0 56px; }
+@media (min-width: 860px) { .rgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.rcard { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 18px; align-items: start; padding: 18px 0; border-top: 1px solid var(--rule); }
+.rcard-nofig { grid-template-columns: minmax(0, 1fr); }
+.rcard img { display: block; width: 104px; height: 104px; object-fit: contain; border: 1px solid var(--rule); background: #fff; }
+.rcard h3 { margin: 2px 0 4px; font-size: 1.12rem; font-weight: 500; line-height: 1.25; }
+.rcard p { margin: 0; font-size: 0.95rem; line-height: 1.45; color: var(--ink-2); }
+.rcard .tags { margin-top: 10px; gap: 6px; }
