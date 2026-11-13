@@ -1080,3 +1080,18 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
   letter-spacing: 0.01em;
 }
 .year-block .pub-track { padding-left: 2px; font-size: 0.78rem; color: var(--ink-2); }
+
+/* ---------- Research page: no numbers, figures alternate sides ---------- */
+
+@media (min-width: 800px) {
+  .area { grid-template-columns: minmax(0, 1fr); }
+  .area-fig { grid-column: auto; grid-row: auto; }
+}
+@media (min-width: 1040px) {
+  .area { grid-template-columns: minmax(0, 1fr) 300px; gap: 12px 72px; align-items: center; }
+  .area-text { grid-column: 1; grid-row: 1; }
+  .area-fig { grid-column: 2; grid-row: 1; margin-top: 0; }
+  .area-flip { grid-template-columns: 300px minmax(0, 1fr); }
+  .area-flip .area-text { grid-column: 2; }
+  .area-flip .area-fig { grid-column: 1; }
+}
