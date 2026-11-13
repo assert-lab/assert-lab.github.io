@@ -20,7 +20,7 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
           <li><a href="{{ link.url }}">{{ link.label }}</a></li>
           {% endif %}
           {% endfor %}
-          <li><a href="{{ '/team/' | relative_url }}">AS²ERT Lab people</a></li>
+          <li><a href="{{ '/team/' | relative_url }}">AS²ERT Lab team</a></li>
         </ul>
       </div>
 
@@ -140,10 +140,41 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
         <h2>Teaching and mentoring</h2>
 
         <h3 class="subhead">Teaching at UTD</h3>
-        <ul class="plain">
-          <li><strong>CS/SE/SYSM 6356:</strong> Software Maintenance, Evolution &amp; Re-engineering, UTD.</li>
-          <li><strong>CS/CE/SE 3354:</strong> Software Engineering, UTD.</li>
-        </ul>
+
+        <div class="course-block">
+          <p class="course-term">Fall 2025</p>
+          <h4>CS/CE/SE 3354 — Software Engineering</h4>
+          <p>Software processes, requirements engineering, UML modeling, design principles, testing, and team-based projects.</p>
+          <p class="course-links"><a href="https://catalog.utdallas.edu/2024/undergraduate/courses/cs3354">Catalog</a> · <a href="{{ '/teaching/CS3354_Fall2025_Syllabus.pdf' | relative_url }}">Syllabus (PDF)</a></p>
+          <details>
+            <summary>Learning outcomes and grading</summary>
+            <p>Upon successful completion of this course, students will be able to:</p>
+            <ul>
+              <li>Explain the software development lifecycle and its key phases</li>
+              <li>Apply software requirements engineering techniques to specify system behavior</li>
+              <li>Apply fundamental software design principles to create structured solutions</li>
+              <li>Apply software testing methods to ensure software quality</li>
+              <li>Integrate software engineering concepts through a collaborative, team-based project</li>
+            </ul>
+            <table class="course-table">
+              <thead><tr><th>Grading component</th><th>Weight</th></tr></thead>
+              <tbody>
+                <tr><td>Deliverables (Team Project)</td><td>30%</td></tr>
+                <tr><td>Assignments</td><td>10%</td></tr>
+                <tr><td>Midterm Exam</td><td>25%</td></tr>
+                <tr><td>Final Exam</td><td>25%</td></tr>
+                <tr><td>Participation &amp; Attendance</td><td>10%</td></tr>
+              </tbody>
+            </table>
+          </details>
+        </div>
+
+        <div class="course-block">
+          <p class="course-term">Spring 2026</p>
+          <h4>CS/SE 6356 — Software Maintenance, Evolution &amp; Re-engineering</h4>
+          <p>Cross-listed as SYSM 6308 / CS/SE 6356.001.</p>
+          <p class="course-links"><a href="https://catalog.utdallas.edu/2025/graduate/courses/cs6356">Catalog</a></p>
+        </div>
 
         <h3 class="subhead">Mentoring</h3>
         <ul class="plain">

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "People"
+title: "Team"
 permalink: /team/
-description: "The people of the AS²ERT Lab at UT Dallas: PhD students, interns, undergraduate researchers, and high school students."
+description: "The AS²ERT Lab team at UT Dallas: PhD students, interns, undergraduate researchers, and high school students."
 ---
 
-{% include page-head.html eyebrow="AS²ERT Lab" title="People" %}
+{% include page-head.html eyebrow="AS²ERT Lab" title="Team" %}
 
 <div class="wrap">
 
