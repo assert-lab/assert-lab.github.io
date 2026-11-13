@@ -11,22 +11,20 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
       <p class="hero-sub">AI for Safe Software Engineering and Testing</p>
 
       <address class="home-contact">
-        <strong><a href="{{ '/PI/' | relative_url }}">Dr. Soneya Binta Hossain</a></strong><br>
-        Assistant Professor, Department of Computer Science<br>
+        Department of Computer Science<br>
         The University of Texas at Dallas<br>
+        Led by <a href="{{ '/PI/' | relative_url }}">Dr. Soneya Binta Hossain</a><br>
         <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </address>
 
       <div class="home-call">
-        <p>We are hiring PhD students and offering remote internships. If you are interested, <a href="mailto:{{ site.email }}">send me an email</a>.</p>
+        <p>We are hiring PhD students and offering remote internships. If you are interested, <a href="mailto:{{ site.email }}">send us an email</a>.</p>
       </div>
 
       <div class="home-bio">
-        <p>Howdy! I lead the AS²ERT Lab at the University of Texas at Dallas. My research focuses on verification and validation of both classical and quantum software systems. We combine AI with established software engineering techniques to improve software correctness checking and ensure reliability, and we study the failure modes of AI-based development tools.</p>
+        <p class="home-message">As AI begins to write code, make decisions, and operate increasingly complex systems, the fundamental challenge of software engineering is establishing what we can trust. At the AS²ERT Lab, we aim to redefine how software correctness is established. We advance software testing, formal verification, and trustworthy AI to uncover hidden failures, reason about intended behavior, and prevent errors before they cause harm. From traditional software to autonomous agents and quantum computing, our ambition is to make software trustworthiness something we can systematically establish, measure, and verify.</p>
 
-        <p>I received my Ph.D. and M.S. in Computer Science from the University of Virginia, advised by <a href="https://matthewbdwyer.github.io">Prof. Matthew Dwyer</a>, and my B.Sc. from the Bangladesh University of Engineering and Technology (BUET).</p>
-
-        <p>Our work is organized into a few research areas, from test oracles to quantum software assurance. See the <a href="{{ '/project/' | relative_url }}">research areas</a>, <a href="{{ '/publications/' | relative_url }}">publications</a>, and <a href="{{ '/team/' | relative_url }}">people</a>. Undergraduates join the lab through UTD’s RIDE (Research, Inquiry, Design Experience) program.</p>
+        <p>Explore our <a href="{{ '/project/' | relative_url }}">research areas</a>, <a href="{{ '/publications/' | relative_url }}">publications</a>, and <a href="{{ '/team/' | relative_url }}">people</a>.</p>
       </div>
     </div>
 
