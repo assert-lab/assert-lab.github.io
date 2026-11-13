@@ -1376,3 +1376,21 @@ html { scroll-padding-top: 92px; }
 
 .home-head { padding-bottom: clamp(6px, 1vw, 12px); }
 .home-main2 { padding-top: clamp(14px, 2vw, 22px); }
+
+/* ---------- Landing page: opening question and bolded key points ---------- */
+
+.home-bio .home-question { margin: 0 0 16px; font-size: clamp(1.5rem, 2.5vw, 2rem); font-weight: 500; line-height: 1.28; letter-spacing: -0.01em; color: var(--green); }
+.home-bio .home-message { font-size: 1.15rem; line-height: 1.65; }
+.home-bio .home-message strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- Landing page: one top block, news directly under the join card ---------- */
+
+.home-top2 { padding: clamp(22px, 3vw, 36px) 0 clamp(10px, 1.6vw, 18px); }
+.home-top2 .hero-title { margin: 0 0 6px; font-size: clamp(3.4rem, 8vw, 6.75rem); line-height: 0.95; letter-spacing: -0.035em; }
+.home-top2 .hero-sub { margin: 0 0 14px; font-size: clamp(1.3rem, 2.3vw, 1.75rem); }
+.home-top2 .home-contact { margin: 0 0 24px; line-height: 1.55; }
+.home-side .hire-card { margin: 12px 0 26px; }
+.home-side .home-recent { position: static; padding-top: 12px; }
+
+.home-research { padding: clamp(16px, 2.4vw, 26px) 0 clamp(32px, 4vw, 48px); }
+.home-research-head { margin-bottom: 4px; }
