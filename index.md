@@ -22,8 +22,8 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
     <div class="hire-panel">
       <p>
         <strong>Join Our Lab!</strong>
-        We welcome curious and motivated PhD students, undergraduate researchers, and remote collaborators who are passionate about advancing software engineering and trustworthy AI.
-        <a href="{{ '/join/' | relative_url }}">Explore opportunities →</a>
+        We are hiring PhD students who are passionate about AI, Software Engineering and Quantum Computing.
+        <a class="hire-cta" href="{{ '/join/' | relative_url }}" style="color:#ffffff;">Explore opportunities →</a>
       </p>
     </div>
   </div>
