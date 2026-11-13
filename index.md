@@ -17,10 +17,15 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
         <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </address>
 
-      <div class="hire-panel">
-        <p><strong>We are hiring!</strong> PhD students, undergraduate researchers, and remote collaborators are welcome. See how to join us.</p>
-        <a class="btn btn-orange" href="{{ '/join/' | relative_url }}">See open positions →</a>
-      </div>
+    
+<div class="hire-panel">
+  <p>
+    <strong>Join Our Lab!</strong>
+    We welcome curious and motivated PhD students, undergraduate researchers, and remote collaborators who are passionate about advancing software engineering and trustworthy AI.
+    <a href="{{ '/join/' | relative_url }}">Explore opportunities →</a>
+  </p>
+</div>
+
 
 
       <div class="home-bio">
