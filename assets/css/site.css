@@ -1296,3 +1296,19 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
   white-space: nowrap;
 }
 .hire-band .hire-panel p a.hire-cta:hover { color: #ffffff; text-decoration-color: #ffffff; }
+
+/* ---------- Landing page: tighter vertical spacing ---------- */
+
+.home-head { padding: clamp(24px, 3.2vw, 40px) 0 clamp(18px, 2.4vw, 28px); }
+.home-head .hero-title { margin-bottom: 6px; }
+.home-head .hero-sub { margin-bottom: 14px; }
+.home-head .home-contact { line-height: 1.55; }
+
+.hire-band .wrap { padding-top: clamp(18px, 2.4vw, 26px); padding-bottom: clamp(18px, 2.6vw, 28px); }
+.hire-band .hire-panel p { line-height: 1.4; }
+
+.home-main2 { padding: clamp(24px, 3.2vw, 38px) 0 clamp(32px, 4vw, 52px); }
+.home-main2 .home-message { line-height: 1.6; margin-bottom: 0.8em; }
+.home-bio .home-explore { margin-top: 16px; }
+.home-recent { padding-top: 12px; }
+.home-recent li { margin-bottom: 10px; }
