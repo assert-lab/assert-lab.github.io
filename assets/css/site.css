@@ -1394,3 +1394,13 @@ html { scroll-padding-top: 92px; }
 
 .home-research { padding: clamp(16px, 2.4vw, 26px) 0 clamp(32px, 4vw, 48px); }
 .home-research-head { margin-bottom: 4px; }
+
+/* ---------- Header: icon-only brand ---------- */
+
+.site-header .bar { padding-top: 10px; padding-bottom: 10px; }
+.site-header .brand-icon { display: inline-flex; align-items: center; }
+.site-header .brand-logo { display: block; height: 52px; width: auto; }
+@media (max-width: 880px) { .site-header .brand-logo { height: 42px; } }
+
+.site-header .brand-logo { height: 60px; }
+@media (max-width: 880px) { .site-header .brand-logo { height: 46px; } }
