@@ -1234,3 +1234,32 @@ a.tag-ongoing:hover { background: var(--green); border-style: solid; border-colo
 .join-ride li { padding: 10px 0; border-top: 1px solid var(--rule); font-size: 1rem; line-height: 1.4; }
 .join-ride li:last-child { border-bottom: 1px solid var(--rule); }
 .join-ride span { display: block; margin-bottom: 2px; font-family: var(--sans); font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+
+/* ---------- Landing page: larger hiring line and explore line ---------- */
+
+.hire-inner { padding-top: 20px; padding-bottom: 20px; gap: 12px 28px; }
+.hire-inner p { font-size: clamp(1.2rem, 2vw, 1.5rem); line-height: 1.35; }
+.hire-inner strong { font-size: 1.05em; }
+.hire-mail { padding: 11px 22px; font-size: 0.8125rem; }
+
+.home-bio .home-explore { margin-top: 30px; font-size: clamp(1.2rem, 1.8vw, 1.4rem); line-height: 1.5; }
+.home-explore a { font-weight: 600; text-decoration-thickness: 2px; text-underline-offset: 5px; }
+
+/* ---------- Landing page: larger hiring line and explore line ---------- */
+
+.hire-bar .hire-inner { padding-top: 18px; padding-bottom: 18px; gap: 12px 28px; }
+.hire-bar .hire-inner p { font-size: clamp(1.15rem, 1.9vw, 1.5rem); line-height: 1.4; color: #e9f0ec; }
+.hire-bar .hire-inner strong { font-size: 1.12em; }
+.hire-bar .hire-mail { padding: 12px 22px; font-size: 0.8125rem; background: var(--orange); border-color: var(--orange); color: #fff; }
+.hire-bar .hire-mail:hover { background: #fff; border-color: #fff; color: var(--green); }
+
+.home-bio .home-explore { margin-top: 30px; font-size: clamp(1.3rem, 2vw, 1.6rem); line-height: 1.4; }
+.home-bio .home-explore a { font-weight: 500; }
+
+/* ---------- Landing page: hiring panel under the email line ---------- */
+
+.hire-panel { margin: 0 0 36px; padding: 24px 28px 26px; background: var(--green); border-left: 6px solid var(--orange); }
+.hire-panel p { margin: 0 0 16px; font-size: clamp(1.2rem, 1.9vw, 1.45rem); line-height: 1.42; color: #e9f0ec; }
+.hire-panel strong { color: #fff; font-size: 1.15em; font-weight: 600; }
+.btn-orange { background: var(--orange); border-color: var(--orange); color: #fff; }
+.btn-orange:hover { background: #fff; border-color: #fff; color: var(--green); }
