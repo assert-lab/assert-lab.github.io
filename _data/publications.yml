@@ -76,7 +76,7 @@
   authors: ["Asif Mohammed Saad", "Ahsanul Ameen Sabit", "Jonah Brandenburgh", "Jiyuan Wang", "Qian Zhang", "Soneya Binta Hossain"]
   venue: "arXiv preprint"
   short: "arXiv:2610.22089"
-  tag: "Quantum bugs · arXiv ’26"
+  tag: "Quantum bugs"
   links:
     - { label: "arXiv", url: "https://arxiv.org/abs/2610.22089" }
 
@@ -98,7 +98,7 @@
   authors: ["Noshin Ulfat", "Ahsanul Ameen Sabit", "Soneya Binta Hossain"]
   venue: "arXiv preprint"
   short: "arXiv:2604.03447"
-  tag: "Trust · arXiv ’26"
+  tag: "Trust allocation"
   links:
     - { label: "arXiv", url: "https://arxiv.org/abs/2604.03447" }
 
@@ -108,7 +108,7 @@
   title: "From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions"
   venue: "arXiv preprint"
   short: "arXiv:2604.25880"
-  tag: "Threads · arXiv ’26"
+  tag: "Threads to trajectories"
   links:
     - { label: "arXiv", url: "https://arxiv.org/abs/2604.25880" }
 
@@ -204,3 +204,4 @@
   links:
     - { label: "Paper", url: "https://dl.acm.org/doi/abs/10.1145/3611643.3616265" }
     - { label: "Artifact", url: "https://doi.org/10.6084/m9.figshare.21973091.v4" }
+

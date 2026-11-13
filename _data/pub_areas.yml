@@ -3,7 +3,7 @@
 # `key` must match the `area` field of entries in publications.yml.
 # `figure` is a file in assets/images/ (optional).
 # `long` is the longer text used on the Research page.
-# `ongoing: true` adds a dashed "ongoing" chip. `extras` adds non-paper links.
+# `extras` adds non-paper links.
 # `show_empty: true` keeps a section visible even with no papers yet.
 # ---------------------------------------------------------------
 
@@ -41,7 +41,6 @@
   blurb: "How do we check software whose outputs are statistical and whose hardware is noisy? An emerging direction for the lab."
   figure: pub-quantum.svg
   alt: "Two quantum states that look identical in one measurement direction and differ in another"
-  ongoing: true
   show_empty: true
   empty_note: "Publications in this area will appear here."
 
