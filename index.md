@@ -8,7 +8,7 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
 
     <div class="home-col">
       <h1 class="hero-title">AS²ERT Lab</h1>
-      <p class="hero-sub">AI for Safe Software Engineering and Testing</p>
+      <p class="hero-sub"><strong>A</strong>I for <strong>S</strong>afe <strong>S</strong>oftware <strong>E</strong>nginee<strong>r</strong>ing and <strong>T</strong>esting</p>
       <ul class="home-icons" aria-label="Contact and profiles">
         {% for link in site.author.links %}{% if link.url %}
         <li><a href="{{ link.url }}" data-label="{{ link.label }}" aria-label="{{ link.label }}" title="{{ link.label }}"></a></li>
