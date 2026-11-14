@@ -46,17 +46,21 @@
   --title-fstyle: var(--fstyle-3);
   --title-split: var(--split-3);
 
-  /* The three NAME STYLES for "AS²ERT Lab" */
+  /* The four NAME STYLES for "AS²ERT Lab" */
   --fill-1: linear-gradient(100deg, #e87500 0%, #c05800 55%, #8f3f00 100%);                                                /* 1: rich orange gradient */
   --fx-1: drop-shadow(0 2px 3px rgba(110, 55, 0, 0.25));
   --fill-2: linear-gradient(90deg, #c05800 0, #c05800 var(--title-split), #154734 var(--title-split), #154734 100%);      /* 2: two-tone, UTD orange + green */
   --fx-2: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.12));
   --fill-3: linear-gradient(180deg, #f5a623 0%, #d4690a 48%, #a24a00 100%);                                               /* 3: glossy vertical orange gradient */
   --fx-3: drop-shadow(0 2px 2px rgba(110, 55, 0, 0.28));
+  --fill-4: #c05800;                                                                                                        /* 4: flat orange, identical to every other page title */
+  --fx-4: none;
+  --tf-1: transparent;  --tf-2: transparent;  --tf-3: transparent;  --tf-4: #c05800;   /* the text colour that goes with each style (transparent lets a gradient show through) */
 
-  /* NAME STYLE: to change it, change the number (1, 2 or 3) in BOTH of the next two lines */
-  --title-fill: var(--fill-2);
-  --title-fx: var(--fx-2);
+  /* NAME STYLE: to change it, change the number (1, 2, 3 or 4) in ALL THREE of the next lines */
+  --title-fill: var(--fill-4);
+  --title-fx: var(--fx-4);
+  --title-tf: var(--tf-4);
 }
 
 body { background: #fff; font-family: var(--sans); font-size: 1rem; line-height: 1.55; color: var(--ink); }
@@ -86,12 +90,12 @@ strong { font-weight: 700; }
 /* ---------- Home: your layout (title block left, join card + news right), tightened ---------- */
 .home-top2 { padding: 22px 0 6px; }
 .home-top2 .home-grid { display: block; }
-.home-col, .home-side, .home-research-head, .rgrid { max-width: none; }   /* one column using the full width, same left edge as the logo and footer */
+.home-col, .home-side, .home-research-head { max-width: none; }   /* one column using the full width, same left edge as the logo and footer */
 .home-side { margin-top: 4px; }
 
-.home-top2 .hero-title { display: inline-block; margin: 0 0 2px; font-family: var(--title-font); font-weight: var(--title-weight); font-style: var(--title-fstyle); letter-spacing: var(--title-tracking); line-height: 1.08; font-size: clamp(2.2rem, 4.6vw, 3.2rem); color: var(--orange); }
+.home-top2 .hero-title { display: inline-block; margin: 0 0 2px; font-family: var(--title-font); font-weight: var(--title-weight); font-style: var(--title-fstyle); letter-spacing: var(--title-tracking); line-height: 1.1; font-size: clamp(2.2rem, 4.6vw, 3.2rem); color: var(--orange); }
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
-  .home-top2 .hero-title { background: var(--title-fill); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; filter: var(--title-fx); }
+  .home-top2 .hero-title { background: var(--title-fill); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: var(--title-tf); color: var(--title-tf); filter: var(--title-fx); }
 }
 .home-top2 .hero-sub { margin: 0 0 18px; font-style: normal; font-weight: 400; font-size: 1.0625rem; line-height: 1.35; color: #444; }
 /* contact lines: a tidy two-by-two card instead of four loose grey lines */
@@ -100,7 +104,7 @@ strong { font-weight: 700; }
 .home-top2 .home-contact a { font-weight: 600; }
 .home-top2 .home-contact strong { font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); }
 @media (max-width: 600px) { .home-top2 .home-contact { columns: 1; } }
-.home-bio .home-message { margin: 0 0 0.7em; max-width: none; font-size: 1rem; line-height: 1.55; color: var(--ink); }
+.home-bio .home-message { margin: 0 0 0.7em; max-width: 42em; font-size: 1rem; line-height: 1.55; color: var(--ink); }
 .home-bio .home-message strong { font-weight: 700; color: var(--ink); }
 .home-bio .home-explore { margin: 8px 0 0; max-width: none; font-size: 1rem; font-weight: 400; line-height: 1.55; }
 .home-bio .home-explore a, .home-explore a { font-weight: 400; text-decoration-thickness: auto; text-underline-offset: 2px; }
@@ -110,8 +114,8 @@ strong { font-weight: 700; }
 .hire-card p { margin: 0 0 3px; color: var(--ink); font-size: 0.975rem; line-height: 1.5; }
 .hire-card p:last-child { margin-bottom: 0; }
 .hire-card .hire-card-title { margin-bottom: 2px; font-size: 0.975rem; font-weight: 700; color: var(--ink); }
-.hire-card a.hire-cta, .hire-card a.hire-cta:visited { color: var(--orange-text) !important; font-weight: 400; text-decoration-color: currentColor; text-decoration-thickness: auto; text-underline-offset: 2px; }
-.hire-card a.hire-cta:hover { color: #7a3600 !important; }
+.hire-card a.hire-cta, .hire-card a.hire-cta:visited { color: var(--orange-text); font-weight: 400; text-decoration-color: currentColor; text-decoration-thickness: auto; text-underline-offset: 2px; }
+.hire-card a.hire-cta:hover { color: #7a3600; }
 
 /* Recent News: plain bullet list, bold dates */
 .home-side .home-recent, .home-recent { position: static; border-top: 0; padding-top: 0; }
@@ -126,7 +130,6 @@ strong { font-weight: 700; }
 .home-research-head { align-items: baseline; margin-bottom: 2px; }
 .home-research-head h2, .home-block h2 { margin: 0; font-size: 1.375rem; color: var(--news-red); }
 .home-research-head a { font-size: 0.9375rem; }
-.rgrid { grid-template-columns: 1fr !important; gap: 0; }
 .rcard, .rcard-nofig { display: grid; grid-template-columns: 56px minmax(240px, 46%) minmax(0, 1fr); gap: 4px 18px; align-items: center; padding: 9px 0; border-top: 1px solid var(--rule); }
 .rcard > div { display: contents; }
 .rcard img { grid-column: 1; width: 56px; height: 56px; object-fit: contain; border: 1px solid var(--rule); border-radius: 4px; background: #fff; }
@@ -156,7 +159,6 @@ strong { font-weight: 700; }
 @media (min-width: 800px) { .footer-grid { grid-template-columns: 1.6fr 1fr; } }
 .footer-about p.footer-name { margin: 0 0 2px; color: var(--ink); font-weight: 700; font-size: 1.0625rem; }
 .footer-about p { margin: 0 0 4px; font-size: 0.875rem; color: var(--muted); }
-.footer-addr { margin-top: 8px !important; font-size: 0.8125rem; line-height: 1.5; color: var(--muted); }
 .footer-grid h2 { margin: 0 0 6px; color: var(--ink); text-transform: none; letter-spacing: 0; font-size: 0.9375rem; }
 .footer-grid ul { font-family: var(--sans); font-size: 0.875rem; }
 .footer-grid li { padding: 2px 0; }
@@ -165,15 +167,15 @@ strong { font-weight: 700; }
 /* ==========================================================================
    Space between sections (about 36-40 px between blocks, items inside stay tight)
    ========================================================================== */
-.home-top2 { padding: 28px 0 38px; }
-.home-bio .home-explore { margin-top: 12px; }
+.home-top2 { padding: 28px 0 calc(var(--section-gap) / 2); }
+.home-bio .home-explore { margin-top: 8px; }
 .home-side { margin-top: 0; }
-.home-side .hire-card, .hire-card { margin: 30px 0 38px; padding: 12px 16px; }
-.home-recent h2 { margin-bottom: 10px; }
-.home-recent li { margin-bottom: 6px; }
-.home-recent .home-more { margin-top: 10px; }
-.home-research { padding: 38px 0 34px; }
-.home-research-head { margin-bottom: 10px; }
+.home-side .hire-card, .hire-card { margin: 16px 0 var(--section-gap); padding: 12px 16px; }
+.home-recent h2 { margin-bottom: 6px; }
+.home-recent li { margin-bottom: 4px; }
+.home-recent .home-more { margin-top: 6px; }
+.home-research { padding: calc(var(--section-gap) / 2) 0 32px; }
+.home-research-head { margin-bottom: 8px; }
 .site-footer { margin-top: 12px; }
 .footer-grid { padding-top: 32px; padding-bottom: 14px; }
 
@@ -185,7 +187,6 @@ strong { font-weight: 700; }
 .site-footer a:hover { color: #ffffff; text-decoration-color: #f3b27a; }
 .footer-about p.footer-name { color: #ffffff; }
 .footer-about p { color: #cfe0d6; }
-.footer-about p.footer-addr { color: #9dbfae; }
 .footer-grid h2 { color: #f3b27a; }
 .footer-base { color: #9dbfae; border-top: 1px solid rgba(255, 255, 255, 0.16); }
 
@@ -234,3 +235,219 @@ strong { font-weight: 700; }
   .rgroup-fig { display: block; width: 112px; height: 112px; margin: 0 0 16px; }
   .rgroup h3 { margin-bottom: 12px; font-size: 1.5rem; }
 }
+
+/* ==========================================================================
+   Other pages: the same fonts, colours and sizes as the homepage.
+   Font and colour rules only. Every page keeps its own layout.
+
+   Sizes used everywhere (the homepage's scale):
+     52px page title      24px card titles    22px section headings   17px subtitles
+     16px paragraphs      15.6px lists and secondary text             14px small details
+     13px chips           12px small labels
+   ========================================================================== */
+
+/* page titles: same font and colour as the lab name */
+.page-head h1, .pi-intro h1 { font-family: var(--title-font); font-weight: var(--title-weight); font-style: var(--title-fstyle); letter-spacing: var(--title-tracking); font-size: clamp(2.2rem, 4.6vw, 3.2rem); line-height: 1.1; color: var(--orange); }
+.page-lede { font-size: 1.0625rem; color: #444; }
+
+/* section headings: same red and size as "Recent News" and "Research" */
+.year-label, .group > h2, .cv-section > h2, .join-col h2, .areas .area-text h3 { font-family: var(--sans); font-size: 1.375rem; font-weight: 700; letter-spacing: 0; color: var(--news-red); }
+.person-feature h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: 0; color: var(--ink); }
+
+/* lists and secondary text: 15.6px */
+.news-item .news-text, .cv li, .plain li, .year-block .pub-name, .course-table td, .person-name, .join-ride li { font-size: 0.975rem; }
+.person-name { font-weight: 600; }
+.pi-aside .aside-title { font-size: 0.975rem; }
+/* paragraphs: 16px */
+.pi-intro p, .join-col p { font-size: 1rem; }
+/* subtitles and course titles: 17px */
+.pi-intro .role { font-size: 1.0625rem; }
+.cv-section h4, .course-block h4, .pi-main h4 { font-size: 1.0625rem; }
+/* small details: 14px */
+figcaption { font-size: 0.875rem; }
+/* chips: 13px */
+.areas .tag { font-size: 0.8125rem; }
+/* small labels: 12px */
+.news-date, .pub-track, .join-ride span, .course-term, .course-block .course-term, .course-table th, .aside-block h2, .field label, .contact-info dt { font-size: 0.75rem; }
+/* buttons and one homepage link on the same scale */
+.btn { font-size: 0.975rem; }
+.home-research-head a { font-size: 0.975rem; }
+
+/* ==========================================================================
+   Spacing like the homepage: content starts higher, a clear gap between
+   sections, tight rows inside them. Spacing only: no columns or structure change.
+   Change these three numbers to loosen or tighten every page at once.
+   ========================================================================== */
+:root { --content-top: 20px; --section-gap: 48px; --row-pad: 5px; }
+
+/* content starts higher, right under the page title */
+.page-body, .join-grid, .contact-grid, .pi-layout, .areas { padding-top: var(--content-top); padding-bottom: 44px; }
+.pub-intro { padding: 14px 0 0; }
+
+/* a clear gap between sections (the dividers stay where they are) */
+.year-block, .group, .area { padding-top: calc(var(--section-gap) / 2); padding-bottom: calc(var(--section-gap) / 2); }
+.year-block:first-of-type, .area:first-child { padding-top: 0; }
+.person-feature { padding: 0 0 calc(var(--section-gap) / 2); }
+.cv-section { margin-top: calc(var(--section-gap) / 2); padding-top: calc(var(--section-gap) / 2); }
+.endnote { padding-top: 18px; }
+
+/* tight rows inside sections, headings close to their content */
+.news-item, .year-block .pub-row, .people li, .cv li, .plain li { padding-top: var(--row-pad); padding-bottom: var(--row-pad); }
+.news-item:first-child, .year-block .pub-row:first-child, .people li:first-child, .cv li:first-child, .plain li:first-child { padding-top: 0; }
+.names li { padding-top: 5px; padding-bottom: 5px; }
+.cv-section > h2 { margin-bottom: 8px; }
+.area h3 { margin-bottom: 8px; }
+.area .tags, .areas .tags { margin-top: 12px; }
+
+/* research chips: the same soft pills as the homepage */
+.areas .tag { padding: 5px 12px; border-radius: 999px; background: #f7f3ec; border: 1px solid #e3dccf; color: var(--ink); font-weight: 600; }
+.areas a.tag:hover { background: var(--orange); border-color: var(--orange); color: #fff; }
+.areas .tag-ongoing { background: #fff; border-style: dashed; border-color: #cdbfa8; }
+
+/* ==========================================================================
+   Dr. Hossain page: one full-width column, lists formatted like the homepage news
+   (bullets with the date in bold)
+   ========================================================================== */
+.pi-layout { display: block; }
+.pi-main { max-width: none; }
+.pi-intro p { max-width: 42em; }
+.cv, .plain { list-style: disc; padding-left: 1.2em; }
+.cv li, .plain li { display: list-item; border-top: 0; padding-top: 3px; padding-bottom: 3px; }
+.cv li:first-child, .plain li:first-child { padding-top: 3px; }
+.cv-when { display: inline; padding: 0; font-size: inherit; font-weight: 700; letter-spacing: 0; color: var(--ink); }
+.cv li > div { display: inline; }
+.cv-when:empty { display: none; }
+.cv-when::after { content: " "; }
+
+/* Dr. Hossain page: portrait on the left of the name and role, paragraphs full width below */
+.pi-photo { display: block; width: 150px; aspect-ratio: 0.8; object-fit: cover; object-position: 50% 28%; margin: 4px 0 14px; border: 1px solid var(--rule-strong); border-radius: 8px; background: var(--paper-2); }
+@media (min-width: 601px) {
+  .pi-intro { display: grid; grid-template-columns: 150px minmax(0, 1fr); grid-template-rows: auto auto auto 1fr; column-gap: 26px; align-items: start; }
+  .pi-intro .pi-photo { grid-column: 1; grid-row: 1 / span 4; margin: 4px 0 14px; }
+  .pi-intro .eyebrow { grid-column: 2; grid-row: 1; }
+  .pi-intro h1 { grid-column: 2; grid-row: 2; }
+  .pi-intro .role { grid-column: 2; grid-row: 3; margin-bottom: 0; }
+  .pi-intro > p:not(.eyebrow):not(.role) { grid-column: 1 / -1; }
+}
+@media (max-width: 600px) { .pi-photo { width: 120px; } }
+
+/* ==========================================================================
+   Publications page: no wasted columns. The year is a heading above its papers and
+   each paper sits on one line: venue label, title, then the track in small grey text.
+   ========================================================================== */
+.pubs-page .year-block { display: block; }
+.pubs-page .year-block:first-of-type { padding-top: 0; }
+.pubs-page .year-label { position: static; margin: 0 0 4px; }
+.pubs-page .year-block .pub-row { padding-top: var(--row-pad); padding-bottom: var(--row-pad); gap: 2px 18px; }
+@media (min-width: 760px) {
+  .pubs-page .year-block .pub-row { grid-template-columns: 100px minmax(0, 1fr) auto; align-items: center; }
+  .pubs-page .year-block .pub-meta { display: contents; }
+  .pubs-page .year-block .pub-venue-name { grid-column: 1; grid-row: 1; justify-self: start; }
+  .pubs-page .year-block .pub-name { grid-column: 2; grid-row: 1; }
+  .pubs-page .year-block .pub-track { grid-column: 3; grid-row: 1; justify-self: end; text-align: right; white-space: nowrap; color: var(--muted); }
+}
+.pubs-page .year-block .pub-venue-name { padding: 3px 11px 4px; font-size: 0.8125rem; line-height: 1.3; }
+
+/* ==========================================================================
+   News and Team pages: the same space-saving layout as Publications.
+   Headings sit above their content, narrow side columns shrink or go away,
+   and the content gets the width that was being wasted.
+   ========================================================================== */
+/* News: year as a heading, slim date column, text gets the rest */
+.news-page .year-block { display: block; }
+.news-page .year-block:first-of-type { padding-top: 0; }
+.news-page .year-label { position: static; margin: 0 0 4px; }
+.news-page .news-item { gap: 2px 18px; }
+@media (min-width: 700px) { .news-page .news-item { grid-template-columns: 84px minmax(0, 1fr); } }
+
+/* Team: group name as a heading, people in four columns, names fill the full width */
+.team-page .group { display: block; }
+.team-page .group > h2 { margin: 0 0 8px; }
+@media (min-width: 900px) {
+  .team-page .people { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .team-page .people li:nth-child(-n+4) { border-top: 0; padding-top: 0; }
+}
+@media (min-width: 700px) { .team-page .person-feature { grid-template-columns: 130px minmax(0, 1fr); } }
+.team-page .person-feature { gap: 14px 24px; padding-bottom: 8px; }
+.team-page .portrait { max-width: 130px; }
+.team-page .cohort + .cohort { margin-top: 16px; }
+.team-page .cohort h3 { margin: 0 0 8px; }
+.team-page .names { column-width: 170px; column-gap: 28px; }
+
+/* Publications: authors under each title (your name in bold), title links in the original dark text */
+.pub-authors { display: block; margin: 2px 0 0; font-size: 0.875rem; font-weight: 400; line-height: 1.45; color: var(--muted); }
+.pub-authors strong { color: var(--ink); font-weight: 700; }
+@media (min-width: 760px) {
+  .pubs-page .year-block .pub-row { align-items: start; }
+  .pubs-page .year-block .pub-venue-name { margin-top: 1px; }
+  .pubs-page .year-block .pub-track { margin-top: 3px; }
+}
+
+/* ==========================================================================
+   Tidy pass: tighter inside sections, and the last three off-scale font sizes
+   ========================================================================== */
+.subhead { margin: 16px 0 4px; }
+.subhead:first-of-type { margin-top: 6px; }
+.course-block { padding: 12px 0; }
+.course-block:first-of-type { padding-top: 4px; }
+.pi-intro p, .join-col p { margin-bottom: 0.7em; }
+.cv-section > h2, .area h3 { margin-bottom: 6px; }
+.area .tags, .areas .tags { margin-top: 10px; }
+.prose figcaption { font-size: 0.875rem; }
+.year-block .pub-track { font-size: 0.75rem; }
+.field input, .field textarea { font-size: 1rem; }
+
+/* ==========================================================================
+   Team page: calmer. No rule under every name, plain labels, no boxed button.
+   (Team page only. Nothing is removed.)
+   ========================================================================== */
+/* names: just names, with a little air between them */
+.team-page .names li { border-bottom: 0; padding-top: 3px; padding-bottom: 3px; }
+.team-page .people li { border-top: 0; padding-top: 0; padding-bottom: 8px; }
+/* labels: plain bold text instead of small orange capitals */
+.team-page .cohort h3 { margin: 12px 0 6px; font-size: 1rem; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.team-page .cohort:first-child h3 { margin-top: 4px; }
+/* the PI block: no decorative dash, the button becomes an ordinary link */
+.team-page .person-feature .eyebrow { margin: 0 0 4px; letter-spacing: 0.06em; }
+.team-page .person-feature .eyebrow::before { display: none; }
+.team-page .person-feature .role-lab, .team-page .person-feature .role-lab strong { font-weight: 400; color: var(--muted); }
+.team-page .person-feature .actions { margin-top: 6px; }
+.team-page .person-feature .btn { padding: 0; border: 0; background: none; font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+.team-page .person-feature .btn::after { content: " \2192"; }
+.team-page .person-feature .btn:hover { color: #0b0b8f; background: none; }
+/* one light line between groups */
+.team-page .group, .team-page .person-feature { border-color: var(--rule); }
+.team-page .person-feature { padding-bottom: 18px; }
+
+/* ==========================================================================
+   Audit fixes
+   ========================================================================== */
+/* footer links: Join and Contact stay reachable from every page */
+.site-footer .footer-base { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 24px; }
+.footer-links a { display: inline-block; padding: 4px 0; }
+.footer-links a + a { margin-left: 14px; }
+
+/* easier to tap: the menu button, and links that stand on a line of their own */
+.site-header .nav-toggle { min-height: 44px; padding-left: 16px; padding-right: 16px; }
+.hire-card a.hire-cta, .home-recent .home-more a, .home-research-head a, .team-page .person-feature .btn { display: inline-block; padding-top: 4px; padding-bottom: 4px; }
+
+/* research cards on the homepage are as tall as their content, with no empty space inside */
+.rgroups { align-items: start; }
+
+/* Research page: area titles are now h2 (they were h3, which skipped a heading level) */
+.areas .area-text h2 { margin: 0 0 6px; font-family: var(--sans); font-size: 1.375rem; line-height: 1.2; font-weight: 700; letter-spacing: 0; color: var(--news-red); }
+
+/* Team page: replaces two inline styles */
+.team-page .person-feature h2 { margin-top: 16px; }
+
+/* High Contrast mode: keep the green header and footer so the white logo stays visible */
+@media (forced-colors: active) { .site-header, .site-footer { forced-color-adjust: none; } }
+
+/* Publications: the title is plain text. Links to the paper and to its artifacts sit on their own line. */
+.pub-resources { display: block; margin-top: 3px; font-size: 0.875rem; font-weight: 400; line-height: 1.4; }
+.pub-resgroup { display: inline; }
+.pub-resgroup:empty { display: none; }
+.pub-resgroup:not(:empty) + .pub-resgroup:not(:empty) { margin-left: 14px; padding-left: 14px; border-left: 1px solid var(--rule-strong); }
+.pub-res a { display: inline-block; padding: 3px 0; color: var(--ink); text-decoration: underline; text-decoration-color: rgba(21, 71, 52, 0.35); text-underline-offset: 2px; }
+.pub-res a:hover { color: var(--orange-text); text-decoration-color: currentColor; }
+.pub-res + .pub-res::before { content: "\00b7"; margin: 0 7px; color: var(--muted); }
