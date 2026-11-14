@@ -9,14 +9,11 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
     <div class="home-col">
       <h1 class="hero-title">AS²ERT Lab</h1>
       <p class="hero-sub">AI for Safe Software Engineering and Testing</p>
-
-      <address class="home-contact">
-        Department of Computer Science<br>
-        The University of Texas at Dallas<br>
-        Led by <a href="{{ '/PI/' | relative_url }}">Dr. Soneya Binta Hossain</a><br>
-        <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </address>
-
+      <ul class="home-icons" aria-label="Contact and profiles">
+        {% for link in site.author.links %}{% if link.url %}
+        <li><a href="{{ link.url }}" data-label="{{ link.label }}" aria-label="{{ link.label }}" title="{{ link.label }}"></a></li>
+        {% endif %}{% endfor %}
+      </ul>
       <div class="home-bio">
     
 
@@ -54,18 +51,20 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
       <a href="{{ '/project/' | relative_url }}">All research areas →</a>
     </div>
 
-    <div class="rgrid">
-      {% for a in site.data.pub_areas %}
-      {% assign items = site.data.publications | where: "area", a.key %}
-      <article class="rcard{% unless a.figure %} rcard-nofig{% endunless %}">
-        {% if a.figure %}<img src="{{ '/assets/images/' | append: a.figure | relative_url }}" alt="" loading="lazy">{% endif %}
-        <div>
-          <h3>{{ a.title }}</h3>
-          <p>{{ a.tagline }}</p>
+    <div class="rgroups">
+      {% for g in site.data.research_groups %}
+      <article class="rgroup">
+        <img class="rgroup-fig" src="{{ '/assets/images/' | append: g.figure | relative_url }}" alt="" loading="lazy">
+        <div class="rgroup-body">
+          <h3>{{ g.title }}</h3>
           <div class="tags">
-            {% for p in items limit: 3 %}
+            {% assign areas = site.data.pub_areas | where: "group", g.key %}
+            {% for a in areas %}
+            {% assign items = site.data.publications | where: "area", a.key %}
+            {% for p in items %}
             {% assign u = p.tag_url | default: p.links[0].url %}
             {% if u %}<a class="tag{% if p.status %} tag-ongoing{% endif %}" href="{{ u }}" title="{{ p.title | escape }}">{{ p.tag }}</a>{% else %}<span class="tag tag-static" title="{{ p.title | escape }}">{{ p.tag }}</span>{% endif %}
+            {% endfor %}
             {% endfor %}
           </div>
         </div>
