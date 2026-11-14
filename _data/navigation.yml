@@ -1,5 +1,7 @@
 # Primary navigation. Order here = order in the header and footer.
 main:
+  - title: "Home"
+    url: /
   - title: "Research"
     url: /project/
   - title: "Publications"
