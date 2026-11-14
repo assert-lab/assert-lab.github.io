@@ -27,7 +27,7 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
       <aside class="hire-card" aria-label="Join the lab">
         <p class="hire-card-title"><strong>Help us build trustworthy software.</strong></p>
         <p>We’re hiring strong Ph.D. students at the intersection of AI, software engineering, and quantum computing.</p>
-        <p><a class="hire-cta" href="{{ '/join/' | relative_url }}">Explore opportunities →</a></p>
+        <p><a class="hire-cta" href="{{ '/join/' | relative_url }}"><strong>Explore opportunities →</strong></a></p>
       </aside>
 
       <aside class="home-recent" aria-label="Recent news">
