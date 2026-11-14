@@ -1,0 +1,11 @@
+# The three big research categories shown on the homepage.
+# Each research area in pub_areas.yml says which category it belongs to with its `group:` line.
+- key: classical
+  title: "Classical Software Testing"
+  figure: pub-testing.svg
+- key: agent
+  title: "Agent Testing"
+  figure: pub-ai.svg
+- key: quantum
+  title: "Quantum Software Testing"
+  figure: pub-quantum.svg
