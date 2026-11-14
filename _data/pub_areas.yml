@@ -11,7 +11,7 @@
   group: classical
   title: "Software testing and test oracles"
   tagline: "Test oracles, test adequacy, and automated test generation."
-  long: "We develop methods to assess and improve the effectiveness of software testing. Our research examines test adequacy, the correctness and strength of test oracles, checked coverage, mutation testing, and automated test generation. A central question is whether tests can detect incorrect behavior, even when they achieve high structural coverage."
+  long: "We develop methods to assess and improve how effective software testing is. We look at test adequacy, the correctness and strength of test oracles, checked coverage, mutation testing, and automated test generation. A central question is whether tests can detect incorrect behavior even when they reach high structural coverage."
   blurb: "How do we know a test checks the right thing? We generate and evaluate test oracles, measure what tests miss, and use oracles to guide test generation."
   figure: pub-testing.svg
   alt: "The same set of behaviors judged by an oracle whose boundary separates correct behavior from faults"
