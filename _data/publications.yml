@@ -39,7 +39,6 @@
   tag_url: "https://github.com/assert-lab/CoCoMUT"
   links:
     - { label: "Paper", url: "https://doi.org/10.1145/3837729.3840485" }
-    - { label: "arXiv", url: "https://arxiv.org/abs/2606.31971" }
     - { label: "GitHub", url: "https://github.com/assert-lab/CoCoMUT" }
 
 - area: infra
@@ -53,7 +52,6 @@
   tag_url: "https://github.com/assert-lab/PITMuS"
   links:
     - { label: "Paper", url: "https://doi.org/10.1145/3832783.3834626" }
-    - { label: "arXiv", url: "https://arxiv.org/abs/2605.21930" }
     - { label: "GitHub", url: "https://github.com/assert-lab/PITMuS" }
 
 - area: infra
@@ -201,7 +199,6 @@
   links:
     - { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/10172745" }
     - { label: "Artifact", url: "https://github.com/soneyahossain/hcc-gap-recommender/tree/main" }
-    - { label: "arXiv", url: "https://arxiv.org/abs/2308.00316" }
 
 - area: testing
   year: 2023
