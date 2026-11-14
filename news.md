@@ -1,14 +1,14 @@
 ---
 layout: default
 permalink: /news/
-title: "News & Updates"
+title: "News & updates"
 description: "News and updates from the AS²ERT Lab at UT Dallas."
 ---
 
 {% include page-head.html eyebrow="AS²ERT Lab" title="News &amp; updates" %}
 
 <div class="wrap">
-  <div class="page-body">
+  <div class="page-body news-page">
     {% assign groups = site.data.news | group_by: "year" %}
     {% for group in groups %}
     <section class="year-block" id="{{ group.name }}">

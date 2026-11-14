@@ -8,45 +8,18 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
 <div class="wrap">
   <div class="pi-layout">
 
-    <aside class="pi-aside">
-      <img class="portrait" src="{{ '/assets/images/soneya.jpg' | relative_url }}" alt="Dr. Soneya Binta Hossain">
-      <p class="aside-title">Assistant Professor<br>Department of Computer Science<br>The University of Texas at Dallas</p>
-
-      <div class="aside-block">
-        <h2>Links</h2>
-        <ul>
-          {% for link in site.author.links %}
-          {% if link.url %}
-          <li><a href="{{ link.url }}">{{ link.label }}</a></li>
-          {% endif %}
-          {% endfor %}
-          <li><a href="{{ '/team/' | relative_url }}">AS²ERT Lab team</a></li>
-        </ul>
-      </div>
-
-      <div class="aside-block toc-block">
-        <h2>On this page</h2>
-        <ul>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#service">Service</a></li>
-          <li><a href="#awards">Honors &amp; support</a></li>
-          <li><a href="#teaching">Teaching &amp; mentoring</a></li>
-          <li><a href="#timeline">Academic timeline</a></li>
-        </ul>
-      </div>
-    </aside>
 
     <div class="pi-main">
 
       <div class="pi-intro" id="top">
+        <img class="pi-photo" src="{{ '/assets/images/soneya.jpg' | relative_url }}" alt="Dr. Soneya Binta Hossain">
         <p class="eyebrow">Principal Investigator, AS²ERT Lab</p>
         <h1>Dr. Soneya Binta Hossain</h1>
         <p class="role">Assistant Professor · Department of Computer Science · The University of Texas at Dallas</p>
 
-        <p>I lead the AS²ERT Lab, AI for Safe Software Engineering and Testing, at UTD. My research focuses on verification and validation of both classical and quantum software systems. We aim to effectively combine AI with established software engineering techniques to improve software correctness checking and ensure reliability. A major part of my work also seeks to better understand the failure modes of AI-based development tools.</p>
+        <p>I lead the AS²ERT Lab (AI for Safe Software Engineering and Testing) at UTD. My research is on verification and validation of classical and quantum software. We combine AI with established software engineering techniques to improve correctness checking and reliability. A big part of my work is understanding how AI-based development tools fail.</p>
 
-        <p>My path to the AS²ERT Lab began at the Bangladesh University of Engineering and Technology (BUET), where I earned my B.Sc. in Computer Science and Engineering, and continued at the University of Virginia, where I earned my Ph.D. and M.S. in Computer Science under the guidance of <a href="https://matthewbdwyer.github.io">Prof. Matthew Dwyer</a>. During my Ph.D., I studied AI-driven approaches to automated software testing, work that now shapes the lab’s broader vision of building safer and more trustworthy software systems.</p>
+        <p>I earned my B.Sc. in Computer Science and Engineering at the Bangladesh University of Engineering and Technology (BUET), then my Ph.D. and M.S. in Computer Science at the University of Virginia, advised by <a href="https://matthewbdwyer.github.io">Prof. Matthew Dwyer</a>. My Ph.D. work was on AI-driven approaches to automated software testing, and it still shapes the lab’s goal of building safer, more trustworthy software.</p>
       </div>
 
       <section class="cv-section" id="education">
@@ -143,7 +116,7 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
 
         <div class="course-block">
           <p class="course-term">Fall 2025</p>
-          <h4>CS/CE/SE 3354 — Software Engineering</h4>
+          <h4>CS/CE/SE 3354: Software Engineering</h4>
           <p>Software processes, requirements engineering, UML modeling, design principles, testing, and team-based projects.</p>
           <p class="course-links"><a href="https://catalog.utdallas.edu/2024/undergraduate/courses/cs3354">Catalog</a> · <a href="{{ '/teaching/CS3354_Fall2025_Syllabus.pdf' | relative_url }}">Syllabus (PDF)</a></p>
           <details>
@@ -171,7 +144,7 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
 
         <div class="course-block">
           <p class="course-term">Spring 2026</p>
-          <h4>CS/SE 6356 — Software Maintenance, Evolution &amp; Re-engineering</h4>
+          <h4>CS/SE 6356: Software Maintenance, Evolution &amp; Re-engineering</h4>
           <p>Cross-listed as SYSM 6308 / CS/SE 6356.001.</p>
           <p class="course-links"><a href="https://catalog.utdallas.edu/2025/graduate/courses/cs6356">Catalog</a></p>
         </div>
@@ -200,6 +173,20 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
           <li><span class="cv-when">May 2023</span><div>Attended ICSE 2023 in Melbourne, Australia, and presented our paper. <a class="more" href="{{ '/ICSE-23/' | relative_url }}">Gallery →</a></div></li>
           <li><span class="cv-when">Sep 2021</span><div>Passed the Ph.D. qualifying exam.</div></li>
           <li><span class="cv-when">Aug 2019</span><div>Began my Ph.D. in Computer Science at the University of Virginia.</div></li>
+        </ul>
+      </section>
+
+      <section class="cv-section" id="galleries">
+        <h2>Photo galleries</h2>
+        <ul class="plain">
+          <li><a href="{{ '/icse-24/' | relative_url }}">ICSE 2024</a></li>
+          <li><a href="{{ '/proposal/' | relative_url }}">My Ph.D. Proposal</a></li>
+          <li><a href="{{ '/graduation/' | relative_url }}">UVA Final Exercise 2024</a></li>
+          <li><a href="{{ '/FSE-23/' | relative_url }}">FSE 2023</a></li>
+          <li><a href="{{ '/ICSE-23/' | relative_url }}">ICSE 2023</a></li>
+          <li><a href="{{ '/CRA-SFO/' | relative_url }}">CRA Grad Cohort 2023</a></li>
+          <li><a href="{{ '/award-23/' | relative_url }}">CS Award (2022–2023)</a></li>
+          <li><a href="{{ '/service-award/' | relative_url }}">CS Department Award Ceremony 2022</a></li>
         </ul>
       </section>
 

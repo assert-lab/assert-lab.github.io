@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Focus Research Areas"
+title: "Focus research areas"
 permalink: /project/
 description: "Research areas of the AS²ERT Lab: software testing and test oracles, specifications, trustworthy AI, debugging and repair, and quantum software assurance."
 ---
@@ -14,7 +14,7 @@ description: "Research areas of the AS²ERT Lab: software testing and test oracl
     {% assign even = forloop.index | modulo: 2 %}
     <section class="area{% if even == 0 and a.figure %} area-flip{% endif %}">
       <div class="area-text">
-        <h3>{{ a.title }}</h3>
+        <h2>{{ a.title }}</h2>
         <p>{{ a.long }}</p>
         <div class="tags">{% include area-tags.html key=a.key %}</div>
       </div>

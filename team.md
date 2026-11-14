@@ -2,30 +2,30 @@
 layout: default
 title: "Team"
 permalink: /team/
-description: "The AS²ERT Lab team at UT Dallas: PhD students, interns, undergraduate researchers, and high school students."
+description: "The AS²ERT Lab team at The University of Texas at Dallas: Ph.D. students, interns, undergraduate researchers, and high school students."
 ---
 
 {% include page-head.html eyebrow="AS²ERT Lab" title="Team" %}
 
 <div class="wrap">
 
-  <div class="page-body">
+  <div class="page-body team-page">
 
     <section class="person-feature">
       <img class="portrait" src="{{ '/assets/images/soneya.jpg' | relative_url }}" alt="Dr. Soneya Binta Hossain">
       <div>
         <p class="eyebrow">Principal Investigator</p>
-        <h2 style="margin-top:16px;">Dr. Soneya Binta Hossain</h2>
-        <p class="role">Assistant Professor, Computer Science<br>University of Texas at Dallas</p>
-        <p class="role-lab">Principal Investigator, <strong>AS²ERT Lab (AI for Safe Software Engineering &amp; Testing)</strong></p>
-        <div class="actions" style="margin-top:22px;">
+        <h2>Dr. Soneya Binta Hossain</h2>
+        <p class="role">Assistant Professor, Computer Science<br>The University of Texas at Dallas</p>
+        <p class="role-lab"><strong>AS²ERT Lab (AI for Safe Software Engineering &amp; Testing)</strong></p>
+        <div class="actions">
           <a class="btn" href="{{ '/PI/' | relative_url }}">Full profile</a>
         </div>
       </div>
     </section>
 
     <section class="group">
-      <h2>PhD students</h2>
+      <h2>Ph.D. students</h2>
       <ul class="people">
         <li>
           <span class="person-name">Noshin Ulfat</span>

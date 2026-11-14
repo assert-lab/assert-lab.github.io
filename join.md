@@ -1,23 +1,23 @@
 ---
 layout: default
-title: "Join the Lab"
+title: "Join the lab"
 permalink: /join/
-description: "Join the AS²ERT Lab: PhD positions, undergraduate research through UTD's RIDE program, and remote collaboration."
+description: "Join the AS²ERT Lab: Ph.D. positions, undergraduate research through UTD’s RIDE program, and remote collaboration."
 ---
 
-{% include page-head.html eyebrow="AS²ERT Lab" title="Want to be part of our mission?" %}
+{% include page-head.html eyebrow="AS²ERT Lab" title="Join the lab" %}
 
 <div class="wrap">
   <div class="join-grid">
 
     <section class="join-col">
       <h2>Graduate students</h2>
-      <p><strong>We are hiring PhD students.</strong> The AS²ERT Lab is looking for graduate students who are excited about software engineering research. If you are interested, we encourage you to take a look at our recent work and reach out with your thoughts on what current approaches miss and where the field could go next. Our lab culture values intellectual ownership, high standards, and deep technical engagement, along with open, principled discussion and follow-through. These values are closely aligned with these <a href="https://www.amazon.jobs/content/en/our-workplace/leadership-principles" target="_blank" rel="noopener">principles</a>.</p>
+      <p><strong>We are hiring Ph.D. students.</strong> We are looking for graduate students who are excited about software engineering research. If you’re interested, look through our recent work and reach out with your thoughts on what current approaches miss and where the field could go next. The lab values intellectual ownership, high standards, deep technical engagement, and open, principled discussion with follow-through. These values are in line with these <a href="https://www.amazon.jobs/content/en/our-workplace/leadership-principles" target="_blank" rel="noopener">principles</a>.</p>
     </section>
 
     <section class="join-col">
       <h2>Undergraduate research</h2>
-      <p>The AS²ERT Lab is deeply committed to mentoring motivated undergraduate students and helping them grow into confident, independent researchers in Software Engineering. UTD’s <strong>RIDE (Research, Inquiry, Design Experience)</strong> program provides an excellent foundation for introducing undergraduates to research in a structured and supportive environment. Through RIDE, students work on carefully scoped projects that encourage them to ask meaningful research questions, build and evaluate technical solutions, and communicate their findings at a level suitable for scholarly venues.</p>
+      <p>We mentor motivated undergraduates and help them grow into independent researchers in software engineering. UTD’s <strong>RIDE (Research, Inquiry, Design Experience)</strong> program introduces undergraduates to research in a structured, supportive setting. In RIDE, students work on well-scoped projects where they ask research questions, build and evaluate technical solutions, and communicate their findings at a level suitable for scholarly venues.</p>
       <ul class="join-ride">
         <li><span>RIDE 033</span> Trustworthy AI in Software Testing</li>
         <li><span>RIDE 041</span> Trustworthy AI in Software Engineering</li>
@@ -27,7 +27,7 @@ description: "Join the AS²ERT Lab: PhD positions, undergraduate research throug
 
     <section class="join-col">
       <h2>Remote collaboration</h2>
-      <p>We offer remote internship opportunities, particularly for international students. Please reach out via email if interested.</p>
+      <p>We offer remote internships, especially for international students. Reach out by email if you’re interested.</p>
       <p><a class="btn btn-primary" href="mailto:{{ site.email }}">Email us</a></p>
     </section>
 
