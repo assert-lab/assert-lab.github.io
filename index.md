@@ -17,7 +17,7 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
       <div class="home-bio">
     
 
-        <p class="home-message">At the AS²ERT Lab, we study how to make software more reliable as systems get more complex and AI takes a bigger role in software development. We combine software testing, formal verification, and artificial intelligence to understand how software behaves, find faults, and build better ways to establish correctness. Our work covers traditional software, autonomous AI agents, and quantum computing.</p>
+        <p class="home-message">At the AS²ERT Lab, we study how to make **software more reliable** as systems grow increasingly complex and AI takes on a greater role in software development. Our research brings together **software testing, formal verification, and artificial intelligence** to understand software behavior, find faults, and develop stronger methods for establishing correctness. We work across **traditional software, autonomous AI agents, and quantum computing**, addressing fundamental challenges in how software is **tested, verified, and trusted**.</p>
 
         <p class="home-explore">Explore our <a href="{{ '/project/' | relative_url }}">research areas</a>, <a href="{{ '/publications/' | relative_url }}">publications</a>, and <a href="{{ '/team/' | relative_url }}">team</a>.</p>
       </div>
