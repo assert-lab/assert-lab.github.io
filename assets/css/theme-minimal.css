@@ -108,7 +108,7 @@ strong { font-weight: 700; }
 .home-top2 .home-contact a { font-weight: 600; }
 .home-top2 .home-contact strong { font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); }
 @media (max-width: 600px) { .home-top2 .home-contact { columns: 1; } }
-.home-bio .home-message { margin: 0 0 0.7em; max-width: 42em; font-size: 1rem; line-height: 1.55; color: var(--ink); }
+.home-bio .home-message { margin: 0 0 0.7em; max-width: none; font-size: 1rem; line-height: 1.55; color: var(--ink); }
 .home-bio .home-message strong { font-weight: 700; color: var(--ink); }
 .home-bio .home-explore { margin: 8px 0 0; max-width: none; font-size: 1rem; font-weight: 400; line-height: 1.55; }
 .home-bio .home-explore a, .home-explore a { font-weight: 400; text-decoration-thickness: auto; text-underline-offset: 2px; }
