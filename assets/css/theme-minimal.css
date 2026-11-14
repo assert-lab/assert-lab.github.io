@@ -25,6 +25,9 @@
   --green: #b34f00;
   --peach: #fbeee0;
   --news-red: #b80000;
+  --hire-bg: #fcdcdc;      /* background of the "Join our lab" card (a light red) */
+  --hire-edge: #b80000;    /* its solid red left edge */
+  --sub-green: #154734;    /* UTD green: the line under the lab name on the homepage */
   --link: #1f1fcf;
   --sans: Arial, "Helvetica Neue", Helvetica, "Liberation Sans", sans-serif;
   --serif: Arial, "Helvetica Neue", Helvetica, "Liberation Sans", sans-serif;
@@ -97,7 +100,8 @@ strong { font-weight: 700; }
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .home-top2 .hero-title { background: var(--title-fill); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: var(--title-tf); color: var(--title-tf); filter: var(--title-fx); }
 }
-.home-top2 .hero-sub { margin: 0 0 18px; font-style: normal; font-weight: 400; font-size: 1.0625rem; line-height: 1.35; color: #444; }
+.home-top2 .hero-sub { margin: 0 0 18px; font-style: normal; font-weight: 400; font-size: 1.0625rem; line-height: 1.35; color: var(--sub-green); }
+.home-top2 .hero-sub strong { font-weight: 700; color: inherit; }
 /* contact lines: a tidy two-by-two card instead of four loose grey lines */
 .home-top2 .home-contact { display: block; max-width: none; margin: 4px 0 16px; padding: 9px 14px; font-style: normal; font-size: 0.875rem; line-height: 1.75; color: #4a4a55; background: #f6f3ee; border: 1px solid #ebe5da; border-radius: 8px; columns: 2; column-gap: 14px; }
 .home-top2 .home-contact::first-line { font-weight: 600; color: var(--ink); }
@@ -110,12 +114,13 @@ strong { font-weight: 700; }
 .home-bio .home-explore a, .home-explore a { font-weight: 400; text-decoration-thickness: auto; text-underline-offset: 2px; }
 
 /* join card becomes the peach note box */
-.home-side .hire-card, .hire-card { margin: 16px 0 22px; padding: 9px 14px; background: var(--peach); border: 0; border-left: 3px solid var(--orange); border-radius: 0 6px 6px 0; color: var(--ink); }
+.home-side .hire-card, .hire-card { margin: 16px 0 22px; padding: 9px 14px; background: var(--hire-bg); border: 0; border-left: 3px solid var(--hire-edge); border-radius: 0 6px 6px 0; color: var(--ink); }
 .hire-card p { margin: 0 0 3px; color: var(--ink); font-size: 0.975rem; line-height: 1.5; }
 .hire-card p:last-child { margin-bottom: 0; }
 .hire-card .hire-card-title { margin-bottom: 2px; font-size: 0.975rem; font-weight: 700; color: var(--ink); }
-.hire-card a.hire-cta, .hire-card a.hire-cta:visited { color: var(--orange-text); font-weight: 400; text-decoration-color: currentColor; text-decoration-thickness: auto; text-underline-offset: 2px; }
-.hire-card a.hire-cta:hover { color: #7a3600; }
+.hire-card a.hire-cta, .hire-card a.hire-cta:visited { color: #a30000; font-weight: 400; text-decoration-color: currentColor; text-decoration-thickness: auto; text-underline-offset: 2px; }
+.hire-card a.hire-cta:hover { color: #6e0000; }
+.hire-card a.hire-cta:focus-visible { outline: 2px solid #a30000; outline-offset: 3px; border-radius: 2px; }
 
 /* Recent News: plain bullet list, bold dates */
 .home-side .home-recent, .home-recent { position: static; border-top: 0; padding-top: 0; }
