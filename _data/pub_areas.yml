@@ -56,10 +56,10 @@
 
 - key: infra
   group: classical
-  title: "Datasets, benchmarks, and tools"
+  title: "Datasets, Benchmarks, and Tools"
   figure: pub-datasets.svg
   tagline: "Datasets, benchmarks, and tools for the community."
-  long: "Across these areas we build reusable tools, datasets, and benchmarks, so that results can be measured and reproduced by others."
+  long: "Scientific progress depends on reliable datasets, rigorous benchmarks, and reproducible evidence. Without them, it is difficult to determine whether new methods represent genuine advances or merely perform well on narrow evaluations. Across our research, we develop representative datasets, meaningful benchmarks, and open-source tools that enable independent evaluation, fair comparison, and reproducible research. We aim to build shared research infrastructure that allows the community to measure progress, challenge existing results, and accelerate scientific discovery."
   blurb: "Reusable infrastructure that lets the community measure progress and reproduce results."
   extras:
     - { tag: "SWE-MIMIC-BENCH", url: "https://github.com/Geek-a-Byte/SWE-MIMIC-BENCH" }
