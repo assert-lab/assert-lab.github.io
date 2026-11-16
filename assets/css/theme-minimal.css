@@ -255,23 +255,23 @@ strong { font-weight: 700; }
 .page-lede { font-size: 1.0625rem; color: #444; }
 
 /* section headings: same red and size as "Recent News" and "Research" */
-.year-label, .group > h2, .cv-section > h2, .join-col h2, .areas .area-text h3 { font-family: var(--sans); font-size: 1.375rem; font-weight: 700; letter-spacing: 0; color: var(--news-red); }
+.year-label, .group > h2, .join-col h2, .areas .area-text h3 { font-family: var(--sans); font-size: 1.375rem; font-weight: 700; letter-spacing: 0; color: var(--news-red); }
 .person-feature h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: 0; color: var(--ink); }
 
 /* lists and secondary text: 15.6px */
-.news-item .news-text, .cv li, .plain li, .course-table td, .join-ride li { font-size: 0.975rem; }
+.news-item .news-text, .cv li, .plain li, .join-ride li { font-size: 0.975rem; }
 .pi-aside .aside-title { font-size: 0.975rem; }
 /* paragraphs: 16px */
 .pi-intro p, .join-col p { font-size: 1rem; }
-/* subtitles and course titles: 17px */
+/* subtitles: 17px */
 .pi-intro .role { font-size: 1.0625rem; }
-.cv-section h4, .course-block h4, .pi-main h4 { font-size: 1.0625rem; }
+.cv-section h4, .pi-main h4 { font-size: 1.0625rem; }
 /* small details: 14px */
 figcaption { font-size: 0.875rem; }
 /* chips: 13px */
 .areas .tag { font-size: 0.8125rem; }
 /* small labels: 12px */
-.news-date, .join-ride span, .course-term, .course-block .course-term, .course-table th, .aside-block h2, .field label, .contact-info dt { font-size: 0.75rem; }
+.news-date, .join-ride span, .aside-block h2, .field label, .contact-info dt { font-size: 0.75rem; }
 /* buttons and one homepage link on the same scale */
 .btn { font-size: 0.975rem; }
 .home-research-head a { font-size: 0.975rem; }
@@ -298,7 +298,7 @@ figcaption { font-size: 0.875rem; }
 .news-item, .cv li, .plain li { padding-top: var(--row-pad); padding-bottom: var(--row-pad); }
 .news-item:first-child, .cv li:first-child, .plain li:first-child { padding-top: 0; }
 .names li { padding-top: 5px; padding-bottom: 5px; }
-.cv-section > h2 { margin-bottom: 8px; }
+.cv-section > h3 { margin-bottom: 8px; }
 .area h3 { margin-bottom: 8px; }
 .area .tags, .areas .tags { margin-top: 12px; }
 
@@ -313,7 +313,7 @@ figcaption { font-size: 0.875rem; }
    ========================================================================== */
 .pi-layout { display: block; }
 .pi-main { max-width: none; }
-.pi-intro p { max-width: 42em; }
+.pi-intro p { max-width: none; }
 .cv, .plain { list-style: disc; padding-left: 1.2em; }
 .cv li, .plain li { display: list-item; border-top: 0; padding-top: 3px; padding-bottom: 3px; }
 .cv li:first-child, .plain li:first-child { padding-top: 3px; }
@@ -360,10 +360,8 @@ figcaption { font-size: 0.875rem; }
    ========================================================================== */
 .subhead { margin: 16px 0 4px; }
 .subhead:first-of-type { margin-top: 6px; }
-.course-block { padding: 12px 0; }
-.course-block:first-of-type { padding-top: 4px; }
 .pi-intro p, .join-col p { margin-bottom: 0.7em; }
-.cv-section > h2, .area h3 { margin-bottom: 6px; }
+.cv-section > h3, .area h3 { margin-bottom: 6px; }
 .area .tags, .areas .tags { margin-top: 10px; }
 .prose figcaption { font-size: 0.875rem; }
 .field input, .field textarea { font-size: 1rem; }
@@ -464,3 +462,18 @@ figcaption { font-size: 0.875rem; }
 /* each name is a small chip on a soft tint, so the names read as separate people */
 .team-page .names { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; column-width: auto; }
 .team-page .names li { display: block; margin: 0; padding: 3px 10px; border: 0; border-radius: 4px; background: var(--green-tint); font-size: 0.975rem; line-height: 1.45; color: var(--ink); }
+
+/* ==========================================================================
+   Dr. Hossain page: three parts (Background, Faculty at UTD, Ph.D. years and earlier).
+   Part titles are large and dark, section titles smaller and red, subheads plain bold text.
+   ========================================================================== */
+.pi-jump { margin: 6px 0 0; font-size: 0.975rem; }
+.pi-jump a { display: inline-block; margin: 0 20px 0 0; padding: 3px 0; color: var(--link); text-decoration: none; }
+.pi-jump a:hover { text-decoration: underline; }
+.pi-part { margin-top: 64px; }
+.pi-jump + .pi-part { margin-top: 32px; }
+.pi-part .part-title { margin: 0 0 2px; font-family: var(--sans); font-size: 1.5rem; font-weight: 700; line-height: 1.2; letter-spacing: 0; color: var(--ink); }
+.pi-main .cv-section { margin-top: 28px; padding-top: 0; border: 0; }
+.pi-main .cv-section > h3 { font-family: var(--sans); font-size: 1.0625rem; font-weight: 700; line-height: 1.3; letter-spacing: 0; color: var(--news-red); }
+.pi-main .subhead { margin: 16px 0 4px; font-size: 1rem; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.pi-main .subhead:first-of-type { margin-top: 6px; }
