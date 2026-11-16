@@ -10,93 +10,99 @@
 
 - date: "Nov 2026"
   year: 2026
-  short: "Dr. Hossain gave a talk in the UTD Grace Series on Nov 17"
+  short: "Talk in the Grace series (UTD NEXT) on Nov 17"
   text: >-
-    Dr. Hossain gave a talk in the Grace series on <strong>Tuesday, November 17</strong>, 7:00–8:00 PM, in the T.I. Auditorium (ECSS 2.102): “Have I Figured It All Out? A Beautiful Journey from Building Software to Building Trust.”
+    Dr. Hossain gives a talk in the Grace series (UTD NEXT): “Have I Figured It All Out? A Beautiful Journey from Building Software to Building Trust.” <strong>Tuesday, November 17</strong>, 7:00–8:00 PM, T.I. Auditorium (ECSS 2.102).
 
 - date: "Nov 2026"
   year: 2026
-  short: "Dr. Hossain served as an additional reviewer for OOPSLA 2027"
+  short: "Additional reviewer for OOPSLA 2027"
   text: >-
-    Dr. Hossain served as an additional reviewer for OOPSLA 2027.
+    Dr. Hossain served as an additional reviewer for OOPSLA&nbsp;2027.
 
 - date: "Oct 2026"
   year: 2026
-  short: "Dr. Hossain gave a talk at the UTD AI Summit on trustworthy software engineering"
+  short: "Talk at the UTD AI Summit on trustworthy software engineering"
   text: >-
     Dr. Hossain gave a talk at the UTD AI Summit on her research in trustworthy software engineering.
 
 - date: "Oct 2026"
   year: 2026
-  short: "New paper: Covered Is Not Checked (Veritas)"
+  short: "New preprint: Covered Is Not Checked (Veritas)"
   text: >-
-    Our paper Veritas, “Covered Is Not Checked: Which Branch Outcomes Would Your Tests Notice?” is now available <a href="https://arxiv.org/abs/2610.33708">online</a>.
+    New preprint on Veritas: “Covered Is Not Checked: Which Branch Outcomes Would Your Tests Notice?” (<a href="https://arxiv.org/abs/2610.33708">arXiv</a>).
 
 - date: "Oct 2026"
   year: 2026
-  short: "New paper: Are We Testing the Wrong Quantum Bugs?"
+  short: "New preprint: Are We Testing the Wrong Quantum Bugs?"
   text: >-
-    Our paper, “Are We Testing the Wrong Quantum Bugs? A Study of Fault Representation Gaps in Quantum Software Testing,” is now available <a href="https://arxiv.org/abs/2610.22089">online</a>.
+    New preprint: “Are We Testing the Wrong Quantum Bugs? A Study of Fault Representation Gaps in Quantum Software Testing” (<a href="https://arxiv.org/abs/2610.22089">arXiv</a>).
+
+- date: "Oct 2026"
+  year: 2026
+  short: "ISSTA and SPLASH: Social Events Co-Chair and session chair"
+  text: >-
+    Dr. Hossain attended ISSTA and SPLASH in Oakland, CA, serving as <a href="https://conf.researchr.org/profile/splash-issta-2026/soneyabintahossain">Social Events Co-Chair and a session chair for Tool Demonstrations</a>.
 
 - date: "Jul 2026"
   year: 2026
   short: "Paper accepted at ASE 2026: Documentation vs. Code Patterns"
   text: >-
-    Our paper, “Documentation vs. Code Patterns: What Drives LLM-Based Exception Oracle Generation?” has been accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)!
+    “Documentation vs. Code Patterns: What Drives LLM-Based Exception Oracle Generation?” accepted at ASE&nbsp;2026.
 
 - date: "Jul 2026"
   year: 2026
   short: "CoCoMUT accepted at ISSTA 2026 Tool Demonstrations"
   text: >-
-    Our tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation,” has been accepted at the 35th International Symposium on Software Testing and Analysis (ISSTA 2026) Tool Demonstration Track and is now available <a href="https://arxiv.org/abs/2606.31971">online</a>.
+    “CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation” accepted at ISSTA&nbsp;2026, Tool Demonstration Track (<a href="https://arxiv.org/abs/2606.31971">arXiv</a>).
 
 - date: "Jul 2026"
   year: 2026
-  short: "New paper: PROGRESS (Property-Guided Regression Search)"
+  short: "New preprint: PROGRESS (Property-Guided Regression Search)"
   text: >-
-    Our paper, “PROGRESS: Property-Guided Regression Search for Semantic Falsification,” is now available <a href="https://arxiv.org/abs/2607.27359">online</a>.
+    New preprint: “PROGRESS: Property-Guided Regression Search for Semantic Falsification” (<a href="https://arxiv.org/abs/2607.27359">arXiv</a>).
 
 - date: "Jun 2026"
   year: 2026
   short: "PITMuS accepted at ASE 2026 Tools and Datasets"
   text: >-
-    Our tool paper, “PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction,” has been accepted at the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE 2026) Tools and Datasets Track!
+    “PITMuS: A Tool for Automated Bug Dataset Generation via Source-Level Mutant Reconstruction” accepted at ASE&nbsp;2026, Tools and Datasets Track.
 
 - date: "Apr 2026"
   year: 2026
   short: "TOGBench accepted at AIware 2026"
   text: >-
-    Our dataset and benchmark paper, “TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation,” has been accepted to the 3rd ACM International Conference on AI-Powered Software (AIware 2026)!
+    “TOGBench: A Developer-Written Multi-Variant Dataset and Benchmark Suite for Test Oracle Generation” accepted at AIware&nbsp;2026.
 
 - date: "Apr 2026"
   year: 2026
-  short: "New paper: Measuring LLM Trust Allocation Across Conflicting Software Artifacts"
+  short: "New preprint: Measuring LLM Trust Allocation"
   text: >-
-    Our research paper, “Measuring LLM Trust Allocation Across Conflicting Software Artifacts,” is now available <a href="https://arxiv.org/abs/2604.03447">online</a>.
+    New preprint: “Measuring LLM Trust Allocation Across Conflicting Software Artifacts” (<a href="https://arxiv.org/abs/2604.03447">arXiv</a>).
 
 - date: "Apr 2026"
   year: 2026
-  short: "New paper: From Threads to Trajectories"
+  short: "New preprint: From Threads to Trajectories"
   text: >-
-    Our paper, “From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions,” is now available <a href="https://arxiv.org/abs/2604.25880">online</a>.
+    New preprint: “From Threads to Trajectories: A Multi-LLM Pipeline for Community Knowledge Extraction from GitHub Issue Discussions” (<a href="https://arxiv.org/abs/2604.25880">arXiv</a>).
 
 - date: "Apr 2026"
   year: 2026
   short: "Dr. Hossain joins the ASE 2026 NIER program committee"
   text: >-
-    Dr. Hossain joined the Program Committee (PC) of the ASE 2026 The New Ideas and Emerging Results (NIER) track!
+    Dr. Hossain joined the ASE&nbsp;2026 NIER (New Ideas and Emerging Results) program committee.
 
 - date: "Apr 2026"
   year: 2026
   short: "Dr. Hossain joins the ASE 2026 Tools and Datasets program committee"
   text: >-
-    Dr. Hossain joined the Program Committee (PC) of the ASE 2026 Tools and Datasets track!
+    Dr. Hossain joined the ASE&nbsp;2026 Tools and Datasets program committee.
 
 - date: "Apr 2026"
   year: 2026
   short: "Dr. Hossain joins the FSE 2027 program committee"
   text: >-
-    Dr. Hossain joined the Program Committee (PC) of the 2027 edition of FSE, the ACM International Conference on the Foundations of Software Engineering!
+    Dr. Hossain joined the FSE&nbsp;2027 program committee.
 
 - date: "Feb 2026"
   year: 2026
@@ -108,52 +114,52 @@
   year: 2026
   short: "Dr. Hossain joins the FSE ’26 IVR program committee"
   text: >-
-    Dr. Hossain joined the Program Committee of FSE ’26 Ideas, Visions and Reflections (IVR) track!
+    Dr. Hossain joined the FSE&nbsp;’26 IVR (Ideas, Visions and Reflections) program committee.
 
 - date: "Jan 2026"
   year: 2026
   short: "Dr. Hossain joins the AIware 2026 program committee"
   text: >-
-    Dr. Hossain joined the Program Committee of 3rd ACM International Conference on AI-Powered Software (AIware 2026), co-located with FSE ’26!
+    Dr. Hossain joined the program committee of AIware&nbsp;2026, which is co-located with FSE&nbsp;’26.
 
 - date: "Jan 2026"
   year: 2026
   short: "Tasfia joins the lab as a Ph.D. student"
   text: >-
-    Tasfia joined the AS²ERT Lab as a Ph.D. student. Welcome to the lab!
+    Tasfia joined the AS²ERT Lab as a Ph.D. student.
 
 - date: "Jan 2026"
   year: 2026
   short: "Dr. Hossain joins the ICST 2026 program committee"
   text: >-
-    Dr. Hossain joined the Program Committee of ICST 2026.
+    Dr. Hossain joined the ICST&nbsp;2026 program committee.
 
 - date: "2026"
   year: 2026
   short: "Dr. Hossain continues serving on the ACM TOSEM program committee"
   text: >-
-    Dr. Hossain continued serving as a Program Committee member for ACM TOSEM.
+    Dr. Hossain continued serving on the ACM TOSEM program committee.
 
 - date: "Dec 2025"
   year: 2025
   short: "Two URAP Summer 2026 awards for undergraduate research"
   text: >-
-    Dr. Hossain received two <strong>URAP</strong> (Undergraduate Research Apprenticeship Program) Summer 2026 awards. They fund summer stipends for two undergraduate researchers working in software engineering and quantum computing.
+    Dr. Hossain received two <strong>URAP</strong> (Undergraduate Research Apprenticeship Program) awards for Summer 2026, funding stipends for two undergraduate researchers in software engineering and quantum computing.
 
 - date: "Dec 2025"
   year: 2025
   short: "Grace Hopper Spirit Award from UTD Computer Science"
   text: >-
-    Dr. Hossain received the <strong>Grace Hopper Spirit Award</strong> from the Department of Computer Science at UTD for her service and contributions to the department.
+    Dr. Hossain received the <strong>Grace Hopper Spirit Award</strong> from UTD Computer Science for her service and contributions to the department.
 
 - date: "Aug 2025"
   year: 2025
   short: "Dr. Hossain begins teaching CS/CE/SE 3354 Software Engineering"
   text: >-
-    Dr. Hossain began teaching <strong>CS/CE/SE 3354: Software Engineering</strong> and is also its course coordinator.
+    Dr. Hossain began teaching <strong>CS/CE/SE 3354: Software Engineering</strong> and coordinates the course.
 
 - date: "Aug 2025"
   year: 2025
   short: "Dr. Hossain joins UT Dallas and founds the AS²ERT Lab"
   text: >-
-    Dr. Hossain joined the Department of Computer Science at The University of Texas at Dallas as an Assistant Professor and founded the <strong>AS²ERT Lab (AI for Safe Software Engineering and Testing)</strong>.
+    Dr. Hossain joined The University of Texas at Dallas as an Assistant Professor of Computer Science and founded the <strong>AS²ERT Lab (AI for Safe Software Engineering and Testing)</strong>.
