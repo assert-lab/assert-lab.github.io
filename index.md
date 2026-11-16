@@ -47,7 +47,7 @@ description: "AS²ERT Lab (AI for Safe Software Engineering and Testing) at The 
 <section class="home-research">
   <div class="wrap">
     <div class="home-research-head">
-      <h2>core research areas</h2>
+      <h2>Core research areas</h2>
       <a href="{{ '/project/' | relative_url }}">All research areas →</a>
     </div>
 
