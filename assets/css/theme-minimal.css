@@ -343,7 +343,9 @@ figcaption { font-size: 0.875rem; }
 .news-page .year-block { display: block; }
 .news-page .year-block:first-of-type { padding-top: 0; }
 .news-page .year-label { position: static; margin: 0 0 4px; }
-.news-page .news-item { gap: 2px 18px; }
+.news-page .news-item { gap: 2px 18px; align-items: baseline; border: 0; padding: 0 0 14px; }
+.news-page .news-item:last-child { padding-bottom: 0; }
+.news-page .year-block { border: 0; }
 @media (min-width: 700px) { .news-page .news-item { grid-template-columns: 84px minmax(0, 1fr); } }
 
 /* Team: group name as a heading, then the people */
