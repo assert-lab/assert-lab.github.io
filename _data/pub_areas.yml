@@ -18,9 +18,9 @@
 
 - key: specs
   group: classical
-  title: "Software specifications and intended behavior"
+  title: "Software Specifications and Intended Behavior"
   tagline: "Recovering what software is meant to do."
-  long: "Software requirements are spread across documentation, source code, tests, and development histories. We investigate how to recover intended behavior from these artifacts, how documentation and code patterns shape what AI systems infer about it, and how to turn it into executable checks."
+  long: "Knowing what software should do is essential to determining whether it is correct. In practice, intended behavior is rarely captured in a single specification. It is distributed across documentation, source code, tests, and development histories, often with gaps and inconsistencies. Our research investigates how to recover and reconcile these sources of evidence, how AI systems infer intended behavior from them, and how to translate that understanding into executable specifications. We seek to establish stronger foundations for software testing and verification when formal specifications are incomplete or absent."
   blurb: "What should the software do? We recover intent from documentation, code, and tests, and study where they disagree."
   figure: pub-specs.svg
   alt: "Three overlapping sources of intent, documentation, code, and tests, with agreement at the center and disagreements at the edges"
