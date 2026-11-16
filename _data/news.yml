@@ -8,6 +8,36 @@
 # indentation exactly as shown.
 # ---------------------------------------------------------------
 
+- date: "Nov 2026"
+  year: 2026
+  short: "Dr. Hossain gave a talk in the Grace series on Nov 17"
+  text: >-
+    Dr. Hossain gave a talk in the Grace series on <strong>Tuesday, November 17</strong>, 7:00–8:00 PM, in the T.I. Auditorium (ECSS 2.102): “Have I Figured It All Out? A Beautiful Journey from Building Software to Building Trust.”
+
+- date: "Nov 2026"
+  year: 2026
+  short: "Dr. Hossain served as additional reviewer for OOPSLA 2027"
+  text: >-
+    Dr. Hossain served as an additional reviewer for OOPSLA 2027.
+
+- date: "Oct 2026"
+  year: 2026
+  short: "Dr. Hossain gave a talk at the UTD AI Summit on trustworthy software engineering"
+  text: >-
+    Dr. Hossain gave a talk at the UTD AI Summit on her research in trustworthy software engineering.
+
+- date: "Oct 2026"
+  year: 2026
+  short: "New paper: Covered Is Not Checked (Veritas)"
+  text: >-
+    Our paper Veritas, “Covered Is Not Checked: Which Branch Outcomes Would Your Tests Notice?” is now available <a href="https://arxiv.org/abs/2610.33708">online</a>.
+
+- date: "Oct 2026"
+  year: 2026
+  short: "New paper: Are We Testing the Wrong Quantum Bugs?"
+  text: >-
+    Our paper, “Are We Testing the Wrong Quantum Bugs? A Study of Fault Representation Gaps in Quantum Software Testing,” is now available <a href="https://arxiv.org/abs/2610.22089">online</a>.
+
 - date: "Jul 2026"
   year: 2026
   short: "Paper accepted at ASE 2026: Documentation vs. Code Patterns"
@@ -19,6 +49,12 @@
   short: "CoCoMUT accepted at ISSTA 2026 Tool Demonstrations"
   text: >-
     Our tool paper, “CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation,” has been accepted at the 35th International Symposium on Software Testing and Analysis (ISSTA 2026) Tool Demonstration Track and is now available <a href="https://arxiv.org/abs/2606.31971">online</a>.
+
+- date: "Jul 2026"
+  year: 2026
+  short: "New paper: PROGRESS (Property-Guided Regression Search)"
+  text: >-
+    Our paper, “PROGRESS: Property-Guided Regression Search for Semantic Falsification,” is now available <a href="https://arxiv.org/abs/2607.27359">online</a>.
 
 - date: "Jun 2026"
   year: 2026
