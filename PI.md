@@ -17,7 +17,7 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
         <h1>Dr. Soneya Binta Hossain</h1>
         <p class="role">Assistant Professor · Department of Computer Science · The University of Texas at Dallas</p>
 
-        <p>I lead the AS²ERT Lab (AI for Safe Software Engineering and Testing) at UTD. My research is on verification and validation of classical and quantum software. We combine AI with established software engineering techniques to improve correctness checking and reliability. A big part of my work is understanding how AI-based development tools fail.</p>
+        <p>I am an Assistant Professor of Computer Science at UT Dallas, where I lead the AS²ERT Lab (AI for Safe Software Engineering and Testing). At the heart of my research is a question that has become increasingly important: how do we know that software does what it is supposed to do? I approach this question through software testing and verification, studying how faults arise, why existing methods fail to detect them, and how we can do better. As AI becomes part of software development and quantum computing introduces new challenges, this question takes on new dimensions. My work seeks to develop the methods, tools, and scientific evidence needed to make these systems more reliable.</p>
 
         <p>I earned my B.Sc. in Computer Science and Engineering at the Bangladesh University of Engineering and Technology (BUET), then my Ph.D. and M.S. in Computer Science at the University of Virginia, advised by <a href="https://matthewbdwyer.github.io">Prof. Matthew Dwyer</a>. My Ph.D. work was on AI-driven approaches to automated software testing, and it still shapes the lab’s goal of building safer, more trustworthy software.</p>
       </div>
