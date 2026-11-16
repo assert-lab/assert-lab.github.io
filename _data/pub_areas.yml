@@ -45,9 +45,9 @@
 
 - key: quantum
   group: quantum
-  title: "Quantum software assurance"
+  title: "Quantum Software Assurance"
   tagline: "Telling software bugs from hardware noise."
-  long: "We are extending software testing and verification to quantum software, where outputs are statistical and hardware is noisy. This is an emerging direction for the lab."
+  long: "We develop rigorous methods for testing and verifying quantum software across the entire computing stack. Our research studies real-world quantum faults, advances mutation testing for quantum programs and compilers, and develops techniques to distinguish software defects from hardware noise. We also investigate universal quantum compilation and build comprehensive fault datasets to advance testing research and scientific discovery. Our long-term goal is to establish the foundations for reliable, scalable, and trustworthy quantum computing."
   blurb: "How do we check software whose outputs are statistical and whose hardware is noisy? An emerging direction for the lab."
   figure: pub-quantum.svg
   alt: "Two quantum states that look identical in one measurement direction and differ in another"
