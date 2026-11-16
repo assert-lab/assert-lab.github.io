@@ -259,8 +259,7 @@ strong { font-weight: 700; }
 .person-feature h2 { font-size: 1.5rem; font-weight: 700; letter-spacing: 0; color: var(--ink); }
 
 /* lists and secondary text: 15.6px */
-.news-item .news-text, .cv li, .plain li, .course-table td, .person-name, .join-ride li { font-size: 0.975rem; }
-.person-name { font-weight: 600; }
+.news-item .news-text, .cv li, .plain li, .course-table td, .join-ride li { font-size: 0.975rem; }
 .pi-aside .aside-title { font-size: 0.975rem; }
 /* paragraphs: 16px */
 .pi-intro p, .join-col p { font-size: 1rem; }
@@ -296,8 +295,8 @@ figcaption { font-size: 0.875rem; }
 .endnote { padding-top: 18px; }
 
 /* tight rows inside sections, headings close to their content */
-.news-item, .people li, .cv li, .plain li { padding-top: var(--row-pad); padding-bottom: var(--row-pad); }
-.news-item:first-child, .people li:first-child, .cv li:first-child, .plain li:first-child { padding-top: 0; }
+.news-item, .cv li, .plain li { padding-top: var(--row-pad); padding-bottom: var(--row-pad); }
+.news-item:first-child, .cv li:first-child, .plain li:first-child { padding-top: 0; }
 .names li { padding-top: 5px; padding-bottom: 5px; }
 .cv-section > h2 { margin-bottom: 8px; }
 .area h3 { margin-bottom: 8px; }
@@ -347,19 +346,12 @@ figcaption { font-size: 0.875rem; }
 .news-page .news-item { gap: 2px 18px; }
 @media (min-width: 700px) { .news-page .news-item { grid-template-columns: 84px minmax(0, 1fr); } }
 
-/* Team: group name as a heading, people in four columns, names fill the full width */
+/* Team: group name as a heading, then the people */
 .team-page .group { display: block; }
 .team-page .group > h2 { margin: 0 0 8px; }
-@media (min-width: 900px) {
-  .team-page .people { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .team-page .people li:nth-child(-n+4) { border-top: 0; padding-top: 0; }
-}
 @media (min-width: 700px) { .team-page .person-feature { grid-template-columns: 130px minmax(0, 1fr); } }
-.team-page .person-feature { gap: 14px 24px; padding-bottom: 8px; }
+.team-page .person-feature { gap: 14px 24px; }
 .team-page .portrait { max-width: 130px; }
-.team-page .cohort + .cohort { margin-top: 16px; }
-.team-page .cohort h3 { margin: 0 0 8px; }
-.team-page .names { column-width: 170px; column-gap: 28px; }
 
 /* ==========================================================================
    Tidy pass: tighter inside sections, and the last three off-scale font sizes
@@ -378,14 +370,7 @@ figcaption { font-size: 0.875rem; }
    Team page: calmer. No rule under every name, plain labels, no boxed button.
    (Team page only. Nothing is removed.)
    ========================================================================== */
-/* names: just names, with a little air between them */
-.team-page .names li { border-bottom: 0; padding-top: 3px; padding-bottom: 3px; }
-.team-page .people li { border-top: 0; padding-top: 0; padding-bottom: 8px; }
-/* labels: plain bold text instead of small orange capitals */
-.team-page .cohort h3 { margin: 12px 0 6px; font-size: 1rem; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--ink); }
-.team-page .cohort:first-child h3 { margin-top: 4px; }
 /* the PI block: no decorative dash, the button becomes an ordinary link */
-.team-page .person-feature .eyebrow { margin: 0 0 4px; letter-spacing: 0.06em; }
 .team-page .person-feature .eyebrow::before { display: none; }
 .team-page .person-feature .role-lab, .team-page .person-feature .role-lab strong { font-weight: 400; color: var(--muted); }
 .team-page .person-feature .actions { margin-top: 6px; }
@@ -393,8 +378,6 @@ figcaption { font-size: 0.875rem; }
 .team-page .person-feature .btn::after { content: " \2192"; }
 .team-page .person-feature .btn:hover { color: #0b0b8f; background: none; }
 /* one light line between groups */
-.team-page .group, .team-page .person-feature { border-color: var(--rule); }
-.team-page .person-feature { padding-bottom: 18px; }
 
 /* ==========================================================================
    Audit fixes
@@ -450,3 +433,32 @@ figcaption { font-size: 0.875rem; }
   .bib-where span { display: inline; }
   .bib-where span + span::before { content: "\00a0"; }
 }
+
+/* ==========================================================================
+   Team: one line per person. The name is the link, the role follows in grey.
+   ========================================================================== */
+.team-page .people { display: block; margin: 0; padding: 0; list-style: none; }
+.team-page .people li { display: grid; grid-template-columns: 230px minmax(0, 1fr); column-gap: 24px; align-items: baseline; margin: 0; padding: 0 0 6px; border: 0; }
+.team-page .people .person-topic { color: var(--muted); }
+@media (max-width: 700px) { .team-page .people li { display: block; padding-bottom: 8px; } .team-page .people .person-topic { display: block; } }
+.team-page .people li:last-child { padding-bottom: 0; }
+.team-page .people a { display: inline-block; margin: -3px 0; padding: 3px 0; color: var(--link); text-decoration: none; }
+.team-page .people a:hover { text-decoration: underline; }
+.team-page .people .person-more { margin-left: 4px; white-space: nowrap; }
+
+/* ==========================================================================
+   Team: quiet. No rules between sections, no orange label, and the undergraduate names
+   run on as plain text after a bold lead-in instead of sitting in columns.
+   ========================================================================== */
+.team-page .person-feature, .team-page .group { border: 0; padding: 0; }
+.team-page .person-feature { margin: 0 0 32px; }
+.team-page .group { margin: 0 0 32px; }
+.team-page .group:last-child { margin-bottom: 0; }
+.team-page .portrait { border: 0; }
+.team-page .person-feature .eyebrow { margin: 0 0 2px; font-size: 0.975rem; font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--muted); }
+.team-page .cohort { margin: 0 0 20px; }
+.team-page .cohort:last-child { margin-bottom: 0; }
+.team-page .cohort h3 { display: block; margin: 0 0 8px; font-size: 1rem; font-weight: 700; letter-spacing: 0; text-transform: none; color: var(--ink); }
+/* each name is a small chip on a soft tint, so the names read as separate people */
+.team-page .names { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; column-width: auto; }
+.team-page .names li { display: block; margin: 0; padding: 3px 10px; border: 0; border-radius: 4px; background: var(--green-tint); font-size: 0.975rem; line-height: 1.45; color: var(--ink); }
