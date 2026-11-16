@@ -22,8 +22,18 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
         <p>I earned my B.Sc. in Computer Science and Engineering at the Bangladesh University of Engineering and Technology (BUET), then my Ph.D. and M.S. in Computer Science at the University of Virginia, advised by <a href="https://matthewbdwyer.github.io">Prof. Matthew Dwyer</a>. My Ph.D. work was on AI-driven approaches to automated software testing, and it still shapes the lab’s goal of building safer, more trustworthy software.</p>
       </div>
 
+
+      <nav class="pi-jump" aria-label="Sections on this page">
+        <a href="#preparation">Professional preparation</a>
+        <a href="#faculty">Faculty at UTD</a>
+        <a href="#phd">Ph.D. years and earlier</a>
+      </nav>
+
+      <div class="pi-part" id="preparation">
+        <h2 class="part-title">Professional preparation</h2>
+
       <section class="cv-section" id="education">
-        <h2>Education</h2>
+        <h3>Education</h3>
         <ul class="cv">
           <li>
             <span class="cv-when">2025</span>
@@ -43,7 +53,7 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
       </section>
 
       <section class="cv-section" id="experience">
-        <h2>Experience</h2>
+        <h3>Experience</h3>
         <ul class="cv">
           <li><span class="cv-when">2025–present</span><div><strong>Assistant Professor</strong>, Department of Computer Science, The University of Texas at Dallas.</div></li>
           <li><span class="cv-when">2019–2025</span><div><strong>Graduate Research and Teaching Assistant</strong>, Department of Computer Science, University of Virginia.</div></li>
@@ -52,11 +62,35 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
           <li><span class="cv-when">2016–2019</span><div><strong>Software Development Engineer II</strong>, R&amp;D, REVE Systems.</div></li>
         </ul>
       </section>
+      </div>
+
+      <div class="pi-part" id="faculty">
+        <h2 class="part-title">Faculty at UTD</h2>
+
+      <section class="cv-section" id="teaching">
+        <h3>Teaching</h3>
+        <ul class="cv">
+          <li><span class="cv-when">Fall 2025</span><div>CS/CE/SE 3354: Software Engineering</div></li>
+          <li><span class="cv-when">Spring 2026</span><div>CS/SE 6356: Software Maintenance, Evolution &amp; Re-engineering</div></li>
+          <li><span class="cv-when">Fall 2026</span><div>RIDE 033: Trustworthy AI in Software Testing</div></li>
+          <li><span class="cv-when">Fall 2026</span><div>RIDE 041: Trustworthy AI in Software Engineering</div></li>
+          <li><span class="cv-when">Fall 2026</span><div>RIDE 045: Trustworthy AI in Quantum Software Engineering</div></li>
+        </ul>
+      </section>
+
+      <section class="cv-section" id="mentoring">
+        <h3>Mentoring</h3>
+        <ul class="plain">
+          <li>Research mentor for high school, undergraduate, M.S., and Ph.D. students across multiple institutions.</li>
+          <li><strong>RIDE:</strong> Research, Inquiry, Design Experience, UTD undergraduate research program.</li>
+          <li>See the <a href="{{ '/team/' | relative_url }}">Team page</a> for current students.</li>
+        </ul>
+      </section>
 
       <section class="cv-section" id="service">
-        <h2>Service</h2>
+        <h3>Service</h3>
 
-        <h3 class="subhead">External professional service</h3>
+        <h4 class="subhead">External professional service</h4>
         <ul class="plain">
           <li><strong>Invited Panel Reviewer</strong>, National Science Foundation (NSF).</li>
           <li><strong>Program Committee Member</strong>, ACM International Conference on the Foundations of Software Engineering (FSE 2027), Research Papers track.</li>
@@ -67,102 +101,37 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
           <li><strong>Program Committee Member</strong>, IEEE International Conference on Software Testing, Verification and Validation (ICST 2025 and 2026).</li>
           <li><strong>Social Events Co-Chair</strong>, ACM SIGPLAN Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) / ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026.</li>
           <li><strong>Reviewer</strong>, ACM Transactions on Software Engineering and Methodology (TOSEM).</li>
-          <li><strong>Reviewer</strong>, <a href="https://link.springer.com/journal/10515">Automated Software Engineering</a> (Springer Nature).</li>
+          <li><strong>Reviewer</strong>, Automated Software Engineering (Springer Nature).</li>
         </ul>
 
-        <h3 class="subhead">Institutional and community service</h3>
+        <h4 class="subhead">Institutional and community service</h4>
         <ul class="plain">
           <li><strong>Ph.D. Admissions Committee</strong>, UTD CS, Fall 2025–present.</li>
           <li><strong>Course Coordinator</strong>, CS/CE/SE 3354 Software Engineering, UTD, Fall 2025–present.</li>
-          <li><strong>Leadership Chair</strong>, UVA Computer Science Graduate Student Group, 2020–2022.</li>
-          <li><strong>Student Volunteer:</strong> WE24/Society of Women Engineers and ESEC/FSE 2023.</li>
         </ul>
       </section>
 
       <section class="cv-section" id="awards">
-        <h2>Honors, recognition, and research support</h2>
+        <h3>Honors and research support</h3>
 
-        <h3 class="subhead">Research awards</h3>
-        <ul class="cv">
-          <li><span class="cv-when">2023</span><div><strong>John A. Stankovic Outstanding Graduate Research Award</strong>, UVA <span class="note">(Ph.D.)</span>.</div></li>
-          <li><span class="cv-when">2021, 2023</span><div><strong>Outstanding Research Award</strong>, UVA <span class="note">(Ph.D.)</span>.</div></li>
-          <li><span class="cv-when">2016</span><div><strong>Outstanding Undergraduate Thesis Award</strong>, BUET <span class="note">(undergraduate)</span>.</div></li>
-        </ul>
-
-        <h3 class="subhead">Service awards</h3>
+        <h4 class="subhead">Service awards</h4>
         <ul class="cv">
           <li><span class="cv-when">2026</span><div><strong>Grace Hopper Spirit Award</strong>, Department of Computer Science, UTD.</div></li>
-          <li><span class="cv-when">2022</span><div><strong>Outstanding Graduate Service Award</strong>, UVA Computer Science <span class="note">(Ph.D.)</span>.</div></li>
         </ul>
 
-        <h3 class="subhead">Fellowships and travel support</h3>
-        <ul class="cv">
-          <li><span class="cv-when">2024–2025</span><div><strong>UVA Endowed Ph.D. Fellowship</strong>, competitive fellowship.</div></li>
-          <li><span class="cv-when">2025</span><div><strong>ACM SIGSOFT Travel Award</strong>.</div></li>
-          <li><span class="cv-when">2014, 2020, 2023</span><div><strong>CRA Travel Grants</strong>.</div></li>
-        </ul>
-
-        <h3 class="subhead">Research group support at UTD</h3>
+        <h4 class="subhead">Research group support at UTD</h4>
         <ul class="cv">
           <li><span class="cv-when">2026</span><div><strong>Presidential Fellowship</strong> for one Ph.D. student, UTD, $37,000.</div></li>
-          <li><span class="cv-when"></span><div><strong>UTD Undergraduate Research Support</strong>, $10,500.</div></li>
+          <li><span class="cv-when"></span><div><strong>UTD Undergraduate Research Support</strong>, $13,000.</div></li>
         </ul>
       </section>
+      </div>
 
-      <section class="cv-section" id="teaching">
-        <h2>Teaching and mentoring</h2>
-
-        <h3 class="subhead">Teaching at UTD</h3>
-
-        <div class="course-block">
-          <p class="course-term">Fall 2025</p>
-          <h4>CS/CE/SE 3354: Software Engineering</h4>
-          <p>Software processes, requirements engineering, UML modeling, design principles, testing, and team-based projects.</p>
-          <p class="course-links"><a href="https://catalog.utdallas.edu/2024/undergraduate/courses/cs3354">Catalog</a> · <a href="{{ '/teaching/CS3354_Fall2025_Syllabus.pdf' | relative_url }}">Syllabus (PDF)</a></p>
-          <details>
-            <summary>Learning outcomes and grading</summary>
-            <p>Upon successful completion of this course, students will be able to:</p>
-            <ul>
-              <li>Explain the software development lifecycle and its key phases</li>
-              <li>Apply software requirements engineering techniques to specify system behavior</li>
-              <li>Apply fundamental software design principles to create structured solutions</li>
-              <li>Apply software testing methods to ensure software quality</li>
-              <li>Integrate software engineering concepts through a collaborative, team-based project</li>
-            </ul>
-            <table class="course-table">
-              <thead><tr><th>Grading component</th><th>Weight</th></tr></thead>
-              <tbody>
-                <tr><td>Deliverables (Team Project)</td><td>30%</td></tr>
-                <tr><td>Assignments</td><td>10%</td></tr>
-                <tr><td>Midterm Exam</td><td>25%</td></tr>
-                <tr><td>Final Exam</td><td>25%</td></tr>
-                <tr><td>Participation &amp; Attendance</td><td>10%</td></tr>
-              </tbody>
-            </table>
-          </details>
-        </div>
-
-        <div class="course-block">
-          <p class="course-term">Spring 2026</p>
-          <h4>CS/SE 6356: Software Maintenance, Evolution &amp; Re-engineering</h4>
-          <p>Cross-listed as SYSM 6308 / CS/SE 6356.001.</p>
-          <p class="course-links"><a href="https://catalog.utdallas.edu/2025/graduate/courses/cs6356">Catalog</a></p>
-        </div>
-
-        <h3 class="subhead">Mentoring</h3>
-        <ul class="plain">
-          <li>Research mentor for high school, undergraduate, M.S., and Ph.D. students across multiple institutions.</li>
-          <li><strong>RIDE:</strong> Research, Inquiry, Design Experience, UTD undergraduate research program.</li>
-        </ul>
-
-        <h3 class="subhead">Prior teaching experience (Ph.D.)</h3>
-        <ul class="plain">
-          <li><strong>Graduate TA:</strong> CS 4620 Undergraduate Compilers and CS 6620 Graduate Compilers, UVA.</li>
-        </ul>
-      </section>
+      <div class="pi-part" id="phd">
+        <h2 class="part-title">Ph.D. years and earlier</h2>
 
       <section class="cv-section" id="timeline">
-        <h2>Academic timeline</h2>
+        <h3>Academic timeline</h3>
         <ul class="cv">
           <li><span class="cv-when">Aug 2025</span><div>Joined CS@UTD as a tenure-track Assistant Professor.</div></li>
           <li><span class="cv-when">Jun 2025</span><div>Attended FSE 2025 in Trondheim, Norway, and presented our paper.</div></li>
@@ -176,8 +145,46 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
         </ul>
       </section>
 
+      <section class="cv-section" id="phd-honors">
+        <h3>Honors and travel support</h3>
+
+        <h4 class="subhead">Research awards</h4>
+        <ul class="cv">
+          <li><span class="cv-when">2023</span><div><strong>John A. Stankovic Outstanding Graduate Research Award</strong>, UVA <span class="note">(Ph.D.)</span>.</div></li>
+          <li><span class="cv-when">2021, 2023</span><div><strong>Outstanding Research Award</strong>, UVA <span class="note">(Ph.D.)</span>.</div></li>
+          <li><span class="cv-when">2016</span><div><strong>Outstanding Undergraduate Thesis Award</strong>, BUET <span class="note">(undergraduate)</span>.</div></li>
+        </ul>
+
+        <h4 class="subhead">Service awards</h4>
+        <ul class="cv">
+          <li><span class="cv-when">2022</span><div><strong>Outstanding Graduate Service Award</strong>, UVA Computer Science <span class="note">(Ph.D.)</span>.</div></li>
+        </ul>
+
+        <h4 class="subhead">Fellowships and travel support</h4>
+        <ul class="cv">
+          <li><span class="cv-when">2024–2025</span><div><strong>UVA Endowed Ph.D. Fellowship</strong>, $12,000.</div></li>
+          <li><span class="cv-when">2025</span><div><strong>ACM SIGSOFT Travel Award</strong>.</div></li>
+          <li><span class="cv-when">2014, 2020, 2023</span><div><strong>CRA Travel Grants</strong>.</div></li>
+        </ul>
+      </section>
+
+      <section class="cv-section" id="phd-service">
+        <h3>Service and teaching during the Ph.D.</h3>
+
+        <h4 class="subhead">Service</h4>
+        <ul class="plain">
+          <li><strong>Leadership Chair</strong>, UVA Computer Science Graduate Student Group, 2020–2022.</li>
+          <li><strong>Student Volunteer:</strong> WE24/Society of Women Engineers and ESEC/FSE 2023.</li>
+        </ul>
+
+        <h4 class="subhead">Prior teaching experience (Ph.D.)</h4>
+        <ul class="plain">
+          <li><strong>Graduate TA:</strong> CS 4620 Undergraduate Compilers and CS 6620 Graduate Compilers, UVA.</li>
+        </ul>
+      </section>
+
       <section class="cv-section" id="galleries">
-        <h2>Photo galleries</h2>
+        <h3>Photo galleries</h3>
         <ul class="plain">
           <li><a href="{{ '/icse-24/' | relative_url }}">ICSE 2024</a></li>
           <li><a href="{{ '/proposal/' | relative_url }}">My Ph.D. Proposal</a></li>
@@ -189,6 +196,7 @@ description: "Dr. Soneya Binta Hossain, Assistant Professor of Computer Science 
           <li><a href="{{ '/service-award/' | relative_url }}">CS Department Award Ceremony 2022</a></li>
         </ul>
       </section>
+      </div>
 
     </div>
   </div>
