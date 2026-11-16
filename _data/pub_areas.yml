@@ -27,9 +27,9 @@
 
 - key: ai
   group: agent
-  title: "Trustworthy AI and agents"
+  title: "Trustworthy AI and Agents"
   tagline: "How much can we trust AI that works on software?"
-  long: "We study the reliability of large language models used in software development, including how they reason about conflicting evidence from code, documentation, and tests, and how much they trust each source."
+  long: "We investigate the reliability, robustness, and safety of AI agents, identify fundamental limitations through mutation testing, bias testing, and systematic analysis of guardrail failures, and develop rigorous methods to address them. A particular focus is on stronger guardrails for coding agents to ensure the correctness of software development and maintenance over time."
   blurb: "Can we trust AI that reads and changes software? We study how models handle conflicting evidence."
   figure: pub-ai.svg
   alt: "A guard that covers only part of what a tool can actually do"
